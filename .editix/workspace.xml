@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?><root>
+<file path="C:\Users\glen\OneDrive\Desktop\Editix\examples"/>
+<file open="true" path="C:\Users\glen\OneDrive\Desktop\Editix\examples\bus-14\ieee14_EQ.xml" type="XML">
+<param name="lastView" value="Source"/>
+</file>
+<file path="C:\Users\glen\OneDrive\Desktop\Editix\examples\bus-14"/>
+<file path="C:\Users\glen\OneDrive\Desktop\Editix"/>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\Editix\Test2.xsl" type="XSLT">
+<param name="xslt.data.file" value="C:\Users\glen\OneDrive\Desktop\Editix\examples\bus-14\ieee14_EQ.xml"/>
+<param name="xslt.xslt.file" value="C:\Users\glen\OneDrive\Desktop\Editix\Test2.xsl"/>
+<param name="xslt.result.file" value="C:\Users\glen\OneDrive\Desktop\Editix\Test2.html"/>
+<param name="xslt.fop" value="false"/>
+<param name="xslt.ok" value="true"/>
+<param name="xslt.displayFile" value="false"/>
+<param name="encoding" value="AUTOMATIC"/>
+<param name="xslt.openFile" value="false"/>
+</file>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\Editix\examples\bus-14\ieee14_TP.xml" type="XML">
+<param name="lastView" value="Source"/>
+</file>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\Editix\Test.xml" type="XML">
+<param name="lastView" value="Source"/>
+</file>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\Editix\Test.xsl" type="XSLT">
+<param name="xslt.data.file" value="C:\Users\glen\OneDrive\Desktop\Editix\examples\bus-14\ieee14_EQ.xml"/>
+<param name="xslt.xslt.file" value="C:\Users\glen\OneDrive\Desktop\Editix\Test.xsl"/>
+<param name="xslt.result.file" value="C:\Users\glen\OneDrive\Desktop\Editix\test.txt"/>
+<param name="xslt.fop" value="false"/>
+<param name="xslt.param.value.0" value="examples\bus-14\ieee14"/>
+<param name="xslt.ok" value="true"/>
+<param name="xslt.displayFile" value="false"/>
+<param name="xslt.param.name.0" value="filename"/>
+<param name="xslt.openFile" value="false"/>
+<param name="filterFilter" value="false"/>
+<param name="lastView" value="Source"/>
+<param name="xslt.param.name.1" value="bus"/>
+<param name="xslt.param.name.2" value="resistance"/>
+<param name="xslt.param.value.5" value="1.1"/>
+<param name="xslt.param.value.2" value="0.1"/>
+<param name="xslt.param.name.5" value="time2"/>
+<param name="xslt.param.value.1" value="BUS5_24f0"/>
+<param name="xslt.param.name.3" value="reactance"/>
+<param name="xslt.param.value.4" value="1"/>
+<param name="xslt.param.value.3" value="0"/>
+<param name="xslt.param.name.4" value="time"/>
+</file>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\Editix\examples\bus-14\ieee14_DY.xml" type="XML">
+<param name="lastView" value="Source"/>
+</file>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\Editix\examples\bus-14\ieee14_SV.xml" type="XML">
+<param name="lastView" value="Source"/>
+</file>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\Editix\examples\bus-14\ieee14_SSH.xml" type="XML">
+<param name="lastView" value="Source"/>
+</file>
+<file path="C:\Users\glen\OneDrive\Desktop\Editix\imports"/>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\Editix\imports\ACLineSegment.xsl" type="XSLT">
+<param name="encoding" value="AUTOMATIC"/>
+</file>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\Editix\imports\Buses.xsl">
+<param name="encoding" value="AUTOMATIC"/>
+</file>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\Editix\IntroClass.xsl">
+<param name="encoding" value="AUTOMATIC"/>
+</file>
+<file path="C:\Users\glen\OneDrive\Desktop\Editix\imports\IntroClass.xsl"/>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\Editix\imports\Transformers.xsl">
+<param name="encoding" value="AUTOMATIC"/>
+</file>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\Editix\imports\Shunts.xsl">
+<param name="encoding" value="AUTOMATIC"/>
+</file>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\Editix\imports\Loads.xsl">
+<param name="encoding" value="AUTOMATIC"/>
+</file>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\Editix\imports\SyncMachines.xsl">
+<param name="encoding" value="AUTOMATIC"/>
+</file>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\Editix\Test2.html" type="XHTML">
+<param name="lastView" value="Source"/>
+</file>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\Editix\imports\Connections.xsl">
+<param name="encoding" value="AUTOMATIC"/>
+</file>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\Editix\CIMtoMO3" type="XML">
+<param name="lastView" value="Source"/>
+</file>
+<file open="true" path="C:\Users\glen\OneDrive\Desktop\Editix\CIMtoMO3.xsl" type="XSLT">
+<param name="xslt.data.file" value="C:\Users\glen\OneDrive\Desktop\Editix\examples\bus-14\ieee14_EQ.xml"/>
+<param name="xslt.xslt.file" value="C:\Users\glen\OneDrive\Desktop\Editix\CIMtoMO3.xsl"/>
+<param name="xslt.fop" value="false"/>
+<param name="xslt.displayFile" value="false"/>
+<param name="xslt.result.file" value="C:\Users\glen\OneDrive\Desktop\Editix\ieee14-Rev3.txt"/>
+<param name="xslt.param.value.0" value="examples/bus-14/ieee14"/>
+<param name="xslt.ok" value="true"/>
+<param name="xslt.param.name.1" value="bus"/>
+<param name="xslt.param.value.6" value="60.0"/>
+<param name="xslt.param.name.2" value="resistance"/>
+<param name="xslt.param.value.5" value="1.1"/>
+<param name="xslt.param.name.0" value="filename"/>
+<param name="xslt.param.value.2" value="0.1"/>
+<param name="xslt.param.name.5" value="time2"/>
+<param name="xslt.openFile" value="false"/>
+<param name="xslt.param.value.1" value="BUS5_24f0"/>
+<param name="xslt.param.name.6" value="frequency"/>
+<param name="xslt.param.name.3" value="reactance"/>
+<param name="xslt.param.value.4" value="1.0"/>
+<param name="xslt.param.value.3" value="0"/>
+<param name="xslt.param.name.4" value="time"/>
+</file>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\Editix\imports\Generators.xsl">
+<param name="encoding" value="AUTOMATIC"/>
+</file>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\Editix\imports\dynamics\SynchronousMachineTimeConstantReactance.xsl" type="XSLT"/>
+<file path="C:\Users\glen\OneDrive\Desktop\Editix\imports\dynamics"/>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\Editix\ieee14-Rev3.txt" type="TEXT">
+<param name="lastView" value="Source"/>
+</file>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\Editix\imports\powerflow\busflows.xsl">
+<param name="encoding" value="AUTOMATIC"/>
+</file>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\Editix\imports\powerflow\busvoltages.xsl">
+<param name="encoding" value="AUTOMATIC"/>
+</file>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\Editix\imports\powerflow\loadflows.xsl">
+<param name="encoding" value="AUTOMATIC"/>
+</file>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\Editix\imports\powerflow\loads.xsl">
+<param name="encoding" value="AUTOMATIC"/>
+</file>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\Editix\imports\powerflow\LTCs.xsl">
+<param name="encoding" value="AUTOMATIC"/>
+</file>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\Editix\imports\powerflow\tapchangers.xsl">
+<param name="encoding" value="AUTOMATIC"/>
+</file>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\Editix\imports\powerflow\tapratio.xsl">
+<param name="encoding" value="AUTOMATIC"/>
+</file>
+<file path="C:\Users\glen\OneDrive\Desktop\Editix\imports\version4"/>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\Editix\imports\version4\baseVoltage.xsl">
+<param name="encoding" value="AUTOMATIC"/>
+</file>
+<file open="true" path="C:\Users\glen\OneDrive\Desktop\Editix\CIMtoMO4.xsl" type="XSLT">
+<param name="xslt.data.file" value="C:\Users\glen\OneDrive\Desktop\Editix\examples\bus-14\ieee14_EQ.xml"/>
+<param name="encoding" value="AUTOMATIC"/>
+<param name="xslt.xslt.file" value="C:\Users\glen\OneDrive\Desktop\Editix\CIMtoMO4.xsl"/>
+<param name="xslt.fop" value="false"/>
+<param name="xslt.displayFile" value="false"/>
+<param name="xslt.result.file" value="C:\Users\glen\OneDrive\Desktop\Editix\ieee14-Rev4.txt"/>
+<param name="xslt.param.value.0" value="examples/bus-14/ieee14"/>
+<param name="xslt.ok" value="true"/>
+<param name="xslt.param.name.1" value="frequency"/>
+<param name="xslt.param.value.6" value="1.1"/>
+<param name="xslt.param.name.2" value="bus"/>
+<param name="xslt.param.value.5" value="1"/>
+<param name="xslt.param.name.0" value="filename"/>
+<param name="xslt.param.value.2" value="BUS5_24f0"/>
+<param name="xslt.param.name.5" value="time"/>
+<param name="xslt.openFile" value="false"/>
+<param name="xslt.param.value.1" value="60"/>
+<param name="xslt.param.name.6" value="time2"/>
+<param name="xslt.param.name.3" value="resistance"/>
+<param name="xslt.param.value.4" value="0.1"/>
+<param name="xslt.param.value.3" value="0"/>
+<param name="xslt.param.name.4" value="reactance"/>
+</file>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\Editix\examples\brazil-7bus\CIM\Brazilian_7_bus_Equiv_Model_EQ.xml" type="XML">
+<param name="lastView" value="Source"/>
+</file>
+<file path="C:\Users\glen\OneDrive\Desktop\Editix\examples\brazil-7bus\CIM"/>
+<file path="C:\Users\glen\OneDrive\Desktop\Editix\examples\brazil-7bus"/>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\Editix\examples\Ren\CIM\ren_EQ.xml" type="XML">
+<param name="lastView" value="Source"/>
+</file>
+<file path="C:\Users\glen\OneDrive\Desktop\Editix\examples\Ren\CIM"/>
+<file path="C:\Users\glen\OneDrive\Desktop\Editix\examples\Ren"/>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\Editix\examples\smib\Machines\GENSAL\CIM\smib_gensal_EQ.xml" type="XML">
+<param name="lastView" value="Source"/>
+</file>
+<file path="C:\Users\glen\OneDrive\Desktop\Editix\examples\smib\Machines\GENSAL\CIM"/>
+<file path="C:\Users\glen\OneDrive\Desktop\Editix\examples\smib\Machines\GENSAL"/>
+<file path="C:\Users\glen\OneDrive\Desktop\Editix\examples\smib\Machines"/>
+<file path="C:\Users\glen\OneDrive\Desktop\Editix\examples\smib"/>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\Editix\examples\smib\Machines\GENSAL\CIM\smib_gensal_TP.xml" type="XML">
+<param name="lastView" value="Source"/>
+</file>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\Editix\examples\smib\Machines\GENSAL\CIM\smib_gensal_SV.xml" type="XML">
+<param name="lastView" value="Source"/>
+</file>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\Editix\examples\smib\Machines\GENSAL\CIM\smib_gensal_DY.xml" type="XML">
+<param name="lastView" value="Source"/>
+</file>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\Editix\examples\bus-14\ieee14_RDFID.xml" type="XML">
+<param name="lastView" value="Source"/>
+</file>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\Editix\examples\nordic-44\CIM_new\N44_BC_EQ.xml" type="XML">
+<param name="lastView" value="Source"/>
+</file>
+<file path="C:\Users\glen\OneDrive\Desktop\Editix\examples\nordic-44\CIM_new"/>
+<file path="C:\Users\glen\OneDrive\Desktop\Editix\examples\nordic-44"/>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\Editix\examples\nordic-44\CIM_new\N44_BC_TP.xml" type="XML">
+<param name="lastView" value="Source"/>
+</file>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\Editix\examples\nordic-44\CIM_new\N44_BC_SV.xml" type="XML">
+<param name="lastView" value="Source"/>
+</file>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\Editix\examples\nordic-44\CIM_new\N44_BC_DY.xml" type="XML">
+<param name="lastView" value="Source"/>
+</file>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\Editix\examples\icelandic-sys\CIM\Iceland_modified_PF_solved_EQ.xml" type="XML">
+<param name="lastView" value="Source"/>
+</file>
+<file path="C:\Users\glen\OneDrive\Desktop\Editix\examples\icelandic-sys\CIM"/>
+<file path="C:\Users\glen\OneDrive\Desktop\Editix\examples\icelandic-sys"/>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\Editix\examples\icelandic-sys\CIM\Iceland_modified_PF_solved_SV.xml" type="XML">
+<param name="lastView" value="Source"/>
+</file>
+<file path="C:\Users\glen\OneDrive\Desktop\Editix\examples\icelandic-sys\500-bus"/>
+<file path="C:\Users\glen\OneDrive\Desktop\Editix\examples\500-bus"/>
+<file path="C:\Users\glen\OneDrive\Desktop\Editix\examples\500-bus\CIM"/>
+<file path="C:\Users\glen\OneDrive\Desktop\Editix\CIM"/>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\Editix\examples\500-bus\CIM\nypa_500_cleaned_SV.xml">
+<param name="encoding" value="AUTOMATIC"/>
+<param name="lastView" value="Source"/>
+</file>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\Editix\examples\500-bus\CIM\nypa_500_cleaned_EQ.xml" type="XML">
+<param name="encoding" value="AUTOMATIC"/>
+<param name="lastView" value="Source"/>
+</file>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\Editix\examples\500-bus\CIM\nypa_500_cleaned_TP.xml">
+<param name="encoding" value="AUTOMATIC"/>
+<param name="lastView" value="Source"/>
+</file>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\Editix\examples\500-bus\CIM\nypa_500_cleaned_SSH.xml">
+<param name="encoding" value="AUTOMATIC"/>
+<param name="lastView" value="Source"/>
+</file>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\Editix\examples\500-bus\CIM\nypa_500_cleaned_DY.xml">
+<param name="encoding" value="AUTOMATIC"/>
+<param name="lastView" value="Source"/>
+</file>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\Editix\examples\smib\Machines\CSVGN1\CIM\smib_csvgn1_DY.xml" type="XML">
+<param name="lastView" value="Source"/>
+</file>
+<file path="C:\Users\glen\OneDrive\Desktop\Editix\examples\smib\Machines\CSVGN1\CIM"/>
+<file path="C:\Users\glen\OneDrive\Desktop\Editix\examples\smib\Machines\CSVGN1"/>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\Editix\examples\smib\Machines\CSVGN1\CIM\smib_csvgn1_EQ.xml" type="XML">
+<param name="lastView" value="Source"/>
+</file>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\Editix\examples\smib\Machines\GENCLS\CIM\smib_gencls_EQ.xml" type="XML">
+<param name="lastView" value="Source"/>
+</file>
+<file path="C:\Users\glen\OneDrive\Desktop\Editix\examples\smib\Machines\GENCLS\CIM"/>
+<file path="C:\Users\glen\OneDrive\Desktop\Editix\examples\smib\Machines\GENCLS"/>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\Editix\result.txt" type="TEXT">
+<param name="lastView" value="Source"/>
+</file>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\Editix\test.txt" type="TEXT">
+<param name="lastView" value="Source"/>
+</file>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\Editix\scenarios.xfl" type="XSC">
+<param name="encoding" value="AUTOMATIC"/>
+<param name="lastView" value="Source"/>
+</file>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\Editix\ieee14-Rev4.txt" type="TEXT">
+<param name="lastView" value="Source"/>
+</file>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\Editix\iceland-sys.txt" type="TEXT">
+<param name="lastView" value="Source"/>
+</file>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\Editix\examples\icelandic-sys\CIM\Iceland_modified_PF_solved_TP.xml" type="XML">
+<param name="lastView" value="Source"/>
+</file>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\Editix\bus-23.txt" type="TEXT">
+<param name="lastView" value="Source"/>
+</file>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\Editix\examples\bus-23\CIM\23bus_DY.xml" type="XML">
+<param name="lastView" value="Source"/>
+</file>
+<file path="C:\Users\glen\OneDrive\Desktop\Editix\examples\bus-23\CIM"/>
+<file path="C:\Users\glen\OneDrive\Desktop\Editix\examples\bus-23"/>
+</root>

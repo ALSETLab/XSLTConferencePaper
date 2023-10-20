@@ -1,0 +1,140 @@
+<?xml version='1.0'?>
+<scenario>
+	<task name="IEEE14" type="XSLT">
+		<params>
+			<param key="stylesheet" value="C:\Users\glen\OneDrive\Desktop\Editix\CIMtoMO4.xsl" type="0"/>
+			<param key="sourcefilter" value="(.*).xml" type="0"/>
+			<param key="param_reactance" value="0.1" type="1"/>
+			<param key="sourcepath" value="C:\Users\glen\OneDrive\Desktop\Editix\examples\bus-14\ieee14_EQ.xml" type="0"/>
+			<param key="version" value="2.0" type="0"/>
+			<param key="param_frequency" value="60" type="1"/>
+			<param key="targetname" value="$1.txt" type="0"/>
+			<param key="param_bus" value="BUS5_24f0" type="1"/>
+			<param key="param_filename" value="examples/bus-14/ieee14" type="1"/>
+			<param key="param_time2" value="1.1" type="1"/>
+			<param key="targetpath" value="C:\Users\glen\OneDrive\Desktop\Editix\ieee14.mo" type="0"/>
+			<param key="param_time" value="1" type="1"/>
+			<param key="param_resistance" value="0" type="1"/>
+		</params>
+	</task>
+	<task name="GENCLS" type="XSLT">
+		<params>
+			<param key="sourcefilter" value="(.*).xml" type="0"/>
+			<param key="stylesheet" value="C:\Users\glen\OneDrive\Desktop\Editix\CIMtoMO4.xsl" type="0"/>
+			<param key="param_reactance" value="0.1" type="1"/>
+			<param key="sourcepath" value="C:\Users\glen\OneDrive\Desktop\Editix\examples\smib\Machines\GENCLS\CIM\smib_gencls_EQ.xml" type="0"/>
+			<param key="version" value="2.0" type="0"/>
+			<param key="param_frequency" value="60" type="1"/>
+			<param key="targetname" value="$1.txt" type="0"/>
+			<param key="param_bus" value="FAULT_04a9" type="1"/>
+			<param key="param_filename" value="examples/smib/Machines/GENCLS/CIM/smib_gencls" type="1"/>
+			<param key="param_time2" value="1.1" type="1"/>
+			<param key="targetpath" value="C:\Users\glen\OneDrive\Desktop\Editix\gencls.mo" type="0"/>
+			<param key="param_time" value="1" type="1"/>
+			<param key="param_resistance" value="0" type="1"/>
+		</params>
+	</task>
+	<task name="IEEET1" type="XSLT">
+		<params>
+			<param key="sourcefilter" value="(.*).xml" type="0"/>
+			<param key="stylesheet" value="C:\Users\glen\OneDrive\Desktop\Editix\CIMtoMO4.xsl" type="0"/>
+			<param key="param_reactance" value="0.1" type="1"/>
+			<param key="sourcepath" value="C:\Users\glen\OneDrive\Desktop\Editix\examples\smib\Exciters\IEEET1\CIM\smib_ieeet1_EQ.xml" type="0"/>
+			<param key="version" value="2.0" type="0"/>
+			<param key="param_frequency" value="60" type="1"/>
+			<param key="targetname" value="$1.txt" type="0"/>
+			<param key="param_bus" value="FAULT_efb7" type="1"/>
+			<param key="param_filename" value="examples/smib/Exciters/IEEET1/CIM/smib_ieeet1" type="1"/>
+			<param key="param_time2" value="1.1" type="1"/>
+			<param key="targetpath" value="C:\Users\glen\OneDrive\Desktop\Editix\ieeet1.mo" type="0"/>
+			<param key="param_time" value="1" type="1"/>
+			<param key="param_resistance" value="0" type="1"/>
+		</params>
+	</task>
+	<task name="brazil-7bus" type="XSLT">
+		<params>
+			<param key="sourcefilter" value="(.*).xml" type="0"/>
+			<param key="stylesheet" value="C:\Users\glen\OneDrive\Desktop\Editix\CIMtoMO4.xsl" type="0"/>
+			<param key="param_reactance" value="0.1" type="1"/>
+			<param key="sourcepath" value="C:\Users\glen\OneDrive\Desktop\Editix\examples\brazil-7bus\CIM\Brazilian_7_bus_Equiv_Model_EQ.xml" type="0"/>
+			<param key="version" value="2.0" type="0"/>
+			<param key="param_frequency" value="50" type="1"/>
+			<param key="targetname" value="$1.txt" type="0"/>
+			<param key="param_bus" value="FOZ_AREIA_54e5" type="1"/>
+			<param key="param_filename" value="examples/brazil-7bus/CIM/Brazilian_7_bus_Equiv_Model" type="1"/>
+			<param key="param_time2" value="1.1" type="1"/>
+			<param key="targetpath" value="C:\Users\glen\OneDrive\Desktop\Editix\brazil-7bus.mo" type="0"/>
+			<param key="param_time" value="1" type="1"/>
+			<param key="param_resistance" value="0" type="1"/>
+		</params>
+	</task>
+	<task name="CSVGN1" type="XSLT">
+		<params>
+			<param key="sourcefilter" value="(.*).xml" type="0"/>
+			<param key="stylesheet" value="C:\Users\glen\OneDrive\Desktop\Editix\CIMtoMO4.xsl" type="0"/>
+			<param key="param_reactance" value="0.1" type="1"/>
+			<param key="sourcepath" value="C:\Users\glen\OneDrive\Desktop\Editix\examples\smib\Machines\CSVGN1\CIM\smib_csvgn1_EQ.xml" type="0"/>
+			<param key="version" value="2.0" type="0"/>
+			<param key="param_frequency" value="60" type="1"/>
+			<param key="targetname" value="$1.txt" type="0"/>
+			<param key="param_bus" value="FAULT_ee83" type="1"/>
+			<param key="param_filename" value="examples/smib/Machines/CSVGN1/CIM/smib_csvgn1" type="1"/>
+			<param key="param_time2" value="1.1" type="1"/>
+			<param key="targetpath" value="C:\Users\glen\OneDrive\Desktop\Editix\csvgn1.mo" type="0"/>
+			<param key="param_time" value="1" type="1"/>
+			<param key="param_resistance" value="0" type="1"/>
+		</params>
+	</task>
+	<task name="bus-23" type="XSLT">
+		<params>
+			<param key="sourcefilter" value="(.*).xml" type="0"/>
+			<param key="stylesheet" value="C:\Users\glen\OneDrive\Desktop\Editix\CIMtoMO4.xsl" type="0"/>
+			<param key="param_reactance" value="0.1" type="1"/>
+			<param key="sourcepath" value="C:\Users\glen\OneDrive\Desktop\Editix\examples\bus-23\CIM\23bus_EQ.xml" type="0"/>
+			<param key="version" value="2.0" type="0"/>
+			<param key="param_frequency" value="60" type="1"/>
+			<param key="targetname" value="$1.txt" type="0"/>
+			<param key="param_bus" value="EAST500_9441" type="1"/>
+			<param key="param_filename" value="examples/bus-23/CIM/23bus" type="1"/>
+			<param key="param_time2" value="1.1" type="1"/>
+			<param key="targetpath" value="C:\Users\glen\OneDrive\Desktop\Editix\bus-23.mo" type="0"/>
+			<param key="param_time" value="1" type="1"/>
+			<param key="param_resistance" value="0" type="1"/>
+		</params>
+	</task>
+	<task name="icelandic-sys" type="XSLT">
+		<params>
+			<param key="sourcefilter" value="(.*).xml" type="0"/>
+			<param key="stylesheet" value="C:\Users\glen\OneDrive\Desktop\Editix\CIMtoMO4.xsl" type="0"/>
+			<param key="param_reactance" value="0.1" type="1"/>
+			<param key="sourcepath" value="C:\Users\glen\OneDrive\Desktop\Editix\examples\icelandic-sys\CIM\Iceland_modified_PF_solved_EQ.xml" type="0"/>
+			<param key="version" value="2.0" type="0"/>
+			<param key="param_frequency" value="50" type="1"/>
+			<param key="targetname" value="$1.txt" type="0"/>
+			<param key="param_bus" value="BUS5_24f0" type="1"/>
+			<param key="param_filename" value="examples/icelandic-sys/CIM/Iceland_modified_PF_solved" type="1"/>
+			<param key="param_time2" value="1.1" type="1"/>
+			<param key="targetpath" value="C:\Users\glen\OneDrive\Desktop\Editix\icelandic-sys.mo" type="0"/>
+			<param key="param_time" value="1" type="1"/>
+			<param key="param_resistance" value="0" type="1"/>
+		</params>
+	</task>
+	<task name="nordic-44" type="XSLT">
+		<params>
+			<param key="sourcefilter" value="(.*).xml" type="0"/>
+			<param key="stylesheet" value="C:\Users\glen\OneDrive\Desktop\Editix\CIMtoMO4.xsl" type="0"/>
+			<param key="param_reactance" value="0.1" type="1"/>
+			<param key="sourcepath" value="C:\Users\glen\OneDrive\Desktop\Editix\examples\nordic-44\CIM_new\N44_BC_EQ.xml" type="0"/>
+			<param key="version" value="2.0" type="0"/>
+			<param key="param_frequency" value="50" type="1"/>
+			<param key="targetname" value="$1.txt" type="0"/>
+			<param key="param_bus" value="AJAURE_d27e" type="1"/>
+			<param key="param_filename" value="examples/nordic-44/CIM_new/N44_BC" type="1"/>
+			<param key="param_time2" value="1.1" type="1"/>
+			<param key="targetpath" value="C:\Users\glen\OneDrive\Desktop\Editix\nordic-44.mo" type="0"/>
+			<param key="param_time" value="1" type="1"/>
+			<param key="param_resistance" value="0" type="1"/>
+		</params>
+	</task>
+	<task name=""/>
+</scenario>
