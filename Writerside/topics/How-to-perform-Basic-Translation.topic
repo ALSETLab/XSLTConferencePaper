@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="How to perform Basic Translation" id="How-to-perform-Basic-Translation">
+
+    <p>
+        Translation requires understanding of the type of output file, parameters that don't come from the XML files, XML files and their path, and a location and type of fault to apply for analysis.
+    </p>
+
+    <note>
+        <p><control>Highlight important information.</control></p>
+        <p>
+            You can change this element to <code>&lt;tip&gt;</code> or <code>&lt;warning&gt;</code>.
+        </p>
+    </note>
+
+    <chapter title="Before you start" id="before">
+        <p>Review the documentation from Editix prior to starting this tutorial.</p>
+
+        <p>See the following depending on the number of files:</p>
+
+        <list>
+            <li><a href="https://www.editix.com/doc/manual21/index.html#mozTocId5334">XSLT transformation</a> for single files.</li>
+            <li><a href="https://www.editix.com/doc/manual21/index.html#xmlscenario">XML Scenario</a> for multiple files.</li>
+        </list>
+    </chapter>
+
+    <chapter title="How to perform a single-file translation" id="how-to">
+        <p>
+            This task includes loading the project. Once it is loaded, you will run the preconfigured translation for the IEEE 14-bus system.
+        </p>
+
+        <procedure  id="steps-sequence">
+            <step>
+                <p>Open the <a href="https://www.editix.com/doc/manual21/index.html#mozTocId804917">project file</a>.</p>
+
+                <code-block lang="plain text">
+                    File -> Open Project
+                    Find the path to the GitHub project 'XSLTConferencePaper'.
+                </code-block>
+            </step>
+
+            <step>
+                <p>The project will open in the Project Panel.</p>
+
+                <!-- The 'src' attribute should contain the name of an image from the '/images' folder in your project -->
+                <img src="Project.png" alt="Project.png"/>
+            </step>
+
+            <step>
+                <p>Double-click on the 'CIMtoMO4.xsl' file. The <a href="https://www.editix.com/doc/manual21/images/screenshot/xslt.jpg">multi-view window</a> will open. it will take a second for the XML document to load. The results view will remain empty.</p>
+            </step>
+            <step>
+                <p>Transform a document with this XSLT ...</p>
+                <code-block lang="plain text">
+                    XSLT/XQuery -> Transform a document with this XSLT ...
+                    or
+                </code-block><img src="Transform.png" alt="Transform.png"/>
+            </step>
+            <step>
+                <p>The transform dialog will appear. Press OK.</p><img src="TransformDialog.png" alt="TransformDialog.png"/>
+            </step>
+        </procedure>
+    </chapter>
+</topic>
