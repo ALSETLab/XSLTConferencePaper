@@ -280,4 +280,144 @@
 </file>
 <file path="C:\Users\glen\OneDrive\Desktop\Editix\examples\bus-23\CIM"/>
 <file path="C:\Users\glen\OneDrive\Desktop\Editix\examples\bus-23"/>
+<file open="false" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\CIMtoMO3.xsl" type="XSLT">
+<param name="xslt.data.file" value="C:\Users\glen\OneDrive\Desktop\Editix\examples\bus-14\ieee14_EQ.xml"/>
+<param name="xslt.xslt.file" value="C:\Users\glen\IdeaProjects\XSLTConferencePaper\CIMtoMO3.xsl"/>
+<param name="xslt.fop" value="false"/>
+<param name="xslt.displayFile" value="false"/>
+<param name="xslt.result.file" value="C:\Users\glen\IdeaProjects\XSLTConferencePaper\ieee14-Rev4.txt"/>
+<param name="xslt.param.value.0" value="examples/bus-14/ieee14_EQ.xml"/>
+<param name="xslt.ok" value="true"/>
+<param name="xslt.param.name.1" value="frequency"/>
+<param name="xslt.param.value.6" value="5"/>
+<param name="xslt.param.value.5" value="1.1"/>
+<param name="xslt.param.name.2" value="resistance"/>
+<param name="xslt.param.name.0" value="filename"/>
+<param name="xslt.param.name.5" value="time2"/>
+<param name="xslt.param.value.2" value="0"/>
+<param name="xslt.openFile" value="false"/>
+<param name="xslt.param.value.1" value="60"/>
+<param name="xslt.param.name.6" value="bus"/>
+<param name="xslt.param.name.3" value="reactance"/>
+<param name="xslt.param.value.4" value="1"/>
+<param name="xslt.param.value.3" value="0.1"/>
+<param name="xslt.param.name.4" value="time"/>
+</file>
+<file path="C:\Users\glen\IdeaProjects\XSLTConferencePaper"/>
+<file open="false" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\CIMtoMO4.xsl" type="XSLT">
+<param name="xslt.data.file" value="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\bus-14\ieee14_EQ.xml"/>
+<param name="xslt.xslt.file" value="C:\Users\glen\IdeaProjects\XSLTConferencePaper\CIMtoMO4.xsl"/>
+<param name="xslt.fop" value="false"/>
+<param name="xslt.displayFile" value="false"/>
+<param name="xslt.result.file" value="C:\Users\glen\IdeaProjects\XSLTConferencePaper\ieee14-Rev4.txt"/>
+<param name="xslt.param.value.0" value="examples/bus-14/ieee14"/>
+<param name="xslt.ok" value="true"/>
+<param name="xslt.param.name.1" value="frequency"/>
+<param name="xslt.param.value.6" value="1.1"/>
+<param name="xslt.param.name.2" value="bus"/>
+<param name="xslt.param.value.5" value="1.0"/>
+<param name="xslt.param.name.0" value="filename"/>
+<param name="xslt.param.value.2" value="BUS5__24ee"/>
+<param name="xslt.param.name.5" value="time"/>
+<param name="xslt.openFile" value="false"/>
+<param name="xslt.param.value.1" value="60.0"/>
+<param name="xslt.param.name.6" value="time2"/>
+<param name="xslt.param.name.3" value="resistance"/>
+<param name="xslt.param.value.4" value="0.1"/>
+<param name="xslt.param.value.3" value="0.0"/>
+<param name="xslt.param.name.4" value="reactance"/>
+<param name="xslt.param.name.7" value="base"/>
+<param name="xslt.param.value.7" value="100.0"/>
+</file>
+<file open="true" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\scenarios.xfl" type="XSC">
+<param name="lastView" value="Source"/>
+</file>
+<file open="false" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\nordic-44.mo" type="">
+<param name="lastView" value="Source"/>
+</file>
+<file open="false" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\bus-23\CIM\23bus_EQ.xml" type="XML">
+<param name="lastView" value="Source"/>
+</file>
+<file path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\bus-23\CIM"/>
+<file path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\bus-23"/>
+<file path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples"/>
+<file open="true" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\bus-23\CIM\23bus_SV.xml" type="XML">
+<param name="lastView" value="Source"/>
+</file>
+<file open="true" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\bus-23\CIM\23bus_TP.xml" type="XML"/>
+<file open="false" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\bus-23\CIM\23bus_DY.xml" type="XML"/>
+<file open="true" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\bus-23.mo" type="">
+<param name="lastView" value="Source"/>
+</file>
+<file open="false" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\bus23_package.mo" type="">
+<param name="lastView" value="Source"/>
+</file>
+<file open="true" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\bus-14\ieee14_SV.xml" type="XML">
+<param name="lastView" value="Source"/>
+</file>
+<file path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\bus-14"/>
+<file open="true" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\bus-14\ieee14_EQ.xml" type="XML">
+<param name="lastView" value="Source"/>
+</file>
+<file open="false" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\nordic-44\CIM_new\N44_BC_EQ.xml" type="XML">
+<param name="lastView" value="Source"/>
+</file>
+<file path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\nordic-44\CIM_new"/>
+<file path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\nordic-44"/>
+<file open="true" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\nordic-44\CIM_new\N44_BC_SV.xml" type="XML">
+<param name="lastView" value="Source"/>
+</file>
+<file open="false" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\bus-23\23bus.raw" type="">
+<param name="lastView" value="Source"/>
+</file>
+<file open="false" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\bus-23\23bus.dyr" type="">
+<param name="lastView" value="Source"/>
+</file>
+<file open="false" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\bus-23\23bus102123.raw" type="">
+<param name="lastView" value="Source"/>
+</file>
+<file open="false" path="C:\Users\glen\OneDrive\Desktop\500-bus\CIM\nypa_500_cleaned_EQ.xml">
+<param name="encoding" value="AUTOMATIC"/>
+<param name="lastView" value="Source"/>
+</file>
+<file open="false" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\bus-23\CIM\23bus_EQ-old.xml" type="XML">
+<param name="lastView" value="Source"/>
+</file>
+<file open="false" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\bus-23\CIM\23bus_SV-old.xml" type="XML">
+<param name="lastView" value="Source"/>
+</file>
+<file open="false" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\bus-14\ieee14_TP.xml" type="XML">
+<param name="lastView" value="Source"/>
+</file>
+<file open="true" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\nordic-44\CIM_new\N44_BC_TP.xml" type="XML">
+<param name="lastView" value="Source"/>
+</file>
+<file open="false" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\bus-14\ieee14.raw" type="">
+<param name="lastView" value="Source"/>
+</file>
+<file open="true" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\nordic-44\N44_BC.raw" type=""/>
+<file open="false" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\nordic-44\CIM_new\N44_BC_DY.xml" type="XML">
+<param name="lastView" value="Source"/>
+</file>
+<file open="false" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\nordic-44\N44_BC_new.dyr" type="">
+<param name="lastView" value="Source"/>
+</file>
+<file open="false" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\N44-Rev4.txt">
+<param name="lastView" value="Source"/>
+</file>
+<file open="true" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\ieee14.mo" type="">
+<param name="lastView" value="Source"/>
+</file>
+<file open="true" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\bus-14\ieee14_DY.xml" type="XML">
+<param name="lastView" value="Source"/>
+</file>
+<file path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\imports\dynamics\PowerSystemStabilizerUserDefined.xsl"/>
+<file path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\imports\dynamics"/>
+<file open="false" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\imports\dynamics\ExcUserDefined.xsl">
+<param name="encoding" value="AUTOMATIC"/>
+</file>
+<file path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\imports\dynamics\SynchronousMachineTimeConstantReactance.xsl"/>
+<file open="false" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\ieee14-Rev4.txt" type="TEXT">
+<param name="lastView" value="Source"/>
+</file>
 </root>
