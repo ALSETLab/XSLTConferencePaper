@@ -9,13 +9,6 @@
         Translation requires understanding of the type of output file, parameters that don't come from the XML files, XML files and their path, and a location and type of fault to apply for analysis.
     </p>
 
-    <note>
-        <p><control>Highlight important information.</control></p>
-        <p>
-            You can change this element to <code>&lt;tip&gt;</code> or <code>&lt;warning&gt;</code>.
-        </p>
-    </note>
-
     <chapter title="Before you start" id="before">
         <p>Review the documentation from Editix prior to starting this tutorial.</p>
 

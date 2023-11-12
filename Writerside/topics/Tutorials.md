@@ -1,4 +1,4 @@
-# Tutorial for Using EditiX to Analyze and Translate CGMES XML
+# Tutorials
 Interactive CGMES XML translation to OpenIPSL using XSLT running in EditiX.
 
 Editix is an interactive development environment for XML/XSLT:

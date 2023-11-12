@@ -4,10 +4,14 @@
 
 <instance-profile id="t"
                  name="Tutorial"
-                 start-page="README.md">
+                 start-page="Tutorials.md">
 
-    <toc-element topic="README.md">
-        <toc-element topic="How-to-perform-Basic-Translation.topic"/>
+    <toc-element topic="Tutorials.md">
         <toc-element topic="Overview.md"/>
+        <toc-element topic="How-to-perform-Basic-Translation.topic"/>
+        <toc-element topic="How-to-Create-Schema.md"/>
+    </toc-element>
+    <toc-element topic="Analysis.md">
+        <toc-element topic="Relationships.topic"/>
     </toc-element>
 </instance-profile>

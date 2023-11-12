@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       id="Relationships" title="Relationships">
+
+    <title>
+        Terminals to Connections
+    </title>
+    <p>A reference article is information-oriented.
+        It provides a structured description of a product:
+        its APIs, classes, functions, configuration options, actions, and so on.
+        Start with a summary of what this reference article is about, and what the items you are describing are used
+        for.</p>
+    <chapter title="Equipment Relationships" id="equipment-relationships">
+        <img height="300" src="Relationships.png" width="500" alt="Relationship"/>
+        <p>
+            For a bus-branch analysis there are no breakers. Therefore, each component terminal connects to a Bus (Connectivity Node).</p>
+
+    </chapter>
+    <chapter title="Terminal Relationships/Parameters" id="connections-using-terminals">
+        <img height="320" src="Terminals.png" width="540" alt="Terminal"/>
+        <p>Examine the schema of the terminals to determine the best way to create connections.
+             </p>
+        <table>
+            <tr><td>Alias</td><td>Node</td></tr>
+            <tr><td>Bus</td><td>Terminal.ConnectivityNode</td></tr>
+            <tr><td></td></tr>
+        </table>
+    </chapter>
+    <seealso>
+        <!--Provide links to related how-to guides, overviews, and tutorials.-->
+    </seealso>
+
+</topic>
