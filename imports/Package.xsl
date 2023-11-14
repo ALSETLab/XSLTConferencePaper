@@ -17,7 +17,6 @@
 
 	<xsl:output method="text" indent="no"/>
 
-
 	<xsl:template match="md:FullModel">
 		<xsl:value-of select="$SystemName"/>
 		<xsl:text>_package "System automatically translated from PSSE CIM using XSLT_OpenIPSL."

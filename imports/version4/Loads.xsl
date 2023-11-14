@@ -18,10 +18,13 @@
 	<xsl:output method="text" indent="no"/>
 	
 	<xsl:template match="cim:ConformLoad">
-		<xsl:text>OpenIPSL.Electrical.Loads.PSSE.Load </xsl:text><xsl:copy-of select="gkh:compliantName(concat('CL',cim:IdentifiedObject.name,substring(@rdf:ID,6,4)))"/>
-		<xsl:variable name="svLoad" select="gkh:SvLoadTree(@rdf:ID)"/>
-		<xsl:variable name="svVolt" select="gkh:SvVolt(@rdf:ID)"/>
-		<xsl:variable name="baseVoltage" select="gkh:EqBaseVoltage(@rdf:ID)"/>
+		<xsl:text>OpenIPSL.Electrical.Loads.PSSE.Load </xsl:text>
+		<xsl:copy-of select="gkh:compliantName(concat('CL',cim:IdentifiedObject.name))"/>
+		<xsl:variable name="svVolt" select="gkh:CNVoltTree(gkh:CNfromCE(@rdf:ID))"/>
+		<xsl:variable name="svLoad" select="gkh:TMLoadTree(gkh:TMfromCE(@rdf:ID))"/>
+		<xsl:variable name="baseVoltage" select="100000.0"/>
+		<!--
+cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource   cim:VoltageLevel rdf:ID-->
 		<xsl:variable name="response" select="gkh:response(cim:EnergyConsumer.LoadResponse/substring(@rdf:resource,2))"/>
 		<xsl:text>(P_0 = </xsl:text>
 <xsl:value-of select="$svLoad/cim:SvPowerFlow.p*1000000"/>
@@ -31,15 +34,17 @@
 		<xsl:text> ,angle_0 = </xsl:text><xsl:value-of select="format-number($svVolt/cim:SvVoltage.angle*3.14159 div 180,'0.000000000#')"/>
 		<xsl:text>, characteristic = 2);
 </xsl:text>
+
 <!--<xsl:value-of select="$response/cim:LoadResponseCharacteristic.pConstantPower"/>
 -->
 	</xsl:template>
 	
 	<xsl:template match="cim:NonConformLoad">
-		<xsl:text>OpenIPSL.Electrical.Loads.PSSE.Load </xsl:text><xsl:copy-of select="gkh:compliantName(concat('NCL',cim:IdentifiedObject.name,substring(@rdf:ID,6,4)))"/>
-		<xsl:variable name="svLoad" select="gkh:SvLoadTree(@rdf:ID)"/>
-		<xsl:variable name="svVolt" select="gkh:SvVolt(@rdf:ID)"/>
-		<xsl:variable name="baseVoltage" select="gkh:EqBaseVoltage(@rdf:ID)"/>
+		<xsl:text>OpenIPSL.Electrical.Loads.PSSE.Load </xsl:text>
+		<xsl:copy-of select="gkh:compliantName(concat('NCL',cim:IdentifiedObject.name))"/>
+		<xsl:variable name="svVolt" select="gkh:CNVoltTree(gkh:CNfromCE(@rdf:ID))"/>
+		<xsl:variable name="svLoad" select="gkh:TMLoadTree(gkh:TMfromCE(@rdf:ID))"/>
+		<xsl:variable name="baseVoltage" select="100000.0"/>
 		<xsl:variable name="response" select="gkh:response(cim:EnergyConsumer.LoadResponse/substring(@rdf:resource,2))"/>
 		<xsl:text>(P_0 = </xsl:text>
 <xsl:copy-of select="$svLoad/cim:SvPowerFlow.p*1000000"/>

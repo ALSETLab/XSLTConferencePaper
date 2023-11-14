@@ -20,11 +20,12 @@
 	<xsl:template match="cim:SynchronousMachine" mode="overall">
 
 		<xsl:variable name="gName" select="cim:IdentifiedObject.name"/>
-		<xsl:variable name="fName" select="gkh:compliantName(concat('GEN',$gName,substring(@rdf:ID,6,4)))"/>
-		<xsl:variable name="sName" select="gkh:compliantName(concat('gen',$gName,substring(@rdf:ID,6,4)))"/>
-		<xsl:variable name="svLoad" select="gkh:SvLoadTree(@rdf:ID)"/>
-		<xsl:variable name="svVolt" select="gkh:SvVolt(@rdf:ID)"/>
-		<xsl:variable name="baseVoltage" select="gkh:EqBaseVoltage(@rdf:ID)"/>
+		<xsl:variable name="fName" select="gkh:compliantName(concat('GEN',$gName))"/>
+		<xsl:variable name="sName" select="gkh:compliantName(concat('gen',$gName))"/>
+		<xsl:variable name="svVolt" select="gkh:CNVoltTree(gkh:CNfromCE(@rdf:ID))"/>
+		<xsl:variable name="svLoad" select="gkh:TMLoadTree(gkh:TMfromCE(@rdf:ID))"/>
+		<xsl:variable name="baseVoltage" select="10000"/><!--
+gkh:EqBaseVoltage(@rdf:ID)-->
 		<xsl:text>
 </xsl:text><xsl:value-of select="$SystemName"/><xsl:text>_package.Generators.</xsl:text><xsl:value-of select="$fName"/><xsl:text> </xsl:text><xsl:value-of select="$sName"/>
 <xsl:text> (P_0 = </xsl:text>
@@ -34,8 +35,7 @@
 <xsl:text>,v_0 = </xsl:text>
 <xsl:value-of select="format-number($svVolt/cim:SvVoltage.v div $baseVoltage,'0.000000000#')"/>
 <xsl:text>,angle_0 = </xsl:text><xsl:value-of select="format-number($svVolt/cim:SvVoltage.angle*3.14159 div 180,'0.000000000#')"/>
-<xsl:text>);
-</xsl:text>
+<xsl:text>);</xsl:text>
 	</xsl:template>
 
 </xsl:stylesheet>
