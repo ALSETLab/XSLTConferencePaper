@@ -14,7 +14,7 @@
 
 	<xsl:output method="text" indent="no"/>
 	
-	<xsl:key match="cim:GovGAST/cim:TurbineGovernorDynamics.SynchronousMachineDynamics" name="governorGAST" use="substring(@rdf:resource,2)"/>
+	<xsl:key match="cim:GovGAST/cim:TurbineGovernorDynamics.SynchronousMachineDynamics" name="GovGAST-Index" use="substring(@rdf:resource,2)"/>
 	
 	<xsl:template match="cim:GovGAST/cim:TurbineGovernorDynamics.SynchronousMachineDynamics">
 		<xsl:text>OpenIPSL.Electrical.Controls.PSSE.TG.GAST governor(R = </xsl:text>

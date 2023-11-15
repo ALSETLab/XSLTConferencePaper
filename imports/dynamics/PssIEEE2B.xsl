@@ -14,7 +14,7 @@
 
 	<xsl:output method="text" indent="no"/>
 	
-	<xsl:key match="cim:PssIEEE2B/cim:PowerSystemStabilizerDynamics.ExcitationSystemDynamics" name="pssieee2b" use="substring(@rdf:resource,2)"/>
+	<xsl:key match="cim:PssIEEE2B/cim:PowerSystemStabilizerDynamics.ExcitationSystemDynamics" name="PSS2B-Index" use="substring(@rdf:resource,2)"/>
 	
 	<xsl:template match="cim:PssIEEE2B/cim:PowerSystemStabilizerDynamics.ExcitationSystemDynamics">
 		<xsl:text>

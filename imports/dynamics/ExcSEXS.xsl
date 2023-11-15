@@ -14,7 +14,7 @@
 
 	<xsl:output method="text" indent="no"/>
 	
-	<xsl:key match="cim:ExcSEXS/cim:ExcitationSystemDynamics.SynchronousMachineDynamics" name="excsexs" use="substring(rdf:resource,2)"/>
+	<xsl:key match="cim:ExcSEXS/cim:ExcitationSystemDynamics.SynchronousMachineDynamics" name="SEXS-Index" use="substring(rdf:resource,2)"/>
 	
 	<xsl:template match="cim:ExcSEXS/cim:ExcitationSystemDynamics.SynchronousMachineDynamics"><!-- SEXS -->
 		<xsl:value-of select="../cim:IdentifiedObject.name"/>

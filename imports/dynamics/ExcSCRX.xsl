@@ -14,7 +14,7 @@
 
 	<xsl:output method="text" indent="no"/>
 	
-	<xsl:key match="cim:ExcSCRX/cim:ExcitationSystemDynamics.SynchronousMachineDynamics" name="excscrx" use="substring(rdf:resource,2)"/>
+	<xsl:key match="cim:ExcSCRX/cim:ExcitationSystemDynamics.SynchronousMachineDynamics" name="SCRX-Index" use="substring(rdf:resource,2)"/>
 	
 	<xsl:template match="cim:ExcSCRX/cim:ExcitationSystemDynamics.SynchronousMachineDynamics">
 		<xsl:text>OpenIPSL.Electrical.Controls.PSSE.ES.SCRX exciter(T_AT_B = </xsl:text>

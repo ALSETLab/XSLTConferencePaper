@@ -18,7 +18,7 @@
 			<xsl:value-of select="key('BusConn-Index',cim:Terminal.ConnectivityNode/substring(@rdf:resource,2))/normalize-space(cim:IdentifiedObject.name)"/>
 			<xsl:text>.p, </xsl:text>
 			<xsl:if test="key('Sync-Index',cim:Terminal.ConductingEquipment/substring(@rdf:resource,2))">
-				<xsl:text>g</xsl:text>
+				<xsl:text>gen</xsl:text>
 				<xsl:value-of select="key('Sync-Index',cim:Terminal.ConductingEquipment/substring(@rdf:resource,2))/cim:IdentifiedObject.name"/>
 				<xsl:text>.p</xsl:text>
 			</xsl:if>
@@ -52,7 +52,7 @@
 					</xsl:when>
 				</xsl:choose>
 			</xsl:if>
-			<xsl:text>)
+<xsl:text>);
 </xsl:text>
 		</xsl:if>
 	</xsl:template>

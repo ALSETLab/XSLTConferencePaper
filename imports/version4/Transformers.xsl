@@ -7,7 +7,7 @@
 	<xsl:key name="End-Index" match="cim:PowerTransformerEnd/cim:PowerTransformerEnd.PowerTransformer" use="substring(@rdf:resource,2)"/>
 	<xsl:template match="cim:PowerTransformer">
 		<xsl:text>OpenIPSL.Electrical.Branches.PSSE.TwoWindingTransformer </xsl:text>
-		<xsl:value-of select="gkh:compliantName(cim:IdentifiedObject.description)"/>
+		<xsl:value-of select="gkh:compliantName(concat('T',cim:IdentifiedObject.description))"/>
 		<xsl:text>(CZ=</xsl:text>
 		<xsl:value-of select="pti:PowerTransformer.cz"/>
 		<xsl:text>,CW=</xsl:text>

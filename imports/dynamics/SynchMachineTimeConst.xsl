@@ -16,19 +16,13 @@
 	<xsl:include href="ExcIEEEAC2A.xsl"/>
 	<xsl:include href="ExcIEEEDC1A.xsl"/>
 	<xsl:include href="ExcIEEEST1A.xsl"/>
-	<!--<xsl:include href="ExcUserDefined.xsl"/>-->
+	<xsl:include href="ExcUserDefined.xsl"/>
 	<xsl:include href="PssIEEE2B.xsl"/>
-	<!--<xsl:include href="PSSUserDefined.xsl"/>
--->
+	<xsl:include href="PSSUserDefined.xsl"/>
 	<xsl:include href="ProprietaryParameterDynamics.xsl"/>
 	<xsl:template match="cim:SynchronousMachineTimeConstantReactance">
 		<xsl:param name="MainName"/>
-		<xsl:param name="M_b"/><!-- Exciters -->
-		<xsl:variable name="ieeeac1a" select="key('excieeeac1a',@rdf:ID)"/>
-		<xsl:variable name="ac1a" select="key('excac1a',@rdf:ID)"/>
-		<xsl:variable name="ac2a" select="key('excac2a',@rdf:ID)"/>
-		<xsl:variable name="ieeest1a" select="key('excieeest1a',@rdf:ID)"/>
-		<xsl:variable name="ieeedc1a" select="key('excieeedc1a',@rdf:ID)"/>
+		<xsl:variable name="M_b" select="gkh:powerBase"/><!-- Exciters -->
 		<xsl:variable name="GenType">
 			<xsl:if test="cim:SynchronousMachineTimeConstantReactance.rotorType/@rdf:resource='http://iec.ch/TC57/2013/CIM-schema-cim16#RotorKind.roundRotor'">
 				<xsl:value-of select="cim:IdentifiedObject.name"/>
@@ -39,7 +33,8 @@
 		</xsl:variable>
 		<xsl:text>  
 OpenIPSL.Electrical.Machines.PSSE.</xsl:text>
-		<xsl:copy-of select="$GenType"/><xsl:text> machine(Tpd0 = </xsl:text>
+		<xsl:copy-of select="$GenType"/>
+		<xsl:text> machine(Tpd0 = </xsl:text>
 		<xsl:value-of select="format-number(cim:SynchronousMachineTimeConstantReactance.tpdo,'0.000000000#')"/>
 		<xsl:text>, Tppd0 = </xsl:text>
 		<xsl:value-of select="format-number(cim:SynchronousMachineTimeConstantReactance.tppdo,'0.000000000#')"/>
@@ -76,10 +71,10 @@ OpenIPSL.Electrical.Machines.PSSE.</xsl:text>
 		<xsl:text>, R_a = </xsl:text>
 		<xsl:value-of select="gkh:defaultNumbers(cim:SynchronousMachineTimeConstantReactance.statorResistance,0.000000000)"/>
 		<xsl:text>, M_b = </xsl:text><xsl:value-of select="$M_b * 1000000"/>
+
 		<xsl:text>, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
-</xsl:text><!--Modelica.Blocks.Sources.Constant uel(k = 0) annotation(Placement(transformation(extent = {{-40, -62}, {-20, -42}})));
-	Modelica.Blocks.Sources.Constant oel(k = 0) annotation(Placement(transformation(extent = {{-40, -94}, {-20, -74}})));
---><!--<xsl:choose>
+</xsl:text>
+		<xsl:choose>
 			<xsl:when test="key('TGOV1-Index',@rdf:ID)">
 				<xsl:apply-templates select="key('TGOV1-Index',@rdf:ID)"/>
 			</xsl:when>
@@ -93,57 +88,56 @@ OpenIPSL.Electrical.Machines.PSSE.</xsl:text>
 				<xsl:apply-templates select="key('GovGAST-Index',@rdf:ID)"/>
 			</xsl:when>
 			<xsl:otherwise>
-<xsl:text>  // No turbine-governor
+				<xsl:text>  // No turbine-governor
 OpenIPSL.Electrical.Controls.PSSE.TG.ConstantPower governor annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));</xsl:text>
 			</xsl:otherwise>
 		</xsl:choose>
--->
 		<xsl:text>
-OpenIPSL.Electrical.Controls.PSSE.ES.</xsl:text><!--		<xsl:choose>
+OpenIPSL.Electrical.Controls.PSSE.ES.</xsl:text>
+		<xsl:choose>
 			<xsl:when test="key('SCRX-Index',@rdf:ID)">
 				<xsl:apply-templates select="key('SCRX-Index',@rdf:ID)"/>
 			</xsl:when>
 			<xsl:when test="key('SEXS-Index',@rdf:ID)">
 				<xsl:apply-templates select="key('SEXS-Index',@rdf:ID)"/>
 			</xsl:when>
-			<xsl:when test="key('ExcUserDefined',@rdf:ID)">
-				<xsl:apply-templates select="key('ExcUserDefined',@rdf:ID)"/>
+			<xsl:when test="key('ExcUser-Index',@rdf:ID)">
+				<xsl:apply-templates select="key('ExcUser-Index',@rdf:ID)"/>
 			</xsl:when>
-			<xsl:when test="$ieeeac1a">
-				<xsl:apply-templates select="$ieeeac1a"/>
+			<xsl:when test="key('IEEEAC1A-Index',@rdf:ID)">
+				<xsl:apply-templates select="key('IEEEAC1A-Index',@rdf:ID)"/>
 			</xsl:when>
-			<xsl:when test="$ac1a">
-				<xsl:apply-templates select="$ac1a"/>
+			<xsl:when test="key('AC1A-Index',@rdf:ID)">
+				<xsl:apply-templates select="key('AC1A-Index',@rdf:ID)"/>
 			</xsl:when>
 			<xsl:when test="key('IEEEAC2A-Index',@rdf:ID)">
 				<xsl:apply-templates select="key('IEEEAC2A-Index',@rdf:ID)"/>
 			</xsl:when>
-			<xsl:when test="$ac2a">
-				<xsl:apply-templates select="$ac2a"/>
+			<xsl:when test="key('AC2A-Index',@rdf:ID)">
+				<xsl:apply-templates select="key('AC2A-Index',@rdf:ID)"/>
 			</xsl:when>
-			<xsl:when test="$ieeest1a">
-				<xsl:apply-templates select="$ieeest1a"/>
+			<xsl:when test="key('IEEEST1A-Index',@rdf:ID)">
+				<xsl:apply-templates select="key('IEEEST1A-Index',@rdf:ID)"/>
 			</xsl:when>
-			<xsl:when test="$ieeedc1a">
-				<xsl:apply-templates select="$ieeedc1a"/>
+			<xsl:when test="key('IEEEDC1A-Index',@rdf:ID)">
+				<xsl:apply-templates select="key('IEEEDC1A-Index',@rdf:ID)"/>
 			</xsl:when>
 			<xsl:otherwise>
-<xsl:text>  
+				<xsl:text>  
 // No exciter
 </xsl:text>
 			</xsl:otherwise>
 		</xsl:choose>
---><!--		<xsl:choose>
+		<xsl:choose>
 			<xsl:when test="key('PSS2B-Index',key('IEEEAC2A-Index',@rdf:ID)/../@rdf:ID)">
 				<xsl:apply-templates select="key('PSS2B-Index',key('IEEEAC2A-Index',@rdf:ID)/../@rdf:ID)"/>
 			</xsl:when>
-			<xsl:when test="key('PSSUser-Index',key('IEEEAC2A-Index',@rdf:ID)/../@rdf:ID)">
-					<xsl:apply-templates select="key('PSSUser-Index',key('IEEEAC2A-Index',@rdf:ID)/../@rdf:ID)">
-						<xsl:sort data-type="number" order="ascending" select="../cim:ProprietaryParameterDynamics.parameterNumber"/>
-					</xsl:apply-templates>
+			<xsl:when test="key('PSS2B-Index',key('IEEEAC2A-Index',@rdf:ID)/../@rdf:ID)">
+				<xsl:apply-templates select="key('PSSUser-Index',key('IEEEAC2A-Index',@rdf:ID)/../@rdf:ID)">
+					<xsl:sort data-type="number" order="ascending" select="../cim:ProprietaryParameterDynamics.parameterNumber"/>
+				</xsl:apply-templates>
 			</xsl:when>
-	
-		<xsl:when test="key('PSSUser-Index',key('PSS2B-Index',@rdf:ID)/../@rdf:ID)">
+			<xsl:when test="key('PSSUser-Index',key('PSS2B-Index',@rdf:ID)/../@rdf:ID)">
 				<xsl:apply-templates select="key('PSS2B-Index',key('IEEEAC2A-Index',@rdf:ID)/../@rdf:ID)">
 					<xsl:sort data-type="number" order="ascending" select="../cim:ProprietaryParameterDynamics.parameterNumber"/>
 				</xsl:apply-templates>
@@ -154,7 +148,6 @@ OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placemen
 </xsl:text>
 			</xsl:otherwise>
 		</xsl:choose>
--->
 		<xsl:text>  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation

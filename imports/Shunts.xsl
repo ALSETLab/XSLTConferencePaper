@@ -6,6 +6,7 @@
 	<xsl:output method="text" indent="no"/>
 	<xsl:template match="cim:LinearShuntCompensator">
 		<xsl:text>OpenIPSL.Electrical.Banks.PSSE.Shunt </xsl:text>
+<xsl:value-of select="concat('SH',cim:IdentifiedObject.name)"/>
 		<xsl:text>(G = </xsl:text>
 		<xsl:value-of select="format-number(cim:LinearShuntCompensator.gPerSection,'0.0000000000#')"/>
 		<xsl:text>,B = </xsl:text>

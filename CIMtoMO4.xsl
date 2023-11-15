@@ -43,6 +43,9 @@
 			</xsl:otherwise>
 		</xsl:choose>
 	</xsl:function>
+	<xsl:function name="gkh:powerBase" as="xs:double">
+		<xsl:value-of select="$base * 10*e6"/>
+	</xsl:function>
 	<xsl:function name="gkh:baseImpedance" as="xs:double?">
 		<xsl:param name="basePower" as="xs:double?"/>
 		<xsl:param name="voltage" as="xs:double?"/>
@@ -156,8 +159,8 @@ OpenIPSL.Electrical.Events.PwFault Fault (R = </xsl:text>
 		<xsl:text>
 equation
 </xsl:text>
-		<xsl:apply-templates select="cim:Terminal"/>
-		<xsl:text>// -- Connect fault event:
+<xsl:apply-templates select="cim:Terminal"/>
+<xsl:text>// -- Connect fault event:
 		
 connect(Fault.p, </xsl:text>
 		<xsl:copy-of select="$bus"/>

@@ -14,7 +14,7 @@
 
 	<xsl:output method="text" indent="no"/>
 	
-	<xsl:key match="cim:GovHydro1/cim:TurbineGovernorDynamics.SynchronousMachineDynamics" name="governorHydro1" use="substring(@rdf:resource,2)"/>
+	<xsl:key match="cim:GovHydro1/cim:TurbineGovernorDynamics.SynchronousMachineDynamics" name="Hydro1-Index" use="substring(@rdf:resource,2)"/>
 	
 	<xsl:template match="cim:GovHydro1/cim:TurbineGovernorDynamics.SynchronousMachineDynamics">
 		<xsl:text>OpenIPSL.Electrical.Controls.PSSE.TG.HYGOV governor(R = </xsl:text>

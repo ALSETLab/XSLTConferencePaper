@@ -14,8 +14,8 @@
 
 	<xsl:output method="text" indent="no"/>
 	
-	<xsl:key match="cim:ProprietaryParameterDynamics/cim:ProprietaryParameterDynamics.ExcitationSystemUserDefined" name="ppdynamics" use="substring(@rdf:resource,2)"/>
-	<xsl:key match="cim:ExcitationSystemUserDefined/cim:ExcitationSystemDynamics.SynchronousMachineDynamics" name="execsysuser" use="substring(@rdf:resource,2)"/>
+	<xsl:key match="cim:ProprietaryParameterDynamics/cim:ProprietaryParameterDynamics.PowerSystemStabilizerUserDefined" name="PSSsys-Index" use="substring(@rdf:resource,2)"/>
+	<xsl:key match="cim:ProprietaryParameterDynamics/cim:ProprietaryParameterDynamics.ExcitationSystemUserDefined" name="ExcSys-Index" use="substring(@rdf:resource,2)"/>
 	
 	<xsl:template match="cim:ProprietaryParameterDynamics/cim:ProprietaryParameterDynamics.PowerSystemStabilizerUserDefined">
 		<xsl:if test="../cim:ProprietaryParameterDynamics.parameterNumber='0'">

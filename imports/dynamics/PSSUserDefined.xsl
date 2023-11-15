@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<!-- New XSLT document created with EditiX XML Editor (http://www.editix.com) at Tues Nov 14 18:07:00 CDT 2023 -->
+<!-- New XSLT document created with EditiX XML Editor (http://www.editix.com) at Sun Mar 27 13:52:00 CDT 2022 -->
 
 <xsl:stylesheet version="2.0" 
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
@@ -15,12 +15,12 @@
 	<xsl:output method="text" indent="no"/>
 
 	
-	<xsl:key match="cim:ExcitationSystemUserDefined/cim:ExcitationSystemDynamics.SynchronousMachineDynamics" name="ExcUser-Index" use="substring(@rdf:resource,2)"/>
-
+	<xsl:key match="cim:PowerSystemStabilizerUserDefined/cim:PowerSystemStabilizerDynamics.ExcitationSystemDynamics" name="PSSUser-Index" use="substring(@rdf:resource,2)"/>
 	
-	<xsl:template match="cim:ExcitationSystemUserDefined/cim:ExcitationSystemDynamics.SynchronousMachineDynamics">
-		<xsl:value-of select="../cim:IdentifiedObject.name"/><xsl:text> exciter (</xsl:text>
-		<xsl:apply-templates select="key('ExcSys-Index',../@rdf:ID)"/>
+	<xsl:template match="cim:PowerSystemStabilizerUserDefined/cim:PowerSystemStabilizerDynamics.ExcitationSystemDynamics">
+		<xsl:text>
+	OpenIPSL.Electrical.Controls.PSSE.PSS.STAB2A pss(</xsl:text>
+		<xsl:apply-templates select="key('PSSsys-Index',@rdf:ID)"/>
 	</xsl:template>
-	
+
 </xsl:stylesheet>

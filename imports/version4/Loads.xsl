@@ -16,13 +16,13 @@
 	exclude-result-prefixes="xs xdt err fn">
 
 	<xsl:output method="text" indent="no"/>
-	
+	<xsl:key name="VoltLevel-Index" match="cim:VoltageLevel" use="@rdf:ID"/>
 	<xsl:template match="cim:ConformLoad">
 		<xsl:text>OpenIPSL.Electrical.Loads.PSSE.Load </xsl:text>
 		<xsl:copy-of select="gkh:compliantName(concat('CL',cim:IdentifiedObject.name))"/>
 		<xsl:variable name="svVolt" select="gkh:CNVoltTree(gkh:CNfromCE(@rdf:ID))"/>
 		<xsl:variable name="svLoad" select="gkh:TMLoadTree(gkh:TMfromCE(@rdf:ID))"/>
-		<xsl:variable name="baseVoltage" select="100000.0"/>
+		<xsl:variable name="baseVoltage" select="gkh:baseVoltage(key('VoltLevel-Index',cim:Equipment.EquipmentContainer/substring(@rdf:resource,2))/cim:VoltageLevel.BaseVoltage/substring(@rdf:resource,2))"/>
 		<!--
 cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource   cim:VoltageLevel rdf:ID-->
 		<xsl:variable name="response" select="gkh:response(cim:EnergyConsumer.LoadResponse/substring(@rdf:resource,2))"/>
