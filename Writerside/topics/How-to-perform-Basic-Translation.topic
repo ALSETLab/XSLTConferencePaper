@@ -55,6 +55,9 @@
             <step>
                 <p>The transform dialog will appear. Press OK.</p><img src="TransformDialog.png" alt="TransformDialog.png"/>
             </step>
+            <step>
+                <p>The examples/bus-14 CIM files (ieee14_EQ.xml, ieee14_SV.xml, ieee14_TP.xml, and ieee14_DY.xml) are translated and shown in the Result window. These results can be pasted into Modelica IDE and run with the OpenIPSL library.</p><img src="Results.png" alt="Results.png"/>
+            </step>
         </procedure>
     </chapter>
 </topic>
