@@ -12,12 +12,13 @@
     <chapter title="Before you start" id="before">
         <p>Review the documentation from Editix prior to starting this tutorial.</p>
 
-        <p>See the following depending on the number of files:</p>
+        <p>Depending on the number of files, see the following:</p>
 
         <list>
             <li><a href="https://www.editix.com/doc/manual21/index.html#mozTocId5334">XSLT transformation</a> for single files.</li>
             <li><a href="https://www.editix.com/doc/manual21/index.html#xmlscenario">XML Scenario</a> for multiple files.</li>
         </list>
+        <p>Clone the <a href="https://github.com/ALSETLab/XSLTConferencePaper">repository</a> as a local copy using the <a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository">instructions</a>.</p>
     </chapter>
 
     <chapter title="How to perform a single-file translation" id="how-to">
@@ -27,11 +28,11 @@
 
         <procedure  id="steps-sequence">
             <step>
-                <p>Open the <a href="https://www.editix.com/doc/manual21/index.html#mozTocId804917">project file</a>.</p>
+                <p>Open the <a href="https://www.editix.com/doc/manual21/index.html#mozTocId804917">project file</a> by entering the path to the local Github repository.</p>
 
                 <code-block lang="plain text">
                     File -> Open Project
-                    Find the path to the GitHub project 'XSLTConferencePaper'.
+                    Enter the path to the github repository 'XSLTConferencePaper'.
                 </code-block>
             </step>
 

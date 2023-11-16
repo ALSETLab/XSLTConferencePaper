@@ -304,7 +304,7 @@
 <param name="xslt.param.name.4" value="time"/>
 </file>
 <file path="C:\Users\glen\IdeaProjects\XSLTConferencePaper"/>
-<file open="false" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\CIMtoMO4.xsl" type="XSLT">
+<file open="true" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\CIMtoMO4.xsl" type="XSLT">
 <param name="xslt.data.file" value="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\bus-14\ieee14_EQ.xml"/>
 <param name="xslt.xslt.file" value="C:\Users\glen\IdeaProjects\XSLTConferencePaper\CIMtoMO4.xsl"/>
 <param name="xslt.fop" value="false"/>
@@ -355,7 +355,7 @@
 <file open="false" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\bus-14\ieee14_SV.xml" type="XML">
 <param name="lastView" value="Source"/>
 </file>
-<file path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\bus-14"/>
+<file open="true" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\bus-14" type="XML"/>
 <file open="false" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\bus-14\ieee14_EQ.xml" type="XML">
 <param name="lastView" value="Source"/>
 </file>

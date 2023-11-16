@@ -1,5 +1,5 @@
 # Tutorial for Using EditiX to Analyze and Translate CGMES XML
-Interactive CGMES XML translation to OpenIPSL using XSLT running in EditiX. Please see the [documentation](https://alsetlab.github.io/XSLTConferencePaper/tutorials.html).
+Interactive CGMES XML translation to OpenIPSL using XSLT running in EditiX. Please see the [documentation](https://alsetlab.github.io/XSLTConferencePaper/tutorials.html target="_blank").
 
 Editix is an interactive development environment for XML/XSLT:
 https://www.editix.com/
