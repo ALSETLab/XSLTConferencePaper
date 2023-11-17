@@ -51,13 +51,19 @@
                 <code-block lang="plain text">
                     XSLT/XQuery -> Transform a document with this XSLT ...
                     or
-                </code-block><img src="Transform.png" alt="Transform.png"/>
+                </code-block>
+                <img src="Transform.png" alt="Transform.png"/>
             </step>
             <step>
-                <p>The transform dialog will appear. Press OK.</p><img src="TransformDialog.png" alt="TransformDialog.png"/>
+                <p>The transform dialog will appear. Re-path the XSLT Document, Document source, and Result document for the part including "\XSLTConferencePaper\..." .</p>
+                <img src="TransformDialog.png" alt="TransformDialog.png"/>
+                <p>Then, click on the Parameters tab and enter the parameters as shown.</p>
+                <img src="Parameters.png" alt="Parameters"/>
             </step>
             <step>
                 <p>The examples/bus-14 CIM files (ieee14_EQ.xml, ieee14_SV.xml, ieee14_TP.xml, and ieee14_DY.xml) are translated and shown in the Result window. These results can be pasted into Modelica IDE and run with the OpenIPSL library.</p><img src="Results.png" alt="Results.png"/>
+                <p>If the operation is successful, you will see the blue box at the bottom right!</p>
+                <img src="OperationComplete.png" alt="Complete"/>
             </step>
         </procedure>
     </chapter>

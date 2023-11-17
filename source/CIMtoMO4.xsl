@@ -11,13 +11,9 @@
 	<xsl:include href="imports/version4/TransEnds.xsl"/>
 	<xsl:include href="imports/Shunts.xsl"/>
 	<xsl:include href="imports/version4/Loads.xsl"/>
-	
-<xsl:include href="imports/SyncMachines.xsl"/>
-	
-<xsl:include href="imports/version4/Connections.xsl"/>
-	
-<xsl:include href="imports/Generators.xsl"/>
-
+	<xsl:include href="imports/SyncMachines.xsl"/>
+	<xsl:include href="imports/version4/Connections.xsl"/>
+	<xsl:include href="imports/Generators.xsl"/>
 	<xsl:param name="filename" as="xs:string"/>
 	<xsl:param name="frequency" as="xs:double"/>
 	<xsl:param name="bus" as="xs:string"/>
@@ -159,8 +155,8 @@ OpenIPSL.Electrical.Events.PwFault Fault (R = </xsl:text>
 		<xsl:text>
 equation
 </xsl:text>
-<xsl:apply-templates select="cim:Terminal"/>
-<xsl:text>// -- Connect fault event:
+		<xsl:apply-templates select="cim:Terminal"/>
+		<xsl:text>// -- Connect fault event:
 		
 connect(Fault.p, </xsl:text>
 		<xsl:copy-of select="$bus"/>
@@ -174,7 +170,6 @@ end
 </xsl:text>
 		<xsl:text>package Generators "Library of machine models translated automatically from PSSE CIM using XSLT_OpenIPSL."</xsl:text>
 		<xsl:apply-templates select="cim:SynchronousMachine" mode="individual"/>
-
 		<xsl:text>
 end Generators;
 

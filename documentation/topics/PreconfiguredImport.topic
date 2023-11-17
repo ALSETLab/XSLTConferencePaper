@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Preconfigured Translation - Multiple Files" id="PreconfiguredImport">
+
+    <p>Scenarios combine paths and parameters as a table entry to simplify translations for multiple files.</p>
+    <chapter title="Scenarios" id="scenarios">
+        <p>The file 'scenarios.xfl' is in the 'source' folder. Open and run a single table entry.</p>
+        <procedure id="opensenario">
+            <step>
+                <p>Open source/scenarios.xfl by double-clicking in the Project Panel.</p>
+            </step>
+            <step>
+                <p>Click on the Visual Editor at the bottom center.</p>
+                <img src="VisualEditor.png" alt="Visual"/>
+            </step>
+            <step>
+                <p>Click on the IEEE14 scenario.</p>
+                <img src="Scenarios.png" alt="Scenarios"/>
+            </step>
+        </procedure>
+    </chapter>
+</topic>

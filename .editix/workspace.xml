@@ -443,4 +443,35 @@
 <param name="encoding" value="AUTOMATIC"/>
 </file>
 <file open="false" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\imports\dynamics\PssIEEE2B.xsl" type="XSLT"/>
+<file open="true" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\source\CIMtoMO4.xsl" type="XSLT">
+<param name="xslt.data.file" value="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\bus-14\ieee14_EQ.xml"/>
+<param name="xslt.xslt.file" value="C:\Users\glen\IdeaProjects\XSLTConferencePaper\source\CIMtoMO4.xsl"/>
+<param name="xslt.fop" value="false"/>
+<param name="xslt.param.name.7" value="filename"/>
+<param name="xslt.displayFile" value="false"/>
+<param name="xslt.result.file" value="C:\Users\glen\IdeaProjects\XSLTConferencePaper\output\IEEE14.mo"/>
+<param name="xslt.param.value.0" value="60.0"/>
+<param name="xslt.ok" value="true"/>
+<param name="xslt.param.name.1" value="bus"/>
+<param name="xslt.param.value.6" value="100.0"/>
+<param name="xslt.param.name.2" value="resistance"/>
+<param name="xslt.param.value.5" value="1.1"/>
+<param name="xslt.param.value.7" value="../examples/bus-14/ieee14"/>
+<param name="xslt.param.name.0" value="frequency"/>
+<param name="xslt.param.value.2" value="0.0"/>
+<param name="xslt.param.name.5" value="time2"/>
+<param name="xslt.openFile" value="false"/>
+<param name="xslt.param.value.1" value="BUS5"/>
+<param name="xslt.param.name.6" value="base"/>
+<param name="xslt.param.name.3" value="reactance"/>
+<param name="xslt.param.value.4" value="1.0"/>
+<param name="xslt.param.value.3" value="0.1"/>
+<param name="xslt.param.name.4" value="time"/>
+</file>
+<file path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\source"/>
+<file open="true" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\Writerside" type="XML"/>
+<file open="false" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\Writerside\writerside.cfg" type="">
+<param name="lastView" value="Source"/>
+</file>
+<file open="true" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\source\scenarios.xfl" type="XSC"/>
 </root>

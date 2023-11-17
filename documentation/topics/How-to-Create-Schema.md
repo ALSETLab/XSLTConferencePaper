@@ -2,12 +2,6 @@
 
 Create a XML schema to determine the types of components within a particular model.
 
-> **Highlight important information**
->
-> You can change the element to *tip* or *warning* by renaming the style attribute below.
->
-{style="note"}
-
 ## Before you start
 
 It is good practice to list the prerequisites that are required or recommended.
