@@ -1,5 +1,5 @@
 # Tutorial for Using EditiX to Analyze and Translate CGMES XML
-CGMES XML translation to OpenIPSL using XSLT is beneficial because it allows extended dynamic analysis of power systems. Many models are created and maintained in PSS®E which doesn't provide multi-domain modeling like OpenIPSL. This tool allows you to learn how to translate. Please see the [Documentation](https://github.com/ALSETLab/XSLTConferencePaper).
+CGMES XML translation to OpenIPSL using XSLT is beneficial because it allows extended dynamic analysis of power systems. Many models are created and maintained in PSS®E which doesn't provide multi-domain modeling like OpenIPSL. This tool allows you to learn how to translate. Please see the [Documentation](https://alsetlab.github.io/XSLTConferencePaper/tutorials.html).
 
 [Editix](https://www.editix.com/) is an interactive development environment for XML/XSLT.
 

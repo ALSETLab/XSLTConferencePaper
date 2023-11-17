@@ -40,7 +40,7 @@
 		</xsl:choose>
 	</xsl:function>
 	<xsl:function name="gkh:powerBase" as="xs:double">
-		<xsl:value-of select="$base * 10*e6"/>
+		<xsl:value-of select="$base * 1000000"/>
 	</xsl:function>
 	<xsl:function name="gkh:baseImpedance" as="xs:double?">
 		<xsl:param name="basePower" as="xs:double?"/>

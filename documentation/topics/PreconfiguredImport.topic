@@ -8,17 +8,28 @@
     <p>Scenarios combine paths and parameters as a table entry to simplify translations for multiple files.</p>
     <chapter title="Scenarios" id="scenarios">
         <p>The file 'scenarios.xfl' is in the 'source' folder. Open and run a single table entry.</p>
-        <procedure id="opensenario">
+        <procedure id="openscenario">
             <step>
-                <p>Open source/scenarios.xfl by double-clicking in the Project Panel.</p>
+                <p>Open ../source/scenarios.xfl by double-clicking in the Project Panel.</p>
+            </step>
+            <step>
+                <p>The Source Editor is an XML view of the scenarios. You can copy a single node to create a starting point for a new scenario. This starts at tag &lt;task&gt; and ends at tag &lt;/task&gt;.</p>
+                <img src="Scenarios-Source.png" alt="ScenariosSource"/>
             </step>
             <step>
                 <p>Click on the Visual Editor at the bottom center.</p>
-                <img src="VisualEditor.png" alt="Visual"/>
+                <p>Click on the IEEE14 scenario. You can see the paths and other configuration settings.</p>
+                <img src="Scenarios.png" alt="Scenarios"/>
             </step>
             <step>
-                <p>Click on the IEEE14 scenario.</p>
-                <img src="Scenarios.png" alt="Scenarios"/>
+                <p>Click on the Parameters '...'. This will open parameter dialog that is identical to the single-file translation parameters.</p>
+                <img src="Scenario-parameters.png" alt="Scenario Parameters"/>
+            </step>
+            <step>
+                <p>While you have Order 1 (IEEE14) selected, click on the top right.</p>
+                <img src="Scenario-Run.png" alt="Run Scenario"/>
+                <p>Provided there aren't any errors, an updated output file is stored in the Target path. The Task Log will provide feedback with a single asterisk (*) for warnings and double-asterisk (**) for errors that must be corrected.</p>
+                <img src="ScenarioSuccess.png" alt="Scenario Success" />
             </step>
         </procedure>
     </chapter>
