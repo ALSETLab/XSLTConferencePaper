@@ -6,7 +6,7 @@
 	<xsl:output method="text" indent="no"/>
 	<xsl:template match="cim:ACLineSegment">
 		<xsl:variable name="baseVoltage" select="gkh:baseVoltage(cim:ConductingEquipment.BaseVoltage/substring(@rdf:resource,2))"/>
-		<xsl:variable name="baseImpedance" select="gkh:baseImpedance(gkh:powerBase,$baseVoltage)"/>
+		<xsl:variable name="baseImpedance" select="gkh:baseImpedance(0,$baseVoltage)"/>
 		<xsl:text>OpenIPSL.Electrical.Branches.PwLine </xsl:text>
 		<xsl:value-of select="gkh:compliantName(concat('L',cim:IdentifiedObject.name))"/>
 		<xsl:text>(R=</xsl:text>

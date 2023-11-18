@@ -14,7 +14,7 @@
 
 	<xsl:output method="text" indent="no"/>
 	
-	<xsl:key match="cim:ExcAC1A/cim:ExcitationSystemDynamics.SynchronousMachineDynamics" name="AC1A-Index" use="substring(rdf:resource,2)"/>
+	<xsl:key match="cim:ExcAC1A/cim:ExcitationSystemDynamics.SynchronousMachineDynamics" name="AC1A-Index" use="substring(@rdf:resource,2)"/>
 	
 	<xsl:template match="cim:ExcAC1A/cim:ExcitationSystemDynamics.SynchronousMachineDynamics"><!-- EXAC1 -->
 		<xsl:value-of select="../cim:IdentifiedObject.name"/>

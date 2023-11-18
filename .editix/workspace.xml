@@ -345,7 +345,9 @@
 <param name="lastView" value="Source"/>
 </file>
 <file open="true" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\bus-23\CIM\23bus_TP.xml" type="XML"/>
-<file open="false" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\bus-23\CIM\23bus_DY.xml" type="XML"/>
+<file open="false" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\bus-23\CIM\23bus_DY.xml" type="XML">
+<param name="lastView" value="Source"/>
+</file>
 <file open="true" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\bus-23.mo" type="">
 <param name="lastView" value="Source"/>
 </file>
@@ -359,12 +361,12 @@
 <file open="false" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\bus-14\ieee14_EQ.xml" type="XML">
 <param name="lastView" value="Source"/>
 </file>
-<file open="true" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\nordic-44\CIM_new\N44_BC_EQ.xml" type="XML">
+<file open="false" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\nordic-44\CIM_new\N44_BC_EQ.xml" type="XML">
 <param name="lastView" value="Source"/>
 </file>
 <file path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\nordic-44\CIM_new"/>
 <file path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\nordic-44"/>
-<file open="true" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\nordic-44\CIM_new\N44_BC_SV.xml" type="XML">
+<file open="false" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\nordic-44\CIM_new\N44_BC_SV.xml" type="XML">
 <param name="lastView" value="Source"/>
 </file>
 <file open="false" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\bus-23\23bus.raw" type="">
@@ -473,5 +475,70 @@
 <file open="false" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\Writerside\writerside.cfg" type="">
 <param name="lastView" value="Source"/>
 </file>
-<file open="true" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\source\scenarios.xfl" type="XSC"/>
+<file open="true" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\source\scenarios.xfl" type="XSC">
+<param name="lastView" value="Source"/>
+<param name="com.japisoft.editix.action.xml.DisabledEnabledCompletionAction" value="false"/>
+</file>
+<file open="false" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\output\ieee14.mo" type="">
+<param name="lastView" value="Source"/>
+</file>
+<file path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\output"/>
+<file open="false" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\output\nordic-44.mo" type="">
+<param name="lastView" value="Source"/>
+</file>
+<file open="false" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\.editix\workspace.xml">
+<param name="encoding" value="AUTOMATIC"/>
+<param name="lastView" value="Source"/>
+</file>
+<file open="false" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\source\imports\dynamics\ExcUserDefined.xsl" type="XSLT"/>
+<file path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\source\imports\dynamics"/>
+<file path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\source\imports"/>
+<file path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\source\imports\dynamics\ProprietaryParameterDynamics.xsl"/>
+<file open="false" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\source\imports\dynamics\PPDStabilizer.xsl">
+<param name="encoding" value="AUTOMATIC"/>
+</file>
+<file open="false" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\output\gencls.mo" type="">
+<param name="lastView" value="Source"/>
+</file>
+<file open="false" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\smib\Machines\GENCLS\CIM\smib_gencls_EQ.xml" type="XML">
+<param name="lastView" value="Source"/>
+</file>
+<file path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\smib\Machines\GENCLS\CIM"/>
+<file path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\smib\Machines\GENCLS"/>
+<file path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\smib\Machines"/>
+<file path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\smib"/>
+<file open="false" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\smib\Machines\GENCLS\CIM\smib_gencls_DY.xml" type="XML">
+<param name="lastView" value="Source"/>
+</file>
+<file open="false" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\output\ieeet1.mo" type="">
+<param name="lastView" value="Source"/>
+</file>
+<file open="false" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\output\brazil-7bus.mo" type="">
+<param name="lastView" value="Source"/>
+</file>
+<file open="false" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\brazil-7bus\CIM\Brazilian_7_bus_Equiv_Model_EQ.xml" type="XML">
+<param name="lastView" value="Source"/>
+</file>
+<file path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\brazil-7bus\CIM"/>
+<file path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\brazil-7bus"/>
+<file open="false" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\output\csvgn1.mo" type="">
+<param name="lastView" value="Source"/>
+</file>
+<file open="false" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\smib\Machines\CSVGN1\CIM\smib_csvgn1_DY.xml" type="XML">
+<param name="lastView" value="Source"/>
+</file>
+<file path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\smib\Machines\CSVGN1\CIM"/>
+<file path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\smib\Machines\CSVGN1"/>
+<file open="false" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\smib\Machines\CSVGN1\CIM\smib_csvgn1_EQ.xml" type="XML">
+<param name="lastView" value="Source"/>
+</file>
+<file open="false" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\smib\Machines\CSVGN1\smib_csvgn1_package.mo" type="">
+<param name="lastView" value="Source"/>
+</file>
+<file path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\output\bus23_package.mo"/>
+<file open="false" path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\output\bus-23.mo" type="">
+<param name="lastView" value="Source"/>
+</file>
+<file path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\output\icelandic-sys.mo"/>
+<file path="C:\Users\glen\IdeaProjects\XSLTConferencePaper\output\ieee14-Rev4.txt"/>
 </root>

@@ -14,10 +14,11 @@
 
 	<xsl:output method="text" indent="no"/>
 	
-	<xsl:key match="cim:ExcSCRX/cim:ExcitationSystemDynamics.SynchronousMachineDynamics" name="SCRX-Index" use="substring(rdf:resource,2)"/>
+	<xsl:key match="cim:ExcSCRX/cim:ExcitationSystemDynamics.SynchronousMachineDynamics" name="SCRX-Index" use="substring(@rdf:resource,2)"/>
 	
 	<xsl:template match="cim:ExcSCRX/cim:ExcitationSystemDynamics.SynchronousMachineDynamics">
-		<xsl:text>OpenIPSL.Electrical.Controls.PSSE.ES.SCRX exciter(T_AT_B = </xsl:text>
+		<xsl:value-of select="../cim:IdentifiedObject.name"/>
+		<xsl:text> exciter(T_AT_B = </xsl:text>
 		<xsl:value-of select="format-number(../cim:ExcSCRX.tatb,'0.00000#')"/>
 		<xsl:text>,T_B = </xsl:text>
 		<xsl:value-of select="format-number(../cim:ExcSCRX.tb,'0.00000#')"/>
@@ -28,10 +29,12 @@
 		<xsl:text>,E_MIN = </xsl:text>
 		<xsl:value-of select="format-number(../cim:ExcSCRX.emin,'0.00000#')"/>
 		<xsl:text>,E_MAX = </xsl:text>
-		<xsl:value-of select="format-number(../cim:ExcSCRX.cswitch,'0.00000#')"/>
+		<xsl:value-of select="format-number(../cim:ExcSCRX.emax,'0.00000#')"/>
 		<xsl:text>,C_SWITCH = </xsl:text>
-		<xsl:value-of select="../cim:DynamicsFunctionBlock.enabled"/>
-		<xsl:text>,r_cr_fd = 0.00000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));</xsl:text>
+		<xsl:value-of select="../cim:ExcSCRX.cswitch"/>
+		<xsl:text>,r_cr_fd = </xsl:text>
+		<xsl:value-of select="../cim:ExcSCRX.rcrfd"/>
+		<xsl:text>) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));</xsl:text>
 	</xsl:template>
 
 </xsl:stylesheet>

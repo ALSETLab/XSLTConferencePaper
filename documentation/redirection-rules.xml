@@ -10,4 +10,16 @@
         <description>Created after removal of "About Tutorial" from Tutorial</description>
         <accepts>starter-topic.html</accepts>
     </rule>
+    <rule id="43266199">
+        <description>Created after removal of "XML Analysis" from Tutorial</description>
+        <accepts>XML-Analysis.html</accepts>
+    </rule>
+    <rule id="5ada88d">
+        <description>Created after removal of "Analysis" from Tutorial</description>
+        <accepts>Analysis.html</accepts>
+    </rule>
+    <rule id="375113e8">
+        <description>Created after removal of "How to Create Schema" from Tutorial</description>
+        <accepts>How-to-Create-Schema.html</accepts>
+    </rule>
 </rules>

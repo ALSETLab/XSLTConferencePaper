@@ -9,10 +9,7 @@
     <toc-element topic="Tutorials.md">
         <toc-element topic="Overview.md"/>
         <toc-element topic="How-to-perform-Basic-Translation.topic"/>
+        <toc-element topic="Open-Output-in-Wolfram-System-Modeler.md"/>
         <toc-element topic="PreconfiguredImport.topic"/>
-        <toc-element topic="How-to-Create-Schema.md"/>
-    </toc-element>
-    <toc-element topic="Analysis.md">
-        <toc-element topic="Relationships.topic"/>
     </toc-element>
 </instance-profile>

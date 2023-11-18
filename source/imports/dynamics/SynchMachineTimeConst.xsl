@@ -19,10 +19,11 @@
 	<xsl:include href="ExcUserDefined.xsl"/>
 	<xsl:include href="PssIEEE2B.xsl"/>
 	<xsl:include href="PSSUserDefined.xsl"/>
-	<xsl:include href="ProprietaryParameterDynamics.xsl"/>
+	<xsl:include href="PPDExcitation.xsl"/>
+	<xsl:include href="PPDStabilizer.xsl"/>
 	<xsl:template match="cim:SynchronousMachineTimeConstantReactance">
 		<xsl:param name="MainName"/>
-		<xsl:variable name="M_b" select="gkh:powerBase"/><!-- Exciters -->
+		<xsl:variable name="M_b" select="gkh:powerBase()"/><!-- Exciters -->
 		<xsl:variable name="GenType">
 			<xsl:if test="cim:SynchronousMachineTimeConstantReactance.rotorType/@rdf:resource='http://iec.ch/TC57/2013/CIM-schema-cim16#RotorKind.roundRotor'">
 				<xsl:value-of select="cim:IdentifiedObject.name"/>
@@ -72,7 +73,7 @@ OpenIPSL.Electrical.Machines.PSSE.</xsl:text>
 		<xsl:value-of select="gkh:defaultNumbers(cim:SynchronousMachineTimeConstantReactance.statorResistance,0.000000000)"/>
 		<xsl:text>, M_b = </xsl:text><xsl:value-of select="$M_b * 1000000"/>
 
-		<xsl:text>, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+<xsl:text>, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 </xsl:text>
 		<xsl:choose>
 			<xsl:when test="key('TGOV1-Index',@rdf:ID)">
@@ -92,7 +93,7 @@ OpenIPSL.Electrical.Machines.PSSE.</xsl:text>
 OpenIPSL.Electrical.Controls.PSSE.TG.ConstantPower governor annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));</xsl:text>
 			</xsl:otherwise>
 		</xsl:choose>
-		<xsl:text>
+<xsl:text>
 OpenIPSL.Electrical.Controls.PSSE.ES.</xsl:text>
 		<xsl:choose>
 			<xsl:when test="key('SCRX-Index',@rdf:ID)">
@@ -123,32 +124,31 @@ OpenIPSL.Electrical.Controls.PSSE.ES.</xsl:text>
 				<xsl:apply-templates select="key('IEEEDC1A-Index',@rdf:ID)"/>
 			</xsl:when>
 			<xsl:otherwise>
-				<xsl:text>  
-// No exciter
+<xsl:text>ConstantExcitation exciter; // No exciter
 </xsl:text>
 			</xsl:otherwise>
 		</xsl:choose>
+<xsl:text>OpenIPSL.Electrical.Controls.PSSE.PSS.</xsl:text>
 		<xsl:choose>
-			<xsl:when test="key('PSS2B-Index',key('IEEEAC2A-Index',@rdf:ID)/../@rdf:ID)">
-				<xsl:apply-templates select="key('PSS2B-Index',key('IEEEAC2A-Index',@rdf:ID)/../@rdf:ID)"/>
+			<xsl:when test="key('PSSUser-Index',key('IEEEAC2A-Index',@rdf:ID)/../@rdf:ID)">
+				<xsl:apply-templates select="key('PSSUser-Index',key('IEEEAC2A-Index',@rdf:ID)/../@rdf:ID)"/>
 			</xsl:when>
 			<xsl:when test="key('PSS2B-Index',key('IEEEAC2A-Index',@rdf:ID)/../@rdf:ID)">
 				<xsl:apply-templates select="key('PSSUser-Index',key('IEEEAC2A-Index',@rdf:ID)/../@rdf:ID)">
 					<xsl:sort data-type="number" order="ascending" select="../cim:ProprietaryParameterDynamics.parameterNumber"/>
 				</xsl:apply-templates>
 			</xsl:when>
-			<xsl:when test="key('PSSUser-Index',key('PSS2B-Index',@rdf:ID)/../@rdf:ID)">
-				<xsl:apply-templates select="key('PSS2B-Index',key('IEEEAC2A-Index',@rdf:ID)/../@rdf:ID)">
+			<xsl:when test="key('PSS2B-Index',key('ExcUser-Index',@rdf:ID)/../@rdf:ID)">
+				<xsl:apply-templates select="key('PSS2B-Index',key('ExcUser-Index',@rdf:ID)/../@rdf:ID)">
 					<xsl:sort data-type="number" order="ascending" select="../cim:ProprietaryParameterDynamics.parameterNumber"/>
 				</xsl:apply-templates>
 			</xsl:when>
 			<xsl:otherwise>
-<xsl:text>  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+<xsl:text>DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
 </xsl:text>
 			</xsl:otherwise>
 		</xsl:choose>
-		<xsl:text>  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+<xsl:text>Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -164,6 +164,18 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-</xsl:text>
+      </xsl:text>
 	</xsl:template>
 </xsl:stylesheet>
+<!--  connect(machine.p, p);
+  connect(stabilizer.VOTHSG, exciter.VOTHSG);
+  connect(machine.XADIFD, exciter.XADIFD);
+  connect(machine.EFD0, exciter.EFD0);
+  connect(machine.ETERM, exciter.ECOMP);
+  connect(exciter.EFD, machine.EFD);
+  connect(zero.y, exciter.VUEL);
+  connect(zero.y, exciter.VOEL);
+  connect(governor.PMECH, machine.PMECH);
+  connect(machine.SPEED, governor.SPEED);
+  connect(machine.PMECH0, governor.PMECH0);
+  connect(machine.PELEC, stabilizer.PELEC);-->

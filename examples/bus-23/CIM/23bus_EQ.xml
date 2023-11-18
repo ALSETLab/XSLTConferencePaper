@@ -6,7 +6,7 @@
     <pti:Model.createdBy>Siemens PTI PSS®ODMS</pti:Model.createdBy>
     <md:Model.version>0</md:Model.version>
     <md:Model.description />
-    <md:Model.modelingAuthoritySet>http://www.23bus.com/23bus</md:Model.modelingAuthoritySet>
+    <md:Model.modelingAuthoritySet>http://www.23bus.com/Bus23</md:Model.modelingAuthoritySet>
     <md:Model.profile>http://entsoe.eu/CIM/EquipmentCore/3/1</md:Model.profile>
     <md:Model.profile>http://entsoe.eu/CIM/EquipmentOperation/3/1</md:Model.profile>
     <md:Model.profile>http://www.pti-us.com/PTIExtensions/1</md:Model.profile>
@@ -631,11 +631,11 @@
   </cim:ConnectivityNode>
   <cim:ConnectivityNode rdf:ID="_3dce94c6-220b-11eb-a653-74e5f963e191">
     <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_3dce94ca-220b-11eb-a653-74e5f963e191" />
-    <cim:IdentifiedObject.name>WEST        </cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.name>WEST1       </cim:IdentifiedObject.name>
   </cim:ConnectivityNode>
   <cim:ConnectivityNode rdf:ID="_3dce94d4-220b-11eb-a653-74e5f963e191">
     <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_3dce94d8-220b-11eb-a653-74e5f963e191" />
-    <cim:IdentifiedObject.name>WEST        </cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.name>WEST2       </cim:IdentifiedObject.name>
   </cim:ConnectivityNode>
   <cim:ConnectivityNode rdf:ID="_3dce94e2-220b-11eb-a653-74e5f963e191">
     <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_3dce94e6-220b-11eb-a653-74e5f963e191" />

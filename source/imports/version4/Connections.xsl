@@ -7,6 +7,7 @@
 	<xsl:key name="Bus-Index" match="cim:BusbarSection" use="@rdf:ID"/>
 	<xsl:key name="Sync-Index" match="cim:SynchronousMachine" use="@rdf:ID"/>
 	<xsl:key name="CLoad-Index" match="cim:ConformLoad" use="@rdf:ID"/>
+	<xsl:key name="NCLoad-Index" match="cim:NonConformLoad" use="@rdf:ID"/>
 	<xsl:key name="Shunt-Index" match="cim:LinearShuntCompensator" use="@rdf:ID"/>
 	<xsl:key name="Line-Index" match="cim:ACLineSegment" use="@rdf:ID"/>
 	<xsl:key name="BusConn-Index" match="cim:ConnectivityNode" use="@rdf:ID"/>
@@ -15,7 +16,7 @@
 	<xsl:template match="cim:Terminal">
 		<xsl:if test="not(key('Bus-Index',cim:Terminal.ConductingEquipment/substring(@rdf:resource,2)))">
 			<xsl:text>connect(</xsl:text>
-			<xsl:value-of select="key('BusConn-Index',cim:Terminal.ConnectivityNode/substring(@rdf:resource,2))/normalize-space(cim:IdentifiedObject.name)"/>
+			<xsl:value-of select="gkh:compliantName(key('BusConn-Index',cim:Terminal.ConnectivityNode/substring(@rdf:resource,2))/normalize-space(cim:IdentifiedObject.name))"/>
 			<xsl:text>.p, </xsl:text>
 			<xsl:if test="key('Sync-Index',cim:Terminal.ConductingEquipment/substring(@rdf:resource,2))">
 				<xsl:text>gen</xsl:text>
@@ -26,8 +27,12 @@
 				<xsl:value-of select="gkh:compliantName(concat('CL',key('CLoad-Index',cim:Terminal.ConductingEquipment/substring(@rdf:resource,2))/cim:IdentifiedObject.name))"/>
 				<xsl:text>.p</xsl:text>
 			</xsl:if>
+			<xsl:if test="key('NCLoad-Index',cim:Terminal.ConductingEquipment/substring(@rdf:resource,2))">
+				<xsl:value-of select="gkh:compliantName(concat('NCL',key('NCLoad-Index',cim:Terminal.ConductingEquipment/substring(@rdf:resource,2))/cim:IdentifiedObject.name))"/>
+				<xsl:text>.p</xsl:text>
+			</xsl:if>
 			<xsl:if test="key('Shunt-Index',cim:Terminal.ConductingEquipment/substring(@rdf:resource,2))">
-				<xsl:value-of select="gkh:compliantName(concat('SH',key('Shunt-Index',cim:Terminal.ConductingEquipment/substring(@rdf:resource,2))/cim:IdentifiedObject.name))"/>
+				<xsl:value-of select="gkh:compliantName(concat('SH',key('Shunt-Index',cim:Terminal.ConductingEquipment/substring(@rdf:resource,2))/cim:IdentifiedObject.name,key('Shunt-Index',cim:Terminal.ConductingEquipment/substring(@rdf:resource,2))/substring(@rdf:ID,6,4)))"/>
 				<xsl:text>.p</xsl:text>
 			</xsl:if>
 			<xsl:if test="key('Line-Index',cim:Terminal.ConductingEquipment/substring(@rdf:resource,2))">

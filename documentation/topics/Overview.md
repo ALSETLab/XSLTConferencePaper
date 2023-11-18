@@ -25,17 +25,17 @@ The IDE EditiX has all of the tools necessary to write and maintain XSLT. It can
 ## Main Structure
 The structure is conveyed by looking at the Project, a folder containing allow of the files. Open the [project](https://www.editix.com/doc/manual21/index.html#mozTocId804917) by selecting the GitHub project's top folder. The following tables shows the key files:
 
-| File                    | Description                                                                                                                                     |
-|-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
-| .git, .idea, Writerside | Support folders for Github, IntelliJ, and Writerside                                                                                            |
-| examples                | PSS®E ODMS output as CGMES XML input for XSLT. Folder for each example.                                                                         |
-| imports                 | XSL translation files corresponding to OpenIPSL outputs.                                                                                        |
-| imports-dynamics        | Dynamic model translations.                                                                                                                     |
-| imports-powerflow       | Core equipment model translations.                                                                                                              |
-| imports-version4        | Translations that separates voltage/angle from the model. This allows less redundancy.                                                          |
-| scenarios.xfl           | [Packaged](https://www.editix.com/doc/manual21/index.html#xmlscenario) translation examples including input files, parameters and output files. |
-| CIMtoMO3.xsl            | Main translation file that separates the voltage/angles from the core OpenIPSL file.                                                            |
-| CIMtoMO4.xsl            | Main translation file for standard translation.                                                                                                 |
+| File                       | Description                                                                                                                                     |
+|----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+| .git, .idea, documentation | Support folders for Github, IntelliJ, and Writerside documentation                                                                              |
+| examples                   | PSS®E ODMS output as CGMES XML input for XSLT. Folder for each example.                                                                         |
+| imports                    | XSL translation files corresponding to OpenIPSL outputs.                                                                                        |
+| source/imports/dynamics    | Dynamic model translations.                                                                                                                     |
+| source/imports/powerflow   | Core equipment model translations.                                                                                                              |
+| source/imports/version4    | Translations that separates voltage/angle from the model. This allows less redundancy.                                                          |
+| source/scenarios.xfl       | [Packaged](https://www.editix.com/doc/manual21/index.html#xmlscenario) translation examples including input files, parameters and output files. |
+| source/CIMtoMO3.xsl        | Just an example of how-to separate voltage/angles from the core OpenIPSL file.                                                                  |
+| source/CIMtoMO4.xsl        | Main translation file for standard translation.                                                                                                 |
 
 
 The examples folder contains other folders each with a single XML data set. The set includes text files .dyr and .raw that can be opened in PSS®E that will show the original model. Then, there are the XML files that each contain particular parts of the model based on CGMES. They are identified by their extension: EQ is the core power flow model equipment, SV is the steady state model values, TP is the node-breaker topology, DY is the dynamic model, and SSH is the steady-state hypothesis model that is not used.

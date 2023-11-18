@@ -277,11 +277,11 @@
   </cim:ConnectivityNode>
   <cim:ConnectivityNode rdf:ID="_2916552d-e0f5-11eb-a668-74e5f963e191">
     <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_29165531-e0f5-11eb-a668-74e5f963e191" />
-    <cim:IdentifiedObject.name>IVAIPORA    </cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.name>IVAIPORA1   </cim:IdentifiedObject.name>
   </cim:ConnectivityNode>
   <cim:ConnectivityNode rdf:ID="_2916553c-e0f5-11eb-a668-74e5f963e191">
     <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_29165540-e0f5-11eb-a668-74e5f963e191" />
-    <cim:IdentifiedObject.name>IVAIPORA    </cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.name>IVAIPORA2   </cim:IdentifiedObject.name>
   </cim:ConnectivityNode>
   <cim:ConnectivityNode rdf:ID="_2916554b-e0f5-11eb-a668-74e5f963e191">
     <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_2916554f-e0f5-11eb-a668-74e5f963e191" />

@@ -24,7 +24,7 @@
 		<xsl:variable name="sName" select="gkh:compliantName(concat('gen',$gName))"/>
 		<xsl:variable name="svVolt" select="gkh:CNVoltTree(gkh:CNfromCE(@rdf:ID))"/>
 		<xsl:variable name="svLoad" select="gkh:TMLoadTree(gkh:TMfromCE(@rdf:ID))"/>
-		<xsl:variable name="baseVoltage" select="10000"/><!--
+		<xsl:variable name="baseVoltage" select="gkh:baseVoltage(key('VoltLevel-Index',cim:Equipment.EquipmentContainer/substring(@rdf:resource,2))/cim:VoltageLevel.BaseVoltage/substring(@rdf:resource,2))"/><!--
 gkh:EqBaseVoltage(@rdf:ID)-->
 		<xsl:text>
 </xsl:text><xsl:value-of select="$SystemName"/><xsl:text>_package.Generators.</xsl:text><xsl:value-of select="$fName"/><xsl:text> </xsl:text><xsl:value-of select="$sName"/>

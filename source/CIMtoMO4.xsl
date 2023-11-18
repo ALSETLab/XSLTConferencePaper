@@ -42,9 +42,9 @@
 	<xsl:function name="gkh:powerBase" as="xs:double">
 		<xsl:value-of select="$base * 1000000"/>
 	</xsl:function>
-	<xsl:function name="gkh:baseImpedance" as="xs:double?">
-		<xsl:param name="basePower" as="xs:double?"/>
-		<xsl:param name="voltage" as="xs:double?"/>
+	<xsl:function name="gkh:baseImpedance" as="xs:double">
+		<xsl:param name="basePower" as="xs:double"/>
+		<xsl:param name="voltage" as="xs:double"/>
 		<xsl:value-of select="$voltage * $voltage div gkh:defaultNumbers($basePower,$base)"/>
 	</xsl:function>
 	<xsl:function as="xs:double" name="gkh:defaultNumbers">

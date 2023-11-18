@@ -9,11 +9,11 @@
 		<xsl:text>OpenIPSL.Electrical.Branches.PSSE.TwoWindingTransformer </xsl:text>
 		<xsl:value-of select="gkh:compliantName(concat('T',cim:IdentifiedObject.description))"/>
 		<xsl:text>(CZ=</xsl:text>
-		<xsl:value-of select="pti:PowerTransformer.cz"/>
+		<xsl:value-of select="gkh:defaultNumbers(pti:PowerTransformer.cz,1)"/>
 		<xsl:text>,CW=</xsl:text>
-		<xsl:value-of select="pti:PowerTransformer.cw"/>
+		<xsl:value-of select="gkh:defaultNumbers(pti:PowerTransformer.cw,1)"/>
 		<xsl:apply-templates select="key('End-Index',@rdf:ID)/..">
-			<xsl:sort select="cim:TransformerEnd.endNumber"/>
+			<xsl:sort select="../cim:TransformerEnd.endNumber"/>
 		</xsl:apply-templates>
 <xsl:text>);
 </xsl:text>

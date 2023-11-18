@@ -118,28 +118,28 @@ OpenIPSL.Electrical.Branches.PwLine L8500_8700_1(R=0.000000000, X=0.0010000000,G
 OpenIPSL.Electrical.Branches.PwLine L5600_5601_1(R=0.003000000, X=0.0340000000,G=0.0000000000, B =0.0999999900);
 
 // -- Transformers:
-OpenIPSL.Electrical.Branches.PSSE.TwoWindingTransformer T3244_3245_0__1__(CZ=,CW=,R=0.005000000, X = 0.020000000, G = 0.000000000, B = 0.000000000,t1 = 1.000000000,t2 = 1.00000000);
-OpenIPSL.Electrical.Branches.PSSE.TwoWindingTransformer T3701_3249_0__1__(CZ=,CW=,R=0.020000000, X = 0.500000000, G = 0.000000000, B = 0.000000000,t1 = 1.000000000,t2 = 1.00000000);
-OpenIPSL.Electrical.Branches.PSSE.TwoWindingTransformer T3359_3360_0__1__(CZ=,CW=,R=0.005000000, X = 0.020000000, G = 0.000000000, B = 0.000000000,t1 = 1.000000000,t2 = 1.00000000);
-OpenIPSL.Electrical.Branches.PSSE.TwoWindingTransformer T5101_5100_0__1__(CZ=,CW=,R=0.000800000, X = 0.030500000, G = 0.000000000, B = 0.000000000,t1 = 1.005952381,t2 = 1.00000000);
-OpenIPSL.Electrical.Branches.PSSE.TwoWindingTransformer T5300_5301_0__1__(CZ=,CW=,R=0.001600000, X = 0.0609977324, G = 0.000000000, B = 0.000000000,t1 = 1.000000000,t2 = 1.00000000);
-OpenIPSL.Electrical.Branches.PSSE.TwoWindingTransformer T5400_5401_0__1__(CZ=,CW=,R=0.003200000, X = 0.120000000, G = 0.000000000, B = 0.000000000,t1 = 1.000000000,t2 = 1.00000000);
-OpenIPSL.Electrical.Branches.PSSE.TwoWindingTransformer T5400_5402_0__1__(CZ=,CW=,R=0.000400000, X = 0.015000000, G = 0.000000000, B = 0.000000000,t1 = 1.000000000,t2 = 1.00000000);
-OpenIPSL.Electrical.Branches.PSSE.TwoWindingTransformer T5500_5501_0__1__(CZ=,CW=,R=0.000400000, X = 0.015000000, G = 0.000000000, B = 0.000000000,t1 = 1.000000000,t2 = 1.008333333);
-OpenIPSL.Electrical.Branches.PSSE.TwoWindingTransformer T5601_6001_0__1__(CZ=,CW=,R=0.000200000, X = 0.0075997732, G = 0.000000000, B = 0.000000000,t1 = 1.000000000,t2 = 1.00000000);
-OpenIPSL.Electrical.Branches.PSSE.TwoWindingTransformer T5603_5602_0__1__(CZ=,CW=,R=0.000800000, X = 0.030500000, G = 0.000000000, B = 0.000000000,t1 = 1.000000000,t2 = 1.00000000);
-OpenIPSL.Electrical.Branches.PSSE.TwoWindingTransformer T6000_6001_0__1__(CZ=,CW=,R=0.000400000, X = 0.015000000, G = 0.000000000, B = 0.000000000,t1 = 1.000000000,t2 = 1.00000000);
-OpenIPSL.Electrical.Branches.PSSE.TwoWindingTransformer T6700_6701_0__1__(CZ=,CW=,R=0.005000000, X = 0.020000000, G = 0.000000000, B = 0.000000000,t1 = 1.000000000,t2 = 1.008333333);
+OpenIPSL.Electrical.Branches.PSSE.TwoWindingTransformer T3244_3245_0__1__(CZ=1,CW=1,t2 = 1.00000000,R=0.005000000, X = 0.020000000, G = 0.000000000, B = 0.000000000,t1 = 1.000000000);
+OpenIPSL.Electrical.Branches.PSSE.TwoWindingTransformer T3701_3249_0__1__(CZ=1,CW=1,t2 = 1.00000000,R=0.020000000, X = 0.500000000, G = 0.000000000, B = 0.000000000,t1 = 1.000000000);
+OpenIPSL.Electrical.Branches.PSSE.TwoWindingTransformer T3359_3360_0__1__(CZ=1,CW=1,R=0.005000000, X = 0.020000000, G = 0.000000000, B = 0.000000000,t1 = 1.000000000,t2 = 1.00000000);
+OpenIPSL.Electrical.Branches.PSSE.TwoWindingTransformer T5101_5100_0__1__(CZ=1,CW=1,R=0.000800000, X = 0.030500000, G = 0.000000000, B = 0.000000000,t1 = 1.005952381,t2 = 1.00000000);
+OpenIPSL.Electrical.Branches.PSSE.TwoWindingTransformer T5300_5301_0__1__(CZ=1,CW=1,t2 = 1.00000000,R=0.001600000, X = 0.0609977324, G = 0.000000000, B = 0.000000000,t1 = 1.000000000);
+OpenIPSL.Electrical.Branches.PSSE.TwoWindingTransformer T5400_5401_0__1__(CZ=1,CW=1,t2 = 1.00000000,R=0.003200000, X = 0.120000000, G = 0.000000000, B = 0.000000000,t1 = 1.000000000);
+OpenIPSL.Electrical.Branches.PSSE.TwoWindingTransformer T5400_5402_0__1__(CZ=1,CW=1,t2 = 1.00000000,R=0.000400000, X = 0.015000000, G = 0.000000000, B = 0.000000000,t1 = 1.000000000);
+OpenIPSL.Electrical.Branches.PSSE.TwoWindingTransformer T5500_5501_0__1__(CZ=1,CW=1,t2 = 1.008333333,R=0.000400000, X = 0.015000000, G = 0.000000000, B = 0.000000000,t1 = 1.000000000);
+OpenIPSL.Electrical.Branches.PSSE.TwoWindingTransformer T5601_6001_0__1__(CZ=1,CW=1,t2 = 1.00000000,R=0.000200000, X = 0.0075997732, G = 0.000000000, B = 0.000000000,t1 = 1.000000000);
+OpenIPSL.Electrical.Branches.PSSE.TwoWindingTransformer T5603_5602_0__1__(CZ=1,CW=1,t2 = 1.00000000,R=0.000800000, X = 0.030500000, G = 0.000000000, B = 0.000000000,t1 = 1.000000000);
+OpenIPSL.Electrical.Branches.PSSE.TwoWindingTransformer T6000_6001_0__1__(CZ=1,CW=1,t2 = 1.00000000,R=0.000400000, X = 0.015000000, G = 0.000000000, B = 0.000000000,t1 = 1.000000000);
+OpenIPSL.Electrical.Branches.PSSE.TwoWindingTransformer T6700_6701_0__1__(CZ=1,CW=1,t2 = 1.008333333,R=0.005000000, X = 0.020000000, G = 0.000000000, B = 0.000000000,t1 = 1.000000000);
 
 // -- Linear Shunt Compensators:
-OpenIPSL.Electrical.Banks.PSSE.Shunt SH5101_5501_1(G = 0.0001264172,B = -0.0055238095);
-OpenIPSL.Electrical.Banks.PSSE.Shunt SH5101_5501_1(G = -0.0001224490,B = 0.0055238095);
-OpenIPSL.Electrical.Banks.PSSE.Shunt SH5102_6001_1(G = 0.0000011338,B = 0.0000005669);
-OpenIPSL.Electrical.Banks.PSSE.Shunt SH5102_6001_1(G = 0.0000011338,B = -0.0000005669);
-OpenIPSL.Electrical.Banks.PSSE.Shunt SH5401_6001_1(G = -0.0000011338,B = -0.0000028345);
-OpenIPSL.Electrical.Banks.PSSE.Shunt SH5401_6001_1(G = 0.0000011338,B = 0.0000028345);
-OpenIPSL.Electrical.Banks.PSSE.Shunt SH5500_5603_1(G = 0.0000033333,B = 0.0000144444);
-OpenIPSL.Electrical.Banks.PSSE.Shunt SH5500_5603_1(G = -0.0000033333,B = -0.0000144444);
+OpenIPSL.Electrical.Banks.PSSE.Shunt SH5101_5501_1d9ae(G = 0.2229999408,B = -9.7439999580);
+OpenIPSL.Electrical.Banks.PSSE.Shunt SH5101_5501_1d9b2(G = -0.2160000360,B = 9.7439999580);
+OpenIPSL.Electrical.Banks.PSSE.Shunt SH5102_6001_1d9da(G = 0.0020000232,B = 0.0010000116);
+OpenIPSL.Electrical.Banks.PSSE.Shunt SH5102_6001_1d9de(G = 0.0020000232,B = -0.0010000116);
+OpenIPSL.Electrical.Banks.PSSE.Shunt SH5401_6001_1da7e(G = -0.0020000232,B = -0.0050000580);
+OpenIPSL.Electrical.Banks.PSSE.Shunt SH5401_6001_1da82(G = 0.0020000232,B = 0.0050000580);
+OpenIPSL.Electrical.Banks.PSSE.Shunt SH5500_5603_1da9e(G = 0.0029999700,B = 0.0129999600);
+OpenIPSL.Electrical.Banks.PSSE.Shunt SH5500_5603_1daa2(G = -0.0029999700,B = -0.0129999600);
 
 // -- Conform Loads
 OpenIPSL.Electrical.Loads.PSSE.Load CL3000_1(P_0 = 2.93761E8 ,Q_0 = 9.9393E7,V_b = 420000 ,v_0 = 1.000000000 ,angle_0 = -0.0502671853, characteristic = 2);
@@ -197,86 +197,86 @@ OpenIPSL.Electrical.Loads.PSSE.Load NCL8700_1(P_0 = 0 ,Q_0 = 0 ,v_0 = 0.00428400
 
 // -- Synchronous Machines
 
-N44_BC_package.Generators.GEN3000_1 gen3000_1 (P_0 = 3.71233E8,Q_0 = 1.72777E8,V_b = 10000000,v_0 = 0.042000000,angle_0 = -0.0502671853);
-N44_BC_package.Generators.GEN3000_2 gen3000_2 (P_0 = 3.71233E8,Q_0 = 1.72777E8,V_b = 10000000,v_0 = 0.042000000,angle_0 = -0.0502671853);
-N44_BC_package.Generators.GEN3000_3 gen3000_3 (P_0 = 3.71233E8,Q_0 = 1.72777E8,V_b = 10000000,v_0 = 0.042000000,angle_0 = -0.0502671853);
-N44_BC_package.Generators.GEN3115_1 gen3115_1 (P_0 = 3.164E8,Q_0 = -6.5747E7,V_b = 10000000,v_0 = 0.042000000,angle_0 = 0.1146854883);
-N44_BC_package.Generators.GEN3115_2 gen3115_2 (P_0 = 3.164E8,Q_0 = -6.5747E7,V_b = 10000000,v_0 = 0.042000000,angle_0 = 0.1146854883);
-N44_BC_package.Generators.GEN3115_3 gen3115_3 (P_0 = 3.164E8,Q_0 = -6.5747E7,V_b = 10000000,v_0 = 0.042000000,angle_0 = 0.1146854883);
-N44_BC_package.Generators.GEN3115_4 gen3115_4 (P_0 = 3.164E8,Q_0 = -6.5747E7,V_b = 10000000,v_0 = 0.042000000,angle_0 = 0.1146854883);
-N44_BC_package.Generators.GEN3115_5 gen3115_5 (P_0 = 3.164E8,Q_0 = -6.5747E7,V_b = 10000000,v_0 = 0.042000000,angle_0 = 0.1146854883);
-N44_BC_package.Generators.GEN3245_1 gen3245_1 (P_0 = 2.0027E8,Q_0 = -2.4521E7,V_b = 10000000,v_0 = 0.042000000,angle_0 = -0.0739931711);
-N44_BC_package.Generators.GEN3249_1 gen3249_1 (P_0 = 4.39841E8,Q_0 = 7.17E6,V_b = 10000000,v_0 = 0.042000000,angle_0 = 0.1943701733);
-N44_BC_package.Generators.GEN3249_2 gen3249_2 (P_0 = 4.39841E8,Q_0 = 7.17E6,V_b = 10000000,v_0 = 0.042000000,angle_0 = 0.1943701733);
-N44_BC_package.Generators.GEN3249_3 gen3249_3 (P_0 = 4.39841E8,Q_0 = 7.17E6,V_b = 10000000,v_0 = 0.042000000,angle_0 = 0.1943701733);
-N44_BC_package.Generators.GEN3249_4 gen3249_4 (P_0 = 4.39841E8,Q_0 = 7.17E6,V_b = 10000000,v_0 = 0.042000000,angle_0 = 0.1943701733);
-N44_BC_package.Generators.GEN3249_5 gen3249_5 (P_0 = 4.39841E8,Q_0 = 7.17E6,V_b = 10000000,v_0 = 0.042000000,angle_0 = 0.1943701733);
-N44_BC_package.Generators.GEN3249_6 gen3249_6 (P_0 = 4.39841E8,Q_0 = 7.17E6,V_b = 10000000,v_0 = 0.042000000,angle_0 = 0.1943701733);
-N44_BC_package.Generators.GEN3249_7 gen3249_7 (P_0 = 4.39841E8,Q_0 = 7.17E6,V_b = 10000000,v_0 = 0.042000000,angle_0 = 0.1943701733);
-N44_BC_package.Generators.GEN3249_8 gen3249_8 (P_0 = 4.39841E8,Q_0 = 7.17E6,V_b = 10000000,v_0 = 0.042000000,angle_0 = 0.1943701733);
-N44_BC_package.Generators.GEN3300_1 gen3300_1 (P_0 = 7.04102E8,Q_0 = 2.9633E7,V_b = 10000000,v_0 = 0.042000000,angle_0 = 0.000000000);
-N44_BC_package.Generators.GEN3300_2 gen3300_2 (P_0 = 7.04102E8,Q_0 = 2.9633E7,V_b = 10000000,v_0 = 0.042000000,angle_0 = 0.000000000);
-N44_BC_package.Generators.GEN3300_3 gen3300_3 (P_0 = 7.04102E8,Q_0 = 2.9633E7,V_b = 10000000,v_0 = 0.042000000,angle_0 = 0.000000000);
-N44_BC_package.Generators.GEN3300_4 gen3300_4 (P_0 = 7.04102E8,Q_0 = 2.9633E7,V_b = 10000000,v_0 = 0.042000000,angle_0 = 0.000000000);
-N44_BC_package.Generators.GEN3300_5 gen3300_5 (P_0 = 7.04102E8,Q_0 = 2.9633E7,V_b = 10000000,v_0 = 0.042000000,angle_0 = 0.000000000);
-N44_BC_package.Generators.GEN3300_6 gen3300_6 (P_0 = 7.04102E8,Q_0 = 2.9633E7,V_b = 10000000,v_0 = 0.042000000,angle_0 = 0.000000000);
-N44_BC_package.Generators.GEN3359_1 gen3359_1 (P_0 = 6.98949E8,Q_0 = 2.69075E8,V_b = 10000000,v_0 = 0.042000000,angle_0 = -0.0127810353);
-N44_BC_package.Generators.GEN3359_2 gen3359_2 (P_0 = 6.98949E8,Q_0 = 2.69075E8,V_b = 10000000,v_0 = 0.042000000,angle_0 = -0.0127810353);
-N44_BC_package.Generators.GEN3359_3 gen3359_3 (P_0 = 6.98949E8,Q_0 = 2.69075E8,V_b = 10000000,v_0 = 0.042000000,angle_0 = -0.0127810353);
-N44_BC_package.Generators.GEN3359_4 gen3359_4 (P_0 = 6.98949E8,Q_0 = 2.69075E8,V_b = 10000000,v_0 = 0.042000000,angle_0 = -0.0127810353);
-N44_BC_package.Generators.GEN3359_5 gen3359_5 (P_0 = 6.98949E8,Q_0 = 2.69075E8,V_b = 10000000,v_0 = 0.042000000,angle_0 = -0.0127810353);
-N44_BC_package.Generators.GEN3359_6 gen3359_6 (P_0 = 6.98949E8,Q_0 = 2.69075E8,V_b = 10000000,v_0 = 0.042000000,angle_0 = -0.0127810353);
-N44_BC_package.Generators.GEN5100_1 gen5100_1 (P_0 = 3.51755E8,Q_0 = 4.35537E8,V_b = 10000000,v_0 = 0.030000000,angle_0 = 0.2009326057);
-N44_BC_package.Generators.GEN5100_2 gen5100_2 (P_0 = 3.51755E8,Q_0 = 4.35537E8,V_b = 10000000,v_0 = 0.030000000,angle_0 = 0.2009326057);
-N44_BC_package.Generators.GEN5300_1 gen5300_1 (P_0 = 7.23333E8,Q_0 = 2.03805E8,V_b = 10000000,v_0 = 0.030000000,angle_0 = 0.7645757396);
-N44_BC_package.Generators.GEN5300_2 gen5300_2 (P_0 = 7.23333E8,Q_0 = 2.03805E8,V_b = 10000000,v_0 = 0.030000000,angle_0 = 0.7645757396);
-N44_BC_package.Generators.GEN5300_3 gen5300_3 (P_0 = 7.23333E8,Q_0 = 2.03805E8,V_b = 10000000,v_0 = 0.030000000,angle_0 = 0.7645757396);
-N44_BC_package.Generators.GEN5300_4 gen5300_4 (P_0 = 7.23333E8,Q_0 = 2.03805E8,V_b = 10000000,v_0 = 0.030000000,angle_0 = 0.7645757396);
-N44_BC_package.Generators.GEN5300_5 gen5300_5 (P_0 = 7.23333E8,Q_0 = 2.03805E8,V_b = 10000000,v_0 = 0.030000000,angle_0 = 0.7645757396);
-N44_BC_package.Generators.GEN5300_6 gen5300_6 (P_0 = 7.23333E8,Q_0 = 2.03805E8,V_b = 10000000,v_0 = 0.030000000,angle_0 = 0.7645757396);
-N44_BC_package.Generators.GEN5400_1 gen5400_1 (P_0 = 3.33242E8,Q_0 = 2.27241E8,V_b = 10000000,v_0 = 0.030210000,angle_0 = 0.3567100912);
-N44_BC_package.Generators.GEN5400_2 gen5400_2 (P_0 = 3.33242E8,Q_0 = 2.27241E8,V_b = 10000000,v_0 = 0.030210000,angle_0 = 0.3567100912);
-N44_BC_package.Generators.GEN5500_1 gen5500_1 (P_0 = 2.59503E8,Q_0 = -4.9584E7,V_b = 10000000,v_0 = 0.030120000,angle_0 = 0.2377206246);
-N44_BC_package.Generators.GEN5500_2 gen5500_2 (P_0 = 2.59503E8,Q_0 = -4.9584E7,V_b = 10000000,v_0 = 0.030120000,angle_0 = 0.2377206246);
-N44_BC_package.Generators.GEN5600_1 gen5600_1 (P_0 = 2.3638E8,Q_0 = 2.96033E8,V_b = 10000000,v_0 = 0.030300000,angle_0 = 0.2113557032);
-N44_BC_package.Generators.GEN5600_2 gen5600_2 (P_0 = 2.3638E8,Q_0 = 2.96033E8,V_b = 10000000,v_0 = 0.030300000,angle_0 = 0.2113557032);
-N44_BC_package.Generators.GEN5600_3 gen5600_3 (P_0 = 2.3638E8,Q_0 = 2.96033E8,V_b = 10000000,v_0 = 0.030300000,angle_0 = 0.2113557032);
-N44_BC_package.Generators.GEN5600_4 gen5600_4 (P_0 = 2.3638E8,Q_0 = 2.96033E8,V_b = 10000000,v_0 = 0.030300000,angle_0 = 0.2113557032);
-N44_BC_package.Generators.GEN6000_1 gen6000_1 (P_0 = 4.29844E8,Q_0 = 1.5552E7,V_b = 10000000,v_0 = 0.030150000,angle_0 = 0.4200759615);
-N44_BC_package.Generators.GEN6000_2 gen6000_2 (P_0 = 4.29844E8,Q_0 = 1.5552E7,V_b = 10000000,v_0 = 0.030150000,angle_0 = 0.4200759615);
-N44_BC_package.Generators.GEN6000_3 gen6000_3 (P_0 = 4.29844E8,Q_0 = 1.5552E7,V_b = 10000000,v_0 = 0.030150000,angle_0 = 0.4200759615);
-N44_BC_package.Generators.GEN6000_4 gen6000_4 (P_0 = 4.29844E8,Q_0 = 1.5552E7,V_b = 10000000,v_0 = 0.030150000,angle_0 = 0.4200759615);
-N44_BC_package.Generators.GEN6100_1 gen6100_1 (P_0 = 6.28821E8,Q_0 = 1.32332E8,V_b = 10000000,v_0 = 0.030000000,angle_0 = 0.9060432826);
-N44_BC_package.Generators.GEN6100_2 gen6100_2 (P_0 = 6.28821E8,Q_0 = 1.32332E8,V_b = 10000000,v_0 = 0.030000000,angle_0 = 0.9060432826);
-N44_BC_package.Generators.GEN6100_3 gen6100_3 (P_0 = 6.28821E8,Q_0 = 1.32332E8,V_b = 10000000,v_0 = 0.030000000,angle_0 = 0.9060432826);
-N44_BC_package.Generators.GEN6100_4 gen6100_4 (P_0 = 6.28821E8,Q_0 = 1.32332E8,V_b = 10000000,v_0 = 0.030000000,angle_0 = 0.9060432826);
-N44_BC_package.Generators.GEN6100_5 gen6100_5 (P_0 = 6.28821E8,Q_0 = 1.32332E8,V_b = 10000000,v_0 = 0.030000000,angle_0 = 0.9060432826);
-N44_BC_package.Generators.GEN6500_1 gen6500_1 (P_0 = 2.0125E8,Q_0 = 2.48711E8,V_b = 10000000,v_0 = 0.030000000,angle_0 = -0.269846873);
-N44_BC_package.Generators.GEN6500_2 gen6500_2 (P_0 = 2.0125E8,Q_0 = 2.48711E8,V_b = 10000000,v_0 = 0.030000000,angle_0 = -0.269846873);
-N44_BC_package.Generators.GEN6500_3 gen6500_3 (P_0 = 2.0125E8,Q_0 = 2.48711E8,V_b = 10000000,v_0 = 0.030000000,angle_0 = -0.269846873);
-N44_BC_package.Generators.GEN6500_4 gen6500_4 (P_0 = 2.0125E8,Q_0 = 2.48711E8,V_b = 10000000,v_0 = 0.030000000,angle_0 = -0.269846873);
-N44_BC_package.Generators.GEN6700_1 gen6700_1 (P_0 = 5.2025E8,Q_0 = 1.73342E8,V_b = 10000000,v_0 = 0.030600000,angle_0 = -0.0377182786);
-N44_BC_package.Generators.GEN6700_2 gen6700_2 (P_0 = 5.2025E8,Q_0 = 1.73342E8,V_b = 10000000,v_0 = 0.030600000,angle_0 = -0.0377182786);
-N44_BC_package.Generators.GEN6700_3 gen6700_3 (P_0 = 5.2025E8,Q_0 = 1.73342E8,V_b = 10000000,v_0 = 0.030600000,angle_0 = -0.0377182786);
-N44_BC_package.Generators.GEN6700_4 gen6700_4 (P_0 = 5.2025E8,Q_0 = 1.73342E8,V_b = 10000000,v_0 = 0.030600000,angle_0 = -0.0377182786);
-N44_BC_package.Generators.GEN7000_1 gen7000_1 (P_0 = 7.07429E8,Q_0 = 5.1637E7,V_b = 10000000,v_0 = 0.042000000,angle_0 = 0.2023620292);
-N44_BC_package.Generators.GEN7000_2 gen7000_2 (P_0 = 7.07429E8,Q_0 = 5.1637E7,V_b = 10000000,v_0 = 0.042000000,angle_0 = 0.2023620292);
-N44_BC_package.Generators.GEN7000_3 gen7000_3 (P_0 = 7.07429E8,Q_0 = 5.1637E7,V_b = 10000000,v_0 = 0.042000000,angle_0 = 0.2023620292);
-N44_BC_package.Generators.GEN7000_4 gen7000_4 (P_0 = 7.07429E8,Q_0 = 5.1637E7,V_b = 10000000,v_0 = 0.042000000,angle_0 = 0.2023620292);
-N44_BC_package.Generators.GEN7000_5 gen7000_5 (P_0 = 7.07429E8,Q_0 = 5.1637E7,V_b = 10000000,v_0 = 0.042000000,angle_0 = 0.2023620292);
-N44_BC_package.Generators.GEN7000_6 gen7000_6 (P_0 = 7.07429E8,Q_0 = 5.1637E7,V_b = 10000000,v_0 = 0.042000000,angle_0 = 0.2023620292);
-N44_BC_package.Generators.GEN7000_7 gen7000_7 (P_0 = 7.07429E8,Q_0 = 5.1637E7,V_b = 10000000,v_0 = 0.042000000,angle_0 = 0.2023620292);
-N44_BC_package.Generators.GEN7000_8 gen7000_8 (P_0 = 7.07429E8,Q_0 = 5.1637E7,V_b = 10000000,v_0 = 0.042000000,angle_0 = 0.2023620292);
-N44_BC_package.Generators.GEN7000_9 gen7000_9 (P_0 = 7.07429E8,Q_0 = 5.1637E7,V_b = 10000000,v_0 = 0.042000000,angle_0 = 0.2023620292);
-N44_BC_package.Generators.GEN7100_1 gen7100_1 (P_0 = 4.50047E8,Q_0 = 5.78697E8,V_b = 10000000,v_0 = 0.042000000,angle_0 = 0.156541939);
-N44_BC_package.Generators.GEN7100_2 gen7100_2 (P_0 = 4.50047E8,Q_0 = 5.78697E8,V_b = 10000000,v_0 = 0.042000000,angle_0 = 0.156541939);
-N44_BC_package.Generators.GEN7100_3 gen7100_3 (P_0 = 4.50047E8,Q_0 = 5.78697E8,V_b = 10000000,v_0 = 0.042000000,angle_0 = 0.156541939);
-N44_BC_package.Generators.GEN8500_1 gen8500_1 (P_0 = 1.69333E8,Q_0 = 1.57431E8,V_b = 10000000,v_0 = 0.042840000,angle_0 = -0.0697834405);
-N44_BC_package.Generators.GEN8500_2 gen8500_2 (P_0 = 1.69333E8,Q_0 = 1.57431E8,V_b = 10000000,v_0 = 0.042840000,angle_0 = -0.0697834405);
-N44_BC_package.Generators.GEN8500_3 gen8500_3 (P_0 = 1.69333E8,Q_0 = 1.57431E8,V_b = 10000000,v_0 = 0.042840000,angle_0 = -0.0697834405);
-N44_BC_package.Generators.GEN8500_4 gen8500_4 (P_0 = 1.69333E8,Q_0 = 1.57431E8,V_b = 10000000,v_0 = 0.042840000,angle_0 = -0.0697834405);
-N44_BC_package.Generators.GEN8500_5 gen8500_5 (P_0 = 1.69333E8,Q_0 = 1.57431E8,V_b = 10000000,v_0 = 0.042840000,angle_0 = -0.0697834405);
-N44_BC_package.Generators.GEN8500_6 gen8500_6 (P_0 = 1.69333E8,Q_0 = 1.57431E8,V_b = 10000000,v_0 = 0.042840000,angle_0 = -0.0697834405);
+N44_BC_package.Generators.GEN3000_1 gen3000_1 (P_0 = 3.71233E8,Q_0 = 1.72777E8,V_b = 420000,v_0 = 1.000000000,angle_0 = -0.0502671853);
+N44_BC_package.Generators.GEN3000_2 gen3000_2 (P_0 = 3.71233E8,Q_0 = 1.72777E8,V_b = 420000,v_0 = 1.000000000,angle_0 = -0.0502671853);
+N44_BC_package.Generators.GEN3000_3 gen3000_3 (P_0 = 3.71233E8,Q_0 = 1.72777E8,V_b = 420000,v_0 = 1.000000000,angle_0 = -0.0502671853);
+N44_BC_package.Generators.GEN3115_1 gen3115_1 (P_0 = 3.164E8,Q_0 = -6.5747E7,V_b = 420000,v_0 = 1.000000000,angle_0 = 0.1146854883);
+N44_BC_package.Generators.GEN3115_2 gen3115_2 (P_0 = 3.164E8,Q_0 = -6.5747E7,V_b = 420000,v_0 = 1.000000000,angle_0 = 0.1146854883);
+N44_BC_package.Generators.GEN3115_3 gen3115_3 (P_0 = 3.164E8,Q_0 = -6.5747E7,V_b = 420000,v_0 = 1.000000000,angle_0 = 0.1146854883);
+N44_BC_package.Generators.GEN3115_4 gen3115_4 (P_0 = 3.164E8,Q_0 = -6.5747E7,V_b = 420000,v_0 = 1.000000000,angle_0 = 0.1146854883);
+N44_BC_package.Generators.GEN3115_5 gen3115_5 (P_0 = 3.164E8,Q_0 = -6.5747E7,V_b = 420000,v_0 = 1.000000000,angle_0 = 0.1146854883);
+N44_BC_package.Generators.GEN3245_1 gen3245_1 (P_0 = 2.0027E8,Q_0 = -2.4521E7,V_b = 420000,v_0 = 1.000000000,angle_0 = -0.0739931711);
+N44_BC_package.Generators.GEN3249_1 gen3249_1 (P_0 = 4.39841E8,Q_0 = 7.17E6,V_b = 420000,v_0 = 1.000000000,angle_0 = 0.1943701733);
+N44_BC_package.Generators.GEN3249_2 gen3249_2 (P_0 = 4.39841E8,Q_0 = 7.17E6,V_b = 420000,v_0 = 1.000000000,angle_0 = 0.1943701733);
+N44_BC_package.Generators.GEN3249_3 gen3249_3 (P_0 = 4.39841E8,Q_0 = 7.17E6,V_b = 420000,v_0 = 1.000000000,angle_0 = 0.1943701733);
+N44_BC_package.Generators.GEN3249_4 gen3249_4 (P_0 = 4.39841E8,Q_0 = 7.17E6,V_b = 420000,v_0 = 1.000000000,angle_0 = 0.1943701733);
+N44_BC_package.Generators.GEN3249_5 gen3249_5 (P_0 = 4.39841E8,Q_0 = 7.17E6,V_b = 420000,v_0 = 1.000000000,angle_0 = 0.1943701733);
+N44_BC_package.Generators.GEN3249_6 gen3249_6 (P_0 = 4.39841E8,Q_0 = 7.17E6,V_b = 420000,v_0 = 1.000000000,angle_0 = 0.1943701733);
+N44_BC_package.Generators.GEN3249_7 gen3249_7 (P_0 = 4.39841E8,Q_0 = 7.17E6,V_b = 420000,v_0 = 1.000000000,angle_0 = 0.1943701733);
+N44_BC_package.Generators.GEN3249_8 gen3249_8 (P_0 = 4.39841E8,Q_0 = 7.17E6,V_b = 420000,v_0 = 1.000000000,angle_0 = 0.1943701733);
+N44_BC_package.Generators.GEN3300_1 gen3300_1 (P_0 = 7.04102E8,Q_0 = 2.9633E7,V_b = 420000,v_0 = 1.000000000,angle_0 = 0.000000000);
+N44_BC_package.Generators.GEN3300_2 gen3300_2 (P_0 = 7.04102E8,Q_0 = 2.9633E7,V_b = 420000,v_0 = 1.000000000,angle_0 = 0.000000000);
+N44_BC_package.Generators.GEN3300_3 gen3300_3 (P_0 = 7.04102E8,Q_0 = 2.9633E7,V_b = 420000,v_0 = 1.000000000,angle_0 = 0.000000000);
+N44_BC_package.Generators.GEN3300_4 gen3300_4 (P_0 = 7.04102E8,Q_0 = 2.9633E7,V_b = 420000,v_0 = 1.000000000,angle_0 = 0.000000000);
+N44_BC_package.Generators.GEN3300_5 gen3300_5 (P_0 = 7.04102E8,Q_0 = 2.9633E7,V_b = 420000,v_0 = 1.000000000,angle_0 = 0.000000000);
+N44_BC_package.Generators.GEN3300_6 gen3300_6 (P_0 = 7.04102E8,Q_0 = 2.9633E7,V_b = 420000,v_0 = 1.000000000,angle_0 = 0.000000000);
+N44_BC_package.Generators.GEN3359_1 gen3359_1 (P_0 = 6.98949E8,Q_0 = 2.69075E8,V_b = 420000,v_0 = 1.000000000,angle_0 = -0.0127810353);
+N44_BC_package.Generators.GEN3359_2 gen3359_2 (P_0 = 6.98949E8,Q_0 = 2.69075E8,V_b = 420000,v_0 = 1.000000000,angle_0 = -0.0127810353);
+N44_BC_package.Generators.GEN3359_3 gen3359_3 (P_0 = 6.98949E8,Q_0 = 2.69075E8,V_b = 420000,v_0 = 1.000000000,angle_0 = -0.0127810353);
+N44_BC_package.Generators.GEN3359_4 gen3359_4 (P_0 = 6.98949E8,Q_0 = 2.69075E8,V_b = 420000,v_0 = 1.000000000,angle_0 = -0.0127810353);
+N44_BC_package.Generators.GEN3359_5 gen3359_5 (P_0 = 6.98949E8,Q_0 = 2.69075E8,V_b = 420000,v_0 = 1.000000000,angle_0 = -0.0127810353);
+N44_BC_package.Generators.GEN3359_6 gen3359_6 (P_0 = 6.98949E8,Q_0 = 2.69075E8,V_b = 420000,v_0 = 1.000000000,angle_0 = -0.0127810353);
+N44_BC_package.Generators.GEN5100_1 gen5100_1 (P_0 = 3.51755E8,Q_0 = 4.35537E8,V_b = 300000,v_0 = 1.000000000,angle_0 = 0.2009326057);
+N44_BC_package.Generators.GEN5100_2 gen5100_2 (P_0 = 3.51755E8,Q_0 = 4.35537E8,V_b = 300000,v_0 = 1.000000000,angle_0 = 0.2009326057);
+N44_BC_package.Generators.GEN5300_1 gen5300_1 (P_0 = 7.23333E8,Q_0 = 2.03805E8,V_b = 300000,v_0 = 1.000000000,angle_0 = 0.7645757396);
+N44_BC_package.Generators.GEN5300_2 gen5300_2 (P_0 = 7.23333E8,Q_0 = 2.03805E8,V_b = 300000,v_0 = 1.000000000,angle_0 = 0.7645757396);
+N44_BC_package.Generators.GEN5300_3 gen5300_3 (P_0 = 7.23333E8,Q_0 = 2.03805E8,V_b = 300000,v_0 = 1.000000000,angle_0 = 0.7645757396);
+N44_BC_package.Generators.GEN5300_4 gen5300_4 (P_0 = 7.23333E8,Q_0 = 2.03805E8,V_b = 300000,v_0 = 1.000000000,angle_0 = 0.7645757396);
+N44_BC_package.Generators.GEN5300_5 gen5300_5 (P_0 = 7.23333E8,Q_0 = 2.03805E8,V_b = 300000,v_0 = 1.000000000,angle_0 = 0.7645757396);
+N44_BC_package.Generators.GEN5300_6 gen5300_6 (P_0 = 7.23333E8,Q_0 = 2.03805E8,V_b = 300000,v_0 = 1.000000000,angle_0 = 0.7645757396);
+N44_BC_package.Generators.GEN5400_1 gen5400_1 (P_0 = 3.33242E8,Q_0 = 2.27241E8,V_b = 300000,v_0 = 1.007000000,angle_0 = 0.3567100912);
+N44_BC_package.Generators.GEN5400_2 gen5400_2 (P_0 = 3.33242E8,Q_0 = 2.27241E8,V_b = 300000,v_0 = 1.007000000,angle_0 = 0.3567100912);
+N44_BC_package.Generators.GEN5500_1 gen5500_1 (P_0 = 2.59503E8,Q_0 = -4.9584E7,V_b = 300000,v_0 = 1.004000000,angle_0 = 0.2377206246);
+N44_BC_package.Generators.GEN5500_2 gen5500_2 (P_0 = 2.59503E8,Q_0 = -4.9584E7,V_b = 300000,v_0 = 1.004000000,angle_0 = 0.2377206246);
+N44_BC_package.Generators.GEN5600_1 gen5600_1 (P_0 = 2.3638E8,Q_0 = 2.96033E8,V_b = 300000,v_0 = 1.010000000,angle_0 = 0.2113557032);
+N44_BC_package.Generators.GEN5600_2 gen5600_2 (P_0 = 2.3638E8,Q_0 = 2.96033E8,V_b = 300000,v_0 = 1.010000000,angle_0 = 0.2113557032);
+N44_BC_package.Generators.GEN5600_3 gen5600_3 (P_0 = 2.3638E8,Q_0 = 2.96033E8,V_b = 300000,v_0 = 1.010000000,angle_0 = 0.2113557032);
+N44_BC_package.Generators.GEN5600_4 gen5600_4 (P_0 = 2.3638E8,Q_0 = 2.96033E8,V_b = 300000,v_0 = 1.010000000,angle_0 = 0.2113557032);
+N44_BC_package.Generators.GEN6000_1 gen6000_1 (P_0 = 4.29844E8,Q_0 = 1.5552E7,V_b = 300000,v_0 = 1.005000000,angle_0 = 0.4200759615);
+N44_BC_package.Generators.GEN6000_2 gen6000_2 (P_0 = 4.29844E8,Q_0 = 1.5552E7,V_b = 300000,v_0 = 1.005000000,angle_0 = 0.4200759615);
+N44_BC_package.Generators.GEN6000_3 gen6000_3 (P_0 = 4.29844E8,Q_0 = 1.5552E7,V_b = 300000,v_0 = 1.005000000,angle_0 = 0.4200759615);
+N44_BC_package.Generators.GEN6000_4 gen6000_4 (P_0 = 4.29844E8,Q_0 = 1.5552E7,V_b = 300000,v_0 = 1.005000000,angle_0 = 0.4200759615);
+N44_BC_package.Generators.GEN6100_1 gen6100_1 (P_0 = 6.28821E8,Q_0 = 1.32332E8,V_b = 300000,v_0 = 1.000000000,angle_0 = 0.9060432826);
+N44_BC_package.Generators.GEN6100_2 gen6100_2 (P_0 = 6.28821E8,Q_0 = 1.32332E8,V_b = 300000,v_0 = 1.000000000,angle_0 = 0.9060432826);
+N44_BC_package.Generators.GEN6100_3 gen6100_3 (P_0 = 6.28821E8,Q_0 = 1.32332E8,V_b = 300000,v_0 = 1.000000000,angle_0 = 0.9060432826);
+N44_BC_package.Generators.GEN6100_4 gen6100_4 (P_0 = 6.28821E8,Q_0 = 1.32332E8,V_b = 300000,v_0 = 1.000000000,angle_0 = 0.9060432826);
+N44_BC_package.Generators.GEN6100_5 gen6100_5 (P_0 = 6.28821E8,Q_0 = 1.32332E8,V_b = 300000,v_0 = 1.000000000,angle_0 = 0.9060432826);
+N44_BC_package.Generators.GEN6500_1 gen6500_1 (P_0 = 2.0125E8,Q_0 = 2.48711E8,V_b = 300000,v_0 = 1.000000000,angle_0 = -0.269846873);
+N44_BC_package.Generators.GEN6500_2 gen6500_2 (P_0 = 2.0125E8,Q_0 = 2.48711E8,V_b = 300000,v_0 = 1.000000000,angle_0 = -0.269846873);
+N44_BC_package.Generators.GEN6500_3 gen6500_3 (P_0 = 2.0125E8,Q_0 = 2.48711E8,V_b = 300000,v_0 = 1.000000000,angle_0 = -0.269846873);
+N44_BC_package.Generators.GEN6500_4 gen6500_4 (P_0 = 2.0125E8,Q_0 = 2.48711E8,V_b = 300000,v_0 = 1.000000000,angle_0 = -0.269846873);
+N44_BC_package.Generators.GEN6700_1 gen6700_1 (P_0 = 5.2025E8,Q_0 = 1.73342E8,V_b = 300000,v_0 = 1.020000000,angle_0 = -0.0377182786);
+N44_BC_package.Generators.GEN6700_2 gen6700_2 (P_0 = 5.2025E8,Q_0 = 1.73342E8,V_b = 300000,v_0 = 1.020000000,angle_0 = -0.0377182786);
+N44_BC_package.Generators.GEN6700_3 gen6700_3 (P_0 = 5.2025E8,Q_0 = 1.73342E8,V_b = 300000,v_0 = 1.020000000,angle_0 = -0.0377182786);
+N44_BC_package.Generators.GEN6700_4 gen6700_4 (P_0 = 5.2025E8,Q_0 = 1.73342E8,V_b = 300000,v_0 = 1.020000000,angle_0 = -0.0377182786);
+N44_BC_package.Generators.GEN7000_1 gen7000_1 (P_0 = 7.07429E8,Q_0 = 5.1637E7,V_b = 420000,v_0 = 1.000000000,angle_0 = 0.2023620292);
+N44_BC_package.Generators.GEN7000_2 gen7000_2 (P_0 = 7.07429E8,Q_0 = 5.1637E7,V_b = 420000,v_0 = 1.000000000,angle_0 = 0.2023620292);
+N44_BC_package.Generators.GEN7000_3 gen7000_3 (P_0 = 7.07429E8,Q_0 = 5.1637E7,V_b = 420000,v_0 = 1.000000000,angle_0 = 0.2023620292);
+N44_BC_package.Generators.GEN7000_4 gen7000_4 (P_0 = 7.07429E8,Q_0 = 5.1637E7,V_b = 420000,v_0 = 1.000000000,angle_0 = 0.2023620292);
+N44_BC_package.Generators.GEN7000_5 gen7000_5 (P_0 = 7.07429E8,Q_0 = 5.1637E7,V_b = 420000,v_0 = 1.000000000,angle_0 = 0.2023620292);
+N44_BC_package.Generators.GEN7000_6 gen7000_6 (P_0 = 7.07429E8,Q_0 = 5.1637E7,V_b = 420000,v_0 = 1.000000000,angle_0 = 0.2023620292);
+N44_BC_package.Generators.GEN7000_7 gen7000_7 (P_0 = 7.07429E8,Q_0 = 5.1637E7,V_b = 420000,v_0 = 1.000000000,angle_0 = 0.2023620292);
+N44_BC_package.Generators.GEN7000_8 gen7000_8 (P_0 = 7.07429E8,Q_0 = 5.1637E7,V_b = 420000,v_0 = 1.000000000,angle_0 = 0.2023620292);
+N44_BC_package.Generators.GEN7000_9 gen7000_9 (P_0 = 7.07429E8,Q_0 = 5.1637E7,V_b = 420000,v_0 = 1.000000000,angle_0 = 0.2023620292);
+N44_BC_package.Generators.GEN7100_1 gen7100_1 (P_0 = 4.50047E8,Q_0 = 5.78697E8,V_b = 420000,v_0 = 1.000000000,angle_0 = 0.156541939);
+N44_BC_package.Generators.GEN7100_2 gen7100_2 (P_0 = 4.50047E8,Q_0 = 5.78697E8,V_b = 420000,v_0 = 1.000000000,angle_0 = 0.156541939);
+N44_BC_package.Generators.GEN7100_3 gen7100_3 (P_0 = 4.50047E8,Q_0 = 5.78697E8,V_b = 420000,v_0 = 1.000000000,angle_0 = 0.156541939);
+N44_BC_package.Generators.GEN8500_1 gen8500_1 (P_0 = 1.69333E8,Q_0 = 1.57431E8,V_b = 420000,v_0 = 1.020000000,angle_0 = -0.0697834405);
+N44_BC_package.Generators.GEN8500_2 gen8500_2 (P_0 = 1.69333E8,Q_0 = 1.57431E8,V_b = 420000,v_0 = 1.020000000,angle_0 = -0.0697834405);
+N44_BC_package.Generators.GEN8500_3 gen8500_3 (P_0 = 1.69333E8,Q_0 = 1.57431E8,V_b = 420000,v_0 = 1.020000000,angle_0 = -0.0697834405);
+N44_BC_package.Generators.GEN8500_4 gen8500_4 (P_0 = 1.69333E8,Q_0 = 1.57431E8,V_b = 420000,v_0 = 1.020000000,angle_0 = -0.0697834405);
+N44_BC_package.Generators.GEN8500_5 gen8500_5 (P_0 = 1.69333E8,Q_0 = 1.57431E8,V_b = 420000,v_0 = 1.020000000,angle_0 = -0.0697834405);
+N44_BC_package.Generators.GEN8500_6 gen8500_6 (P_0 = 1.69333E8,Q_0 = 1.57431E8,V_b = 420000,v_0 = 1.020000000,angle_0 = -0.0697834405);
 
 // -- Fault Event
 OpenIPSL.Electrical.Events.PwFault Fault (R = 0, X = 0.1, t1 = 1, t2 = 1.1);
@@ -285,7 +285,7 @@ equation
 connect(FORSMARK.p, CL3000_1.p);
 connect(FORSMARK.p, CL3000_2.p);
 connect(FORSMARK.p, CL3000_3.p);
-connect(DANNEBO_HVDC.p, );
+connect(DANNEBO_HVDC.p, NCL3020_1.p);
 connect(HJALTA.p, CL3100_1.p);
 connect(PORJUS.p, CL3115_1.p);
 connect(GRUNDFORS.p, CL3249_1.p);
@@ -295,7 +295,7 @@ connect(RINGHALS.p, CL3359_1.p);
 connect(RINGHALS.p, CL3359_2.p);
 connect(RINGHALS.p, CL3359_3.p);
 connect(RINGHALS.p, CL3359_4.p);
-connect(STENKU_HVDC.p, );
+connect(STENKU_HVDC.p, NCL3360_1.p);
 connect(TRETTEN.p, CL5100_1.p);
 connect(SIMA.p, CL5300_2.p);
 connect(OSLO1.p, CL5400_1.p);
@@ -303,33 +303,33 @@ connect(OSLO2.p, CL5500_1.p);
 connect(OSLO2.p, CL5500_2.p);
 connect(KRISTIANSAND.p, CL5600_1.p);
 connect(KRISTIANSAND.p, CL5600_2.p);
-connect(KRISTIA_HVDC.p, );
-connect(FEDA_HVDC.p, );
+connect(KRISTIA_HVDC.p, NCL5610_1.p);
+connect(FEDA_HVDC.p, NCL5620_1.p);
 connect(BLAFALLI.p, CL6100_1.p);
 connect(BLAFALLI.p, CL6100_2.p);
 connect(TRONDHEIM.p, CL6500_1.p);
 connect(TRONDHEIM.p, CL6500_2.p);
 connect(TRONDHEIM.p, CL6500_3.p);
 connect(ROSSAGA.p, CL6700_1.p);
-connect(OFOTEN.p, );
-connect(OFOTEN.p, );
+connect(OFOTEN.p, NCL6701_1.p);
+connect(OFOTEN.p, NCL6701_3.p);
 connect(HELSINKI.p, CL7000_1.p);
 connect(HELSINKI.p, CL7000_2.p);
 connect(HELSINKI.p, CL7000_3.p);
 connect(HELSINKI.p, CL7000_4.p);
 connect(HELSINKI.p, CL7000_5.p);
-connect(HELSINKI.p, );
-connect(VYBORG_HVDC.p, );
-connect(ESTLINK_HVDC.p, );
+connect(HELSINKI.p, NCL7000_6.p);
+connect(VYBORG_HVDC.p, NCL7010_1.p);
+connect(ESTLINK_HVDC.p, NCL7020_1.p);
 connect(OULU.p, CL7100_1.p);
 connect(OULU.p, CL7100_2.p);
-connect(OULU.p, );
+connect(OULU.p, NCL7100_3.p);
 connect(MALMO.p, CL8500_1.p);
 connect(MALMO.p, CL8500_2.p);
 connect(MALMO.p, CL8500_3.p);
-connect(MALMO.p, );
-connect(ARRIE_HVDC.p, );
-connect(KARLSH_HVDC.p, );
+connect(MALMO.p, NCL8500_4.p);
+connect(ARRIE_HVDC.p, NCL8600_1.p);
+connect(KARLSH_HVDC.p, NCL8700_1.p);
 connect(FORSMARK.p, gen3000_1 .p);
 connect(FORSMARK.p, gen3000_2 .p);
 connect(FORSMARK.p, gen3000_3 .p);
@@ -478,16 +478,16 @@ connect(HASLE.p, L5101_5103_1.p);
 connect(KONGSBERG.p, L5101_5103_1.n);
 connect(HASLE.p, L5101_5501_1.p);
 connect(SKIEN.p, L5101_5501_1.n);
-connect(HASLE.p, SH5101_5501_1.p);
-connect(SKIEN.p, SH5101_5501_1.p);
+connect(HASLE.p, SH5101_5501_1d9ae.p);
+connect(SKIEN.p, SH5101_5501_1d9b2.p);
 connect(DAGALI.p, L5102_5103_1.p);
 connect(KONGSBERG.p, L5102_5103_1.n);
 connect(DAGALI.p, L5102_5304_1.p);
 connect(GEILO.p, L5102_5304_1.n);
 connect(DAGALI.p, L5102_6001_1.p);
 connect(HAGAFOSS.p, L5102_6001_1.n);
-connect(DAGALI.p, SH5102_6001_1.p);
-connect(HAGAFOSS.p, SH5102_6001_1.p);
+connect(DAGALI.p, SH5102_6001_1d9da.p);
+connect(HAGAFOSS.p, SH5102_6001_1d9de.p);
 connect(KONGSBERG.p, L5103_5304_1.p);
 connect(GEILO.p, L5103_5304_1.n);
 connect(KONGSBERG.p, L5103_5304_2.p);
@@ -514,13 +514,13 @@ connect(SYLLING.p, L5401_5602_1.p);
 connect(SANDEFJORD.p, L5401_5602_1.n);
 connect(SYLLING.p, L5401_6001_1.p);
 connect(HAGAFOSS.p, L5401_6001_1.n);
-connect(SYLLING.p, SH5401_6001_1.p);
-connect(HAGAFOSS.p, SH5401_6001_1.p);
+connect(SYLLING.p, SH5401_6001_1da7e.p);
+connect(HAGAFOSS.p, SH5401_6001_1da82.p);
 connect(KAGGEFOSS.p, L5402_6001_1.p);
 connect(HAGAFOSS.p, L5402_6001_1.n);
 connect(OSLO2.p, L5500_5603_1.p);
 connect(ARENDAL.p, L5500_5603_1.n);
-connect(OSLO2.p, SH5500_5603_1.p);
+connect(OSLO2.p, SH5500_5603_1da9e.p);
 connect(KRISTIANSAND.p, L5600_5603_1.p);
 connect(ARENDAL.p, L5600_5603_1.n);
 connect(KRISTIANSAND.p, L5600_5620_1.p);
@@ -573,7 +573,7 @@ connect(KVILLDAL.p, T6000_6001_0__1__.p);
 connect(HAGAFOSS.p, T6000_6001_0__1__.n);
 connect(ROSSAGA.p, T6700_6701_0__1__.p);
 connect(OFOTEN.p, T6700_6701_0__1__.n);
-connect(ARENDAL.p, SH5500_5603_1.p);
+connect(ARENDAL.p, SH5500_5603_1daa2.p);
 connect(KRISTIANSAND.p, L5600_5601_1.p);
 connect(STAVANGER.p, L5600_5601_1.n);
 // -- Connect fault event:
@@ -588,13 +588,11 @@ extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 5.000000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 5.970000000, D = 0.000000000, Xd = 2.220000000, Xq = 2.130000000, Xpd = 0.36000000, Xpq = 0.46800000, Xppd = 0.225000000, Xl = 0.168750000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.225000000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 5.000000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 5.970000000, D = 0.000000000, Xd = 2.220000000, Xq = 2.130000000, Xpd = 0.36000000, Xpq = 0.46800000, Xppd = 0.225000000, Xl = 0.168750000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.225000000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.IEESGO governor(T_1 = 0.01000,T_2 = 0.00000,T_3 = 0.15000,T_4 = 0.30000,T_5 = 8.00000,T_6 = 0.40000,K_1 = 0.00000,K_2 = 0.70000,K_3 = 0.43000,P_MAX = 1.00000,P_MIN = 0.00000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.ESAC2A exciter(T_R=0.0,T_B=0.00000,T_C=0.00000,K_A=400.00000,T_A=0.01000,K_B=20.00000,V_RMAX=63.70000,V_RMIN=-57.30000,V_AMAX=10.00000,V_AMIN=-10.00000,T_E=1.40000,K_H=1.00000,K_F=0.02300,T_F=1.00000,K_C=0.45500,K_D=0.32100,K_E=1.00000,E_1=4.65000,E_2=6.20000,S_EE_1=0.07500,S_EE_2=0.70400) annotation(Placement(transformation(extent = {{-16, -20}, {4, 0}})));
+			OpenIPSL.Electrical.Controls.PSSE.PSS.STAB2A stabilizer(K_2=1.00000,T_2=2.00000,K_3=0.00000,T_3=2.00000,K_4=0.55000,K_5=1.00000,T_5=0.01000,H_LIM=0.03000) annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+		Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -610,20 +608,18 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN3000_1;
 model GEN3000_2
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 5.000000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 5.970000000, D = 0.000000000, Xd = 2.220000000, Xq = 2.130000000, Xpd = 0.36000000, Xpq = 0.46800000, Xppd = 0.225000000, Xl = 0.168750000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.225000000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 5.000000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 5.970000000, D = 0.000000000, Xd = 2.220000000, Xq = 2.130000000, Xpd = 0.36000000, Xpq = 0.46800000, Xppd = 0.225000000, Xl = 0.168750000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.225000000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.IEESGO governor(T_1 = 0.01000,T_2 = 0.00000,T_3 = 0.15000,T_4 = 0.30000,T_5 = 8.00000,T_6 = 0.40000,K_1 = 0.00000,K_2 = 0.70000,K_3 = 0.43000,P_MAX = 1.00000,P_MIN = 0.00000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.ESAC2A exciter(T_R=0.0,T_B=0.00000,T_C=0.00000,K_A=400.00000,T_A=0.01000,K_B=20.00000,V_RMAX=63.70000,V_RMIN=-57.30000,V_AMAX=10.00000,V_AMIN=-10.00000,T_E=1.40000,K_H=1.00000,K_F=0.02300,T_F=1.00000,K_C=0.45500,K_D=0.32100,K_E=1.00000,E_1=4.65000,E_2=6.20000,S_EE_1=0.07500,S_EE_2=0.70400) annotation(Placement(transformation(extent = {{-16, -20}, {4, 0}})));
+			OpenIPSL.Electrical.Controls.PSSE.PSS.STAB2A stabilizer(K_2=1.00000,T_2=2.00000,K_3=0.00000,T_3=2.00000,K_4=0.55000,K_5=1.00000,T_5=0.01000,H_LIM=0.03000) annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+		Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -639,20 +635,18 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN3000_2;
 model GEN3000_3
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 5.000000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 5.970000000, D = 0.000000000, Xd = 2.220000000, Xq = 2.130000000, Xpd = 0.36000000, Xpq = 0.46800000, Xppd = 0.225000000, Xl = 0.168750000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.225000000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 5.000000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 5.970000000, D = 0.000000000, Xd = 2.220000000, Xq = 2.130000000, Xpd = 0.36000000, Xpq = 0.46800000, Xppd = 0.225000000, Xl = 0.168750000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.225000000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.IEESGO governor(T_1 = 0.01000,T_2 = 0.00000,T_3 = 0.15000,T_4 = 0.30000,T_5 = 8.00000,T_6 = 0.40000,K_1 = 0.00000,K_2 = 0.70000,K_3 = 0.43000,P_MAX = 1.00000,P_MIN = 0.00000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.ESAC2A exciter(T_R=0.0,T_B=0.00000,T_C=0.00000,K_A=400.00000,T_A=0.01000,K_B=20.00000,V_RMAX=63.70000,V_RMIN=-57.30000,V_AMAX=10.00000,V_AMIN=-10.00000,T_E=1.40000,K_H=1.00000,K_F=0.02300,T_F=1.00000,K_C=0.45500,K_D=0.32100,K_E=1.00000,E_1=4.65000,E_2=6.20000,S_EE_1=0.07500,S_EE_2=0.70400) annotation(Placement(transformation(extent = {{-16, -20}, {4, 0}})));
+			OpenIPSL.Electrical.Controls.PSSE.PSS.STAB2A stabilizer(K_2=1.00000,T_2=2.00000,K_3=0.00000,T_3=2.00000,K_4=0.55000,K_5=1.00000,T_5=0.01000,H_LIM=0.03000) annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+		Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -668,20 +662,17 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN3000_3;
 model GEN3115_1
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 7.570000000, Tppd0 = 0.045000000, Tppq0 = 0.100000000, H = 4.741000000, D = 0.000000000, Xd = 0.946000000, Xq = 0.565000000, Xpd = 0.29000000, Xppd = 0.230000000, Xl = 0.110770000, S10 = 0.102390000, S12 = 0.274200000, Xppq = 0.230000000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 7.570000000, Tppd0 = 0.045000000, Tppq0 = 0.100000000, H = 4.741000000, D = 0.000000000, Xd = 0.946000000, Xq = 0.565000000, Xpd = 0.29000000, Xppd = 0.230000000, Xl = 0.110770000, S10 = 0.102390000, S12 = 0.274200000, Xppq = 0.230000000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.HYGOV governor(R = 0.060000000,r = 0.400000000,T_r = 5.000000000,T_f = 0.050000000,T_g = 0.200000000,VELM = 0.100000000,G_MAX = 1.000000000,G_MIN = 0.000000000,T_w = 1.000000000,A_t = 1.057700000,D_turb = 0.500000000,q_NL= 0.100000000,h0 = 1.000000000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SCRX exciter(T_AT_B = 0.25385,T_B = 13.00000,K = 31.00000,T_E = 0.05000,E_MIN = 0.00000,E_MAX = 4.00000,C_SWITCH = false,r_cr_fd = 0) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -697,20 +688,17 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN3115_1;
 model GEN3115_2
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 7.570000000, Tppd0 = 0.045000000, Tppq0 = 0.100000000, H = 4.741000000, D = 0.000000000, Xd = 0.946000000, Xq = 0.565000000, Xpd = 0.29000000, Xppd = 0.230000000, Xl = 0.110770000, S10 = 0.102390000, S12 = 0.274200000, Xppq = 0.230000000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 7.570000000, Tppd0 = 0.045000000, Tppq0 = 0.100000000, H = 4.741000000, D = 0.000000000, Xd = 0.946000000, Xq = 0.565000000, Xpd = 0.29000000, Xppd = 0.230000000, Xl = 0.110770000, S10 = 0.102390000, S12 = 0.274200000, Xppq = 0.230000000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.HYGOV governor(R = 0.060000000,r = 0.400000000,T_r = 5.000000000,T_f = 0.050000000,T_g = 0.200000000,VELM = 0.100000000,G_MAX = 1.000000000,G_MIN = 0.000000000,T_w = 1.000000000,A_t = 1.057700000,D_turb = 0.500000000,q_NL= 0.100000000,h0 = 1.000000000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SCRX exciter(T_AT_B = 0.25385,T_B = 13.00000,K = 31.00000,T_E = 0.05000,E_MIN = 0.00000,E_MAX = 4.00000,C_SWITCH = false,r_cr_fd = 0) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -726,20 +714,17 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN3115_2;
 model GEN3115_3
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 7.570000000, Tppd0 = 0.045000000, Tppq0 = 0.100000000, H = 4.741000000, D = 0.000000000, Xd = 0.946000000, Xq = 0.565000000, Xpd = 0.29000000, Xppd = 0.230000000, Xl = 0.110770000, S10 = 0.102390000, S12 = 0.274200000, Xppq = 0.230000000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 7.570000000, Tppd0 = 0.045000000, Tppq0 = 0.100000000, H = 4.741000000, D = 0.000000000, Xd = 0.946000000, Xq = 0.565000000, Xpd = 0.29000000, Xppd = 0.230000000, Xl = 0.110770000, S10 = 0.102390000, S12 = 0.274200000, Xppq = 0.230000000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.HYGOV governor(R = 0.060000000,r = 0.400000000,T_r = 5.000000000,T_f = 0.050000000,T_g = 0.200000000,VELM = 0.100000000,G_MAX = 1.000000000,G_MIN = 0.000000000,T_w = 1.000000000,A_t = 1.057700000,D_turb = 0.500000000,q_NL= 0.100000000,h0 = 1.000000000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SCRX exciter(T_AT_B = 0.25385,T_B = 13.00000,K = 31.00000,T_E = 0.05000,E_MIN = 0.00000,E_MAX = 4.00000,C_SWITCH = false,r_cr_fd = 0) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -755,20 +740,17 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN3115_3;
 model GEN3115_4
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 7.570000000, Tppd0 = 0.045000000, Tppq0 = 0.100000000, H = 4.741000000, D = 0.000000000, Xd = 0.946000000, Xq = 0.565000000, Xpd = 0.29000000, Xppd = 0.230000000, Xl = 0.110770000, S10 = 0.102390000, S12 = 0.274200000, Xppq = 0.230000000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 7.570000000, Tppd0 = 0.045000000, Tppq0 = 0.100000000, H = 4.741000000, D = 0.000000000, Xd = 0.946000000, Xq = 0.565000000, Xpd = 0.29000000, Xppd = 0.230000000, Xl = 0.110770000, S10 = 0.102390000, S12 = 0.274200000, Xppq = 0.230000000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.HYGOV governor(R = 0.060000000,r = 0.400000000,T_r = 5.000000000,T_f = 0.050000000,T_g = 0.200000000,VELM = 0.100000000,G_MAX = 1.000000000,G_MIN = 0.000000000,T_w = 1.000000000,A_t = 1.057700000,D_turb = 0.500000000,q_NL= 0.100000000,h0 = 1.000000000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SCRX exciter(T_AT_B = 0.25385,T_B = 13.00000,K = 31.00000,T_E = 0.05000,E_MIN = 0.00000,E_MAX = 4.00000,C_SWITCH = false,r_cr_fd = 0) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -784,20 +766,17 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN3115_4;
 model GEN3115_5
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 7.570000000, Tppd0 = 0.045000000, Tppq0 = 0.100000000, H = 4.741000000, D = 0.000000000, Xd = 0.946000000, Xq = 0.565000000, Xpd = 0.29000000, Xppd = 0.230000000, Xl = 0.110800000, S10 = 0.102400000, S12 = 0.274200000, Xppq = 0.230000000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 7.570000000, Tppd0 = 0.045000000, Tppq0 = 0.100000000, H = 4.741000000, D = 0.000000000, Xd = 0.946000000, Xq = 0.565000000, Xpd = 0.29000000, Xppd = 0.230000000, Xl = 0.110800000, S10 = 0.102400000, S12 = 0.274200000, Xppq = 0.230000000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.HYGOV governor(R = 0.060000000,r = 0.400000000,T_r = 5.000000000,T_f = 0.050000000,T_g = 0.200000000,VELM = 0.100000000,G_MAX = 1.000000000,G_MIN = 0.000000000,T_w = 1.000000000,A_t = 1.057700000,D_turb = 0.500000000,q_NL= 0.100000000,h0 = 1.000000000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SCRX exciter(T_AT_B = 0.25390,T_B = 13.00000,K = 31.00000,T_E = 0.05000,E_MIN = 0.00000,E_MAX = 4.00000,C_SWITCH = false,r_cr_fd = 0) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -813,20 +792,17 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN3115_5;
 model GEN3245_1
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 5.000000000, Tppd0 = 0.060000000, Tppq0 = 0.100000000, H = 3.300000000, D = 0.000000000, Xd = 0.750000000, Xq = 0.500000000, Xpd = 0.25000000, Xppd = 0.153850000, Xl = 0.115380000, S10 = 0.102390000, S12 = 0.274200000, Xppq = 0.153850000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 5.000000000, Tppd0 = 0.060000000, Tppq0 = 0.100000000, H = 3.300000000, D = 0.000000000, Xd = 0.750000000, Xq = 0.500000000, Xpd = 0.25000000, Xppd = 0.153850000, Xl = 0.115380000, S10 = 0.102390000, S12 = 0.274200000, Xppq = 0.153850000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.HYGOV governor(R = 0.060000000,r = 0.400000000,T_r = 5.000000000,T_f = 0.050000000,T_g = 0.200000000,VELM = 0.100000000,G_MAX = 1.000000000,G_MIN = 0.000000000,T_w = 1.000000000,A_t = 1.010000000,D_turb = 0.500000000,q_NL= 0.100000000,h0 = 1.000000000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SCRX exciter(T_AT_B = 0.25385,T_B = 13.00000,K = 31.00000,T_E = 0.05000,E_MIN = 0.00000,E_MAX = 4.00000,C_SWITCH = false,r_cr_fd = 0) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -842,20 +818,17 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN3245_1;
 model GEN3249_1
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 10.130000000, Tppd0 = 0.060000000, Tppq0 = 0.100000000, H = 4.543000000, D = 0.000000000, Xd = 1.036000000, Xq = 0.630000000, Xpd = 0.28000000, Xppd = 0.210000000, Xl = 0.115380000, S10 = 0.102390000, S12 = 0.274200000, Xppq = 0.210000000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 10.130000000, Tppd0 = 0.060000000, Tppq0 = 0.100000000, H = 4.543000000, D = 0.000000000, Xd = 1.036000000, Xq = 0.630000000, Xpd = 0.28000000, Xppd = 0.210000000, Xl = 0.115380000, S10 = 0.102390000, S12 = 0.274200000, Xppq = 0.210000000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.HYGOV governor(R = 0.060000000,r = 0.400000000,T_r = 5.000000000,T_f = 0.050000000,T_g = 0.200000000,VELM = 0.100000000,G_MAX = 1.000000000,G_MIN = 0.000000000,T_w = 1.000000000,A_t = 1.100000000,D_turb = 0.500000000,q_NL= 0.100000000,h0 = 1.000000000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SCRX exciter(T_AT_B = 0.25385,T_B = 13.00000,K = 31.00000,T_E = 0.05000,E_MIN = 0.00000,E_MAX = 4.00000,C_SWITCH = false,r_cr_fd = 0) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -871,20 +844,17 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN3249_1;
 model GEN3249_2
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 10.130000000, Tppd0 = 0.060000000, Tppq0 = 0.100000000, H = 4.543000000, D = 0.000000000, Xd = 1.036000000, Xq = 0.630000000, Xpd = 0.28000000, Xppd = 0.210000000, Xl = 0.115380000, S10 = 0.102390000, S12 = 0.274200000, Xppq = 0.210000000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 10.130000000, Tppd0 = 0.060000000, Tppq0 = 0.100000000, H = 4.543000000, D = 0.000000000, Xd = 1.036000000, Xq = 0.630000000, Xpd = 0.28000000, Xppd = 0.210000000, Xl = 0.115380000, S10 = 0.102390000, S12 = 0.274200000, Xppq = 0.210000000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.HYGOV governor(R = 0.060000000,r = 0.400000000,T_r = 5.000000000,T_f = 0.050000000,T_g = 0.200000000,VELM = 0.100000000,G_MAX = 1.000000000,G_MIN = 0.000000000,T_w = 1.000000000,A_t = 1.100000000,D_turb = 0.500000000,q_NL= 0.100000000,h0 = 1.000000000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SCRX exciter(T_AT_B = 0.25385,T_B = 13.00000,K = 31.00000,T_E = 0.05000,E_MIN = 0.00000,E_MAX = 4.00000,C_SWITCH = false,r_cr_fd = 0) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -900,20 +870,17 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN3249_2;
 model GEN3249_3
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 10.130000000, Tppd0 = 0.060000000, Tppq0 = 0.100000000, H = 4.543000000, D = 0.000000000, Xd = 1.036000000, Xq = 0.630000000, Xpd = 0.28000000, Xppd = 0.210000000, Xl = 0.115380000, S10 = 0.102390000, S12 = 0.274200000, Xppq = 0.210000000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 10.130000000, Tppd0 = 0.060000000, Tppq0 = 0.100000000, H = 4.543000000, D = 0.000000000, Xd = 1.036000000, Xq = 0.630000000, Xpd = 0.28000000, Xppd = 0.210000000, Xl = 0.115380000, S10 = 0.102390000, S12 = 0.274200000, Xppq = 0.210000000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.HYGOV governor(R = 0.060000000,r = 0.400000000,T_r = 5.000000000,T_f = 0.050000000,T_g = 0.200000000,VELM = 0.100000000,G_MAX = 1.000000000,G_MIN = 0.000000000,T_w = 1.000000000,A_t = 1.100000000,D_turb = 0.500000000,q_NL= 0.100000000,h0 = 1.000000000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SCRX exciter(T_AT_B = 0.25385,T_B = 13.00000,K = 31.00000,T_E = 0.05000,E_MIN = 0.00000,E_MAX = 4.00000,C_SWITCH = false,r_cr_fd = 0) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -929,20 +896,17 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN3249_3;
 model GEN3249_4
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 10.130000000, Tppd0 = 0.060000000, Tppq0 = 0.100000000, H = 4.543000000, D = 0.000000000, Xd = 1.036000000, Xq = 0.630000000, Xpd = 0.28000000, Xppd = 0.210000000, Xl = 0.115380000, S10 = 0.102390000, S12 = 0.274200000, Xppq = 0.210000000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 10.130000000, Tppd0 = 0.060000000, Tppq0 = 0.100000000, H = 4.543000000, D = 0.000000000, Xd = 1.036000000, Xq = 0.630000000, Xpd = 0.28000000, Xppd = 0.210000000, Xl = 0.115380000, S10 = 0.102390000, S12 = 0.274200000, Xppq = 0.210000000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.HYGOV governor(R = 0.060000000,r = 0.400000000,T_r = 5.000000000,T_f = 0.050000000,T_g = 0.200000000,VELM = 0.100000000,G_MAX = 1.000000000,G_MIN = 0.000000000,T_w = 1.000000000,A_t = 1.100000000,D_turb = 0.500000000,q_NL= 0.100000000,h0 = 1.000000000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SCRX exciter(T_AT_B = 0.25385,T_B = 13.00000,K = 31.00000,T_E = 0.05000,E_MIN = 0.00000,E_MAX = 4.00000,C_SWITCH = false,r_cr_fd = 0) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -958,20 +922,17 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN3249_4;
 model GEN3249_5
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 10.130000000, Tppd0 = 0.060000000, Tppq0 = 0.100000000, H = 4.543000000, D = 0.000000000, Xd = 1.036000000, Xq = 0.630000000, Xpd = 0.28000000, Xppd = 0.210000000, Xl = 0.115380000, S10 = 0.102390000, S12 = 0.274200000, Xppq = 0.210000000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 10.130000000, Tppd0 = 0.060000000, Tppq0 = 0.100000000, H = 4.543000000, D = 0.000000000, Xd = 1.036000000, Xq = 0.630000000, Xpd = 0.28000000, Xppd = 0.210000000, Xl = 0.115380000, S10 = 0.102390000, S12 = 0.274200000, Xppq = 0.210000000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.HYGOV governor(R = 0.060000000,r = 0.400000000,T_r = 5.000000000,T_f = 0.050000000,T_g = 0.200000000,VELM = 0.100000000,G_MAX = 1.000000000,G_MIN = 0.000000000,T_w = 1.000000000,A_t = 1.100000000,D_turb = 0.500000000,q_NL= 0.100000000,h0 = 1.000000000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SCRX exciter(T_AT_B = 0.25385,T_B = 13.00000,K = 31.00000,T_E = 0.05000,E_MIN = 0.00000,E_MAX = 4.00000,C_SWITCH = false,r_cr_fd = 0) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -987,20 +948,17 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN3249_5;
 model GEN3249_6
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 10.130000000, Tppd0 = 0.060000000, Tppq0 = 0.100000000, H = 4.543000000, D = 0.000000000, Xd = 1.036000000, Xq = 0.630000000, Xpd = 0.28000000, Xppd = 0.210000000, Xl = 0.115380000, S10 = 0.102390000, S12 = 0.274200000, Xppq = 0.210000000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 10.130000000, Tppd0 = 0.060000000, Tppq0 = 0.100000000, H = 4.543000000, D = 0.000000000, Xd = 1.036000000, Xq = 0.630000000, Xpd = 0.28000000, Xppd = 0.210000000, Xl = 0.115380000, S10 = 0.102390000, S12 = 0.274200000, Xppq = 0.210000000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.HYGOV governor(R = 0.060000000,r = 0.400000000,T_r = 5.000000000,T_f = 0.050000000,T_g = 0.200000000,VELM = 0.100000000,G_MAX = 1.000000000,G_MIN = 0.000000000,T_w = 1.000000000,A_t = 1.100000000,D_turb = 0.500000000,q_NL= 0.100000000,h0 = 1.000000000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SCRX exciter(T_AT_B = 0.25385,T_B = 13.00000,K = 31.00000,T_E = 0.05000,E_MIN = 0.00000,E_MAX = 4.00000,C_SWITCH = false,r_cr_fd = 0) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -1016,20 +974,17 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN3249_6;
 model GEN3249_7
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 10.130000000, Tppd0 = 0.060000000, Tppq0 = 0.100000000, H = 4.543000000, D = 0.000000000, Xd = 1.036000000, Xq = 0.630000000, Xpd = 0.28000000, Xppd = 0.210000000, Xl = 0.115380000, S10 = 0.102390000, S12 = 0.274200000, Xppq = 0.210000000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 10.130000000, Tppd0 = 0.060000000, Tppq0 = 0.100000000, H = 4.543000000, D = 0.000000000, Xd = 1.036000000, Xq = 0.630000000, Xpd = 0.28000000, Xppd = 0.210000000, Xl = 0.115380000, S10 = 0.102390000, S12 = 0.274200000, Xppq = 0.210000000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.HYGOV governor(R = 0.060000000,r = 0.400000000,T_r = 5.000000000,T_f = 0.050000000,T_g = 0.200000000,VELM = 0.100000000,G_MAX = 1.000000000,G_MIN = 0.000000000,T_w = 1.000000000,A_t = 1.100000000,D_turb = 0.500000000,q_NL= 0.100000000,h0 = 1.000000000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SCRX exciter(T_AT_B = 0.25385,T_B = 13.00000,K = 31.00000,T_E = 0.05000,E_MIN = 0.00000,E_MAX = 4.00000,C_SWITCH = false,r_cr_fd = 0) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -1045,20 +1000,17 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN3249_7;
 model GEN3249_8
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 10.130000000, Tppd0 = 0.060000000, Tppq0 = 0.100000000, H = 4.543000000, D = 0.000000000, Xd = 1.036000000, Xq = 0.630000000, Xpd = 0.28000000, Xppd = 0.210000000, Xl = 0.115380000, S10 = 0.102390000, S12 = 0.274200000, Xppq = 0.210000000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 10.130000000, Tppd0 = 0.060000000, Tppq0 = 0.100000000, H = 4.543000000, D = 0.000000000, Xd = 1.036000000, Xq = 0.630000000, Xpd = 0.28000000, Xppd = 0.210000000, Xl = 0.115380000, S10 = 0.102390000, S12 = 0.274200000, Xppq = 0.210000000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.HYGOV governor(R = 0.060000000,r = 0.400000000,T_r = 5.000000000,T_f = 0.050000000,T_g = 0.200000000,VELM = 0.100000000,G_MAX = 1.000000000,G_MIN = 0.000000000,T_w = 1.000000000,A_t = 1.100000000,D_turb = 0.500000000,q_NL= 0.100000000,h0 = 1.000000000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SCRX exciter(T_AT_B = 0.25385,T_B = 13.00000,K = 31.00000,T_E = 0.05000,E_MIN = 0.00000,E_MAX = 4.00000,C_SWITCH = false,r_cr_fd = 0) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -1074,20 +1026,17 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN3249_8;
 model GEN3300_1
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 10.800000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 6.000000000, D = 0.000000000, Xd = 2.420000000, Xq = 2.000000000, Xpd = 0.23000000, Xpq = 0.41080000, Xppd = 0.160000000, Xl = 0.148120000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.160000000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 10.800000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 6.000000000, D = 0.000000000, Xd = 2.420000000, Xq = 2.000000000, Xpd = 0.23000000, Xpq = 0.41080000, Xppd = 0.160000000, Xl = 0.148120000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.160000000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.IEESGO governor(T_1 = 0.01000,T_2 = 0.00000,T_3 = 0.15000,T_4 = 0.30000,T_5 = 8.00000,T_6 = 0.40000,K_1 = 0.00000,K_2 = 0.70000,K_3 = 0.43000,P_MAX = 1.00000,P_MIN = 0.00000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SCRX exciter(T_AT_B = 0.00000,T_B = 0.04000,K = 10.00000,T_E = 0.04000,E_MIN = 0.00000,E_MAX = 5.00000,C_SWITCH = false,r_cr_fd = 0) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -1103,20 +1052,17 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN3300_1;
 model GEN3300_2
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 10.800000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 6.000000000, D = 0.000000000, Xd = 2.420000000, Xq = 2.000000000, Xpd = 0.23000000, Xpq = 0.41080000, Xppd = 0.160000000, Xl = 0.148120000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.160000000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 10.800000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 6.000000000, D = 0.000000000, Xd = 2.420000000, Xq = 2.000000000, Xpd = 0.23000000, Xpq = 0.41080000, Xppd = 0.160000000, Xl = 0.148120000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.160000000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.IEESGO governor(T_1 = 0.01000,T_2 = 0.00000,T_3 = 0.15000,T_4 = 0.30000,T_5 = 8.00000,T_6 = 0.40000,K_1 = 0.00000,K_2 = 0.70000,K_3 = 0.43000,P_MAX = 1.00000,P_MIN = 0.00000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SCRX exciter(T_AT_B = 0.00000,T_B = 0.04000,K = 10.00000,T_E = 0.04000,E_MIN = 0.00000,E_MAX = 5.00000,C_SWITCH = false,r_cr_fd = 0) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -1132,20 +1078,17 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN3300_2;
 model GEN3300_3
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 10.800000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 6.000000000, D = 0.000000000, Xd = 2.420000000, Xq = 2.000000000, Xpd = 0.23000000, Xpq = 0.41080000, Xppd = 0.160000000, Xl = 0.148120000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.160000000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 10.800000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 6.000000000, D = 0.000000000, Xd = 2.420000000, Xq = 2.000000000, Xpd = 0.23000000, Xpq = 0.41080000, Xppd = 0.160000000, Xl = 0.148120000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.160000000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.IEESGO governor(T_1 = 0.01000,T_2 = 0.00000,T_3 = 0.15000,T_4 = 0.30000,T_5 = 8.00000,T_6 = 0.40000,K_1 = 0.00000,K_2 = 0.70000,K_3 = 0.43000,P_MAX = 1.00000,P_MIN = 0.00000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SCRX exciter(T_AT_B = 0.00000,T_B = 0.04000,K = 10.00000,T_E = 0.04000,E_MIN = 0.00000,E_MAX = 5.00000,C_SWITCH = false,r_cr_fd = 0) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -1161,20 +1104,17 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN3300_3;
 model GEN3300_4
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 10.800000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 6.000000000, D = 0.000000000, Xd = 2.420000000, Xq = 2.000000000, Xpd = 0.23000000, Xpq = 0.41080000, Xppd = 0.160000000, Xl = 0.148120000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.160000000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 10.800000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 6.000000000, D = 0.000000000, Xd = 2.420000000, Xq = 2.000000000, Xpd = 0.23000000, Xpq = 0.41080000, Xppd = 0.160000000, Xl = 0.148120000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.160000000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.IEESGO governor(T_1 = 0.01000,T_2 = 0.00000,T_3 = 0.15000,T_4 = 0.30000,T_5 = 8.00000,T_6 = 0.40000,K_1 = 0.00000,K_2 = 0.70000,K_3 = 0.43000,P_MAX = 1.00000,P_MIN = 0.00000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SCRX exciter(T_AT_B = 0.00000,T_B = 0.04000,K = 10.00000,T_E = 0.04000,E_MIN = 0.00000,E_MAX = 5.00000,C_SWITCH = false,r_cr_fd = 0) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -1190,20 +1130,17 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN3300_4;
 model GEN3300_5
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 10.800000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 6.000000000, D = 0.000000000, Xd = 2.420000000, Xq = 2.000000000, Xpd = 0.23000000, Xpq = 0.41080000, Xppd = 0.160000000, Xl = 0.148120000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.160000000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 10.800000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 6.000000000, D = 0.000000000, Xd = 2.420000000, Xq = 2.000000000, Xpd = 0.23000000, Xpq = 0.41080000, Xppd = 0.160000000, Xl = 0.148120000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.160000000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.IEESGO governor(T_1 = 0.01000,T_2 = 0.00000,T_3 = 0.15000,T_4 = 0.30000,T_5 = 8.00000,T_6 = 0.40000,K_1 = 0.00000,K_2 = 0.70000,K_3 = 0.43000,P_MAX = 1.00000,P_MIN = 0.00000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SCRX exciter(T_AT_B = 0.00000,T_B = 0.04000,K = 10.00000,T_E = 0.04000,E_MIN = 0.00000,E_MAX = 5.00000,C_SWITCH = false,r_cr_fd = 0) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -1219,20 +1156,17 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN3300_5;
 model GEN3300_6
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 10.800000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 6.000000000, D = 0.000000000, Xd = 2.420000000, Xq = 2.000000000, Xpd = 0.23000000, Xpq = 0.41080000, Xppd = 0.160000000, Xl = 0.148100000, S10 = 0.108900000, S12 = 0.378000000, Xppq = 0.160000000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 10.800000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 6.000000000, D = 0.000000000, Xd = 2.420000000, Xq = 2.000000000, Xpd = 0.23000000, Xpq = 0.41080000, Xppd = 0.160000000, Xl = 0.148100000, S10 = 0.108900000, S12 = 0.378000000, Xppq = 0.160000000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.IEESGO governor(T_1 = 0.01000,T_2 = 0.00000,T_3 = 0.15000,T_4 = 0.30000,T_5 = 8.00000,T_6 = 0.40000,K_1 = 0.00000,K_2 = 0.70000,K_3 = 0.43000,P_MAX = 1.00000,P_MIN = 0.00000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SCRX exciter(T_AT_B = 0.00000,T_B = 0.04000,K = 10.00000,T_E = 0.04000,E_MIN = 0.00000,E_MAX = 5.00000,C_SWITCH = false,r_cr_fd = 0) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -1248,20 +1182,17 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN3300_6;
 model GEN3359_1
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 4.750000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 4.820000000, D = 0.000000000, Xd = 2.130000000, Xq = 2.030000000, Xpd = 0.31000000, Xpq = 0.40300000, Xppd = 0.193700000, Xl = 0.145310000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.193700000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 4.750000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 4.820000000, D = 0.000000000, Xd = 2.130000000, Xq = 2.030000000, Xpd = 0.31000000, Xpq = 0.40300000, Xppd = 0.193700000, Xl = 0.145310000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.193700000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.IEESGO governor(T_1 = 0.01000,T_2 = 0.00000,T_3 = 0.15000,T_4 = 0.30000,T_5 = 8.00000,T_6 = 0.40000,K_1 = 0.00000,K_2 = 0.70000,K_3 = 0.43000,P_MAX = 1.00000,P_MIN = 0.00000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SCRX exciter(T_AT_B = 0.20000,T_B = 10.00000,K = 165.00000,T_E = 0.04000,E_MIN = 0.00000,E_MAX = 5.00000,C_SWITCH = false,r_cr_fd = 0) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -1277,20 +1208,17 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN3359_1;
 model GEN3359_2
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 4.750000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 4.820000000, D = 0.000000000, Xd = 2.130000000, Xq = 2.030000000, Xpd = 0.31000000, Xpq = 0.40300000, Xppd = 0.193700000, Xl = 0.145310000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.193700000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 4.750000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 4.820000000, D = 0.000000000, Xd = 2.130000000, Xq = 2.030000000, Xpd = 0.31000000, Xpq = 0.40300000, Xppd = 0.193700000, Xl = 0.145310000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.193700000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.IEESGO governor(T_1 = 0.01000,T_2 = 0.00000,T_3 = 0.15000,T_4 = 0.30000,T_5 = 8.00000,T_6 = 0.40000,K_1 = 0.00000,K_2 = 0.70000,K_3 = 0.43000,P_MAX = 1.00000,P_MIN = 0.00000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SCRX exciter(T_AT_B = 0.20000,T_B = 10.00000,K = 165.00000,T_E = 0.04000,E_MIN = 0.00000,E_MAX = 5.00000,C_SWITCH = false,r_cr_fd = 0) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -1306,20 +1234,17 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN3359_2;
 model GEN3359_3
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 4.750000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 4.820000000, D = 0.000000000, Xd = 2.130000000, Xq = 2.030000000, Xpd = 0.31000000, Xpq = 0.40300000, Xppd = 0.193700000, Xl = 0.145310000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.193700000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 4.750000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 4.820000000, D = 0.000000000, Xd = 2.130000000, Xq = 2.030000000, Xpd = 0.31000000, Xpq = 0.40300000, Xppd = 0.193700000, Xl = 0.145310000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.193700000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.IEESGO governor(T_1 = 0.01000,T_2 = 0.00000,T_3 = 0.15000,T_4 = 0.30000,T_5 = 8.00000,T_6 = 0.40000,K_1 = 0.00000,K_2 = 0.70000,K_3 = 0.43000,P_MAX = 1.00000,P_MIN = 0.00000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SCRX exciter(T_AT_B = 0.20000,T_B = 10.00000,K = 165.00000,T_E = 0.04000,E_MIN = 0.00000,E_MAX = 5.00000,C_SWITCH = false,r_cr_fd = 0) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -1335,20 +1260,17 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN3359_3;
 model GEN3359_4
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 4.750000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 4.820000000, D = 0.000000000, Xd = 2.130000000, Xq = 2.030000000, Xpd = 0.31000000, Xpq = 0.40300000, Xppd = 0.193700000, Xl = 0.145310000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.193700000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 4.750000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 4.820000000, D = 0.000000000, Xd = 2.130000000, Xq = 2.030000000, Xpd = 0.31000000, Xpq = 0.40300000, Xppd = 0.193700000, Xl = 0.145310000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.193700000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.IEESGO governor(T_1 = 0.01000,T_2 = 0.00000,T_3 = 0.15000,T_4 = 0.30000,T_5 = 8.00000,T_6 = 0.40000,K_1 = 0.00000,K_2 = 0.70000,K_3 = 0.43000,P_MAX = 1.00000,P_MIN = 0.00000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SCRX exciter(T_AT_B = 0.20000,T_B = 10.00000,K = 165.00000,T_E = 0.04000,E_MIN = 0.00000,E_MAX = 5.00000,C_SWITCH = false,r_cr_fd = 0) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -1364,20 +1286,17 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN3359_4;
 model GEN3359_5
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 4.750000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 4.820000000, D = 0.000000000, Xd = 2.130000000, Xq = 2.030000000, Xpd = 0.31000000, Xpq = 0.40300000, Xppd = 0.193700000, Xl = 0.145310000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.193700000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 4.750000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 4.820000000, D = 0.000000000, Xd = 2.130000000, Xq = 2.030000000, Xpd = 0.31000000, Xpq = 0.40300000, Xppd = 0.193700000, Xl = 0.145310000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.193700000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.IEESGO governor(T_1 = 0.01000,T_2 = 0.00000,T_3 = 0.15000,T_4 = 0.30000,T_5 = 8.00000,T_6 = 0.40000,K_1 = 0.00000,K_2 = 0.70000,K_3 = 0.43000,P_MAX = 1.00000,P_MIN = 0.00000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SCRX exciter(T_AT_B = 0.20000,T_B = 10.00000,K = 165.00000,T_E = 0.04000,E_MIN = 0.00000,E_MAX = 5.00000,C_SWITCH = false,r_cr_fd = 0) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -1393,20 +1312,17 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN3359_5;
 model GEN3359_6
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 4.750000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 4.820000000, D = 0.000000000, Xd = 2.130000000, Xq = 2.030000000, Xpd = 0.31000000, Xpq = 0.40300000, Xppd = 0.193700000, Xl = 0.145310000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.193700000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 4.750000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 4.820000000, D = 0.000000000, Xd = 2.130000000, Xq = 2.030000000, Xpd = 0.31000000, Xpq = 0.40300000, Xppd = 0.193700000, Xl = 0.145310000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.193700000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.IEESGO governor(T_1 = 0.01000,T_2 = 0.00000,T_3 = 0.15000,T_4 = 0.30000,T_5 = 8.00000,T_6 = 0.40000,K_1 = 0.00000,K_2 = 0.70000,K_3 = 0.43000,P_MAX = 1.00000,P_MIN = 0.00000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SCRX exciter(T_AT_B = 0.20000,T_B = 10.00000,K = 165.00000,T_E = 0.04000,E_MIN = 0.00000,E_MAX = 5.00000,C_SWITCH = false,r_cr_fd = 0) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -1422,20 +1338,18 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN3359_6;
 model GEN5100_1
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 4.962900000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.987100000, D = 0.000000000, Xd = 1.133200000, Xq = 0.683150000, Xpd = 0.24302000, Xppd = 0.151350000, Xl = 0.134050000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.151350000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 4.962900000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.987100000, D = 0.000000000, Xd = 1.133200000, Xq = 0.683150000, Xpd = 0.24302000, Xppd = 0.151350000, Xl = 0.134050000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.151350000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.HYGOV governor(R = 0.060000000,r = 0.400000000,T_r = 5.000000000,T_f = 0.050000000,T_g = 0.200000000,VELM = 0.200000000,G_MAX = 1.000000000,G_MIN = 0.000000000,T_w = 1.000000000,A_t = 1.100000000,D_turb = 0.500000000,q_NL= 0.100000000,h0 = 1.000000000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SEXS exciter(T_AT_B=0.05000,T_B=100.00000,K=200.00000,T_E=0.50000,E_MIN=0.00000,E_MAX=4.00000) annotation(Placement(transformation(extent = {{-16, -20}, {4, 0}})));
+			OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -1451,20 +1365,18 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN5100_1;
 model GEN5100_2
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 4.962900000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.987100000, D = 0.000000000, Xd = 1.133200000, Xq = 0.683200000, Xpd = 0.24300000, Xppd = 0.151400000, Xl = 0.134100000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.151400000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 4.962900000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.987100000, D = 0.000000000, Xd = 1.133200000, Xq = 0.683200000, Xpd = 0.24300000, Xppd = 0.151400000, Xl = 0.134100000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.151400000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.HYGOV governor(R = 0.060000000,r = 0.400000000,T_r = 5.000000000,T_f = 0.050000000,T_g = 0.200000000,VELM = 0.200000000,G_MAX = 1.000000000,G_MIN = 0.000000000,T_w = 1.000000000,A_t = 1.100000000,D_turb = 0.500000000,q_NL= 0.100000000,h0 = 1.000000000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SEXS exciter(T_AT_B=0.05000,T_B=100.00000,K=200.00000,T_E=0.50000,E_MIN=0.00000,E_MAX=4.00000) annotation(Placement(transformation(extent = {{-16, -20}, {4, 0}})));
+			OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -1480,20 +1392,17 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN5100_2;
 model GEN5300_1
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 6.400000000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.500000000, D = 0.000000000, Xd = 1.140000000, Xq = 0.840000000, Xpd = 0.34000000, Xppd = 0.260000000, Xl = 0.200000000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.260000000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 6.400000000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.500000000, D = 0.000000000, Xd = 1.140000000, Xq = 0.840000000, Xpd = 0.34000000, Xppd = 0.260000000, Xl = 0.200000000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.260000000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.HYGOV governor(R = 0.060000000,r = 0.400000000,T_r = 5.000000000,T_f = 0.050000000,T_g = 0.200000000,VELM = 0.200000000,G_MAX = 1.000000000,G_MIN = 0.000000000,T_w = 1.000000000,A_t = 1.100000000,D_turb = 0.500000000,q_NL= 0.100000000,h0 = 1.000000000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SCRX exciter(T_AT_B = 0.25385,T_B = 13.00000,K = 61.00000,T_E = 0.05000,E_MIN = 0.00000,E_MAX = 4.00000,C_SWITCH = false,r_cr_fd = 0) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -1509,20 +1418,17 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN5300_1;
 model GEN5300_2
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 6.400000000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.500000000, D = 0.000000000, Xd = 1.140000000, Xq = 0.840000000, Xpd = 0.34000000, Xppd = 0.260000000, Xl = 0.200000000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.260000000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 6.400000000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.500000000, D = 0.000000000, Xd = 1.140000000, Xq = 0.840000000, Xpd = 0.34000000, Xppd = 0.260000000, Xl = 0.200000000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.260000000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.HYGOV governor(R = 0.060000000,r = 0.400000000,T_r = 5.000000000,T_f = 0.050000000,T_g = 0.200000000,VELM = 0.200000000,G_MAX = 1.000000000,G_MIN = 0.000000000,T_w = 1.000000000,A_t = 1.100000000,D_turb = 0.500000000,q_NL= 0.100000000,h0 = 1.000000000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SCRX exciter(T_AT_B = 0.25385,T_B = 13.00000,K = 61.00000,T_E = 0.05000,E_MIN = 0.00000,E_MAX = 4.00000,C_SWITCH = false,r_cr_fd = 0) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -1538,20 +1444,17 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN5300_2;
 model GEN5300_3
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 6.400000000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.500000000, D = 0.000000000, Xd = 1.140000000, Xq = 0.840000000, Xpd = 0.34000000, Xppd = 0.260000000, Xl = 0.200000000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.260000000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 6.400000000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.500000000, D = 0.000000000, Xd = 1.140000000, Xq = 0.840000000, Xpd = 0.34000000, Xppd = 0.260000000, Xl = 0.200000000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.260000000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.HYGOV governor(R = 0.060000000,r = 0.400000000,T_r = 5.000000000,T_f = 0.050000000,T_g = 0.200000000,VELM = 0.200000000,G_MAX = 1.000000000,G_MIN = 0.000000000,T_w = 1.000000000,A_t = 1.100000000,D_turb = 0.500000000,q_NL= 0.100000000,h0 = 1.000000000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SCRX exciter(T_AT_B = 0.25385,T_B = 13.00000,K = 61.00000,T_E = 0.05000,E_MIN = 0.00000,E_MAX = 4.00000,C_SWITCH = false,r_cr_fd = 0) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -1567,20 +1470,17 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN5300_3;
 model GEN5300_4
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 6.400000000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.500000000, D = 0.000000000, Xd = 1.140000000, Xq = 0.840000000, Xpd = 0.34000000, Xppd = 0.260000000, Xl = 0.200000000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.260000000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 6.400000000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.500000000, D = 0.000000000, Xd = 1.140000000, Xq = 0.840000000, Xpd = 0.34000000, Xppd = 0.260000000, Xl = 0.200000000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.260000000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.HYGOV governor(R = 0.060000000,r = 0.400000000,T_r = 5.000000000,T_f = 0.050000000,T_g = 0.200000000,VELM = 0.200000000,G_MAX = 1.000000000,G_MIN = 0.000000000,T_w = 1.000000000,A_t = 1.100000000,D_turb = 0.500000000,q_NL= 0.100000000,h0 = 1.000000000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SCRX exciter(T_AT_B = 0.25385,T_B = 13.00000,K = 61.00000,T_E = 0.05000,E_MIN = 0.00000,E_MAX = 4.00000,C_SWITCH = false,r_cr_fd = 0) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -1596,20 +1496,17 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN5300_4;
 model GEN5300_5
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 6.400000000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.500000000, D = 0.000000000, Xd = 1.140000000, Xq = 0.840000000, Xpd = 0.34000000, Xppd = 0.260000000, Xl = 0.200000000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.260000000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 6.400000000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.500000000, D = 0.000000000, Xd = 1.140000000, Xq = 0.840000000, Xpd = 0.34000000, Xppd = 0.260000000, Xl = 0.200000000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.260000000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.HYGOV governor(R = 0.060000000,r = 0.400000000,T_r = 5.000000000,T_f = 0.050000000,T_g = 0.200000000,VELM = 0.200000000,G_MAX = 1.000000000,G_MIN = 0.000000000,T_w = 1.000000000,A_t = 1.100000000,D_turb = 0.500000000,q_NL= 0.100000000,h0 = 1.000000000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SCRX exciter(T_AT_B = 0.25385,T_B = 13.00000,K = 61.00000,T_E = 0.05000,E_MIN = 0.00000,E_MAX = 4.00000,C_SWITCH = false,r_cr_fd = 0) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -1625,20 +1522,17 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN5300_5;
 model GEN5300_6
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 6.400000000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.500000000, D = 0.000000000, Xd = 1.140000000, Xq = 0.840000000, Xpd = 0.34000000, Xppd = 0.260000000, Xl = 0.200000000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.260000000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 6.400000000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.500000000, D = 0.000000000, Xd = 1.140000000, Xq = 0.840000000, Xpd = 0.34000000, Xppd = 0.260000000, Xl = 0.200000000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.260000000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.HYGOV governor(R = 0.060000000,r = 0.400000000,T_r = 5.000000000,T_f = 0.050000000,T_g = 0.200000000,VELM = 0.200000000,G_MAX = 1.000000000,G_MIN = 0.000000000,T_w = 1.000000000,A_t = 1.100000000,D_turb = 0.500000000,q_NL= 0.100000000,h0 = 1.000000000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SCRX exciter(T_AT_B = 0.25385,T_B = 13.00000,K = 61.00000,T_E = 0.05000,E_MIN = 0.00000,E_MAX = 4.00000,C_SWITCH = false,r_cr_fd = 0) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -1654,20 +1548,18 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN5300_6;
 model GEN5400_1
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 6.500000000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 4.100000000, D = 0.000000000, Xd = 1.020000000, Xq = 0.630000000, Xpd = 0.25000000, Xppd = 0.160000000, Xl = 0.130000000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.160000000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 6.500000000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 4.100000000, D = 0.000000000, Xd = 1.020000000, Xq = 0.630000000, Xpd = 0.25000000, Xppd = 0.160000000, Xl = 0.130000000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.160000000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.HYGOV governor(R = 0.060000000,r = 0.400000000,T_r = 5.000000000,T_f = 0.050000000,T_g = 0.200000000,VELM = 0.200000000,G_MAX = 1.000000000,G_MIN = 0.000000000,T_w = 1.000000000,A_t = 1.100000000,D_turb = 0.500000000,q_NL= 0.100000000,h0 = 1.000000000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SEXS exciter(T_AT_B=0.05000,T_B=100.00000,K=200.00000,T_E=0.50000,E_MIN=0.00000,E_MAX=4.00000) annotation(Placement(transformation(extent = {{-16, -20}, {4, 0}})));
+			OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -1683,20 +1575,18 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN5400_1;
 model GEN5400_2
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 6.500000000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 4.100000000, D = 0.000000000, Xd = 1.020000000, Xq = 0.630000000, Xpd = 0.25000000, Xppd = 0.160000000, Xl = 0.130000000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.160000000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 6.500000000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 4.100000000, D = 0.000000000, Xd = 1.020000000, Xq = 0.630000000, Xpd = 0.25000000, Xppd = 0.160000000, Xl = 0.130000000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.160000000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.HYGOV governor(R = 0.060000000,r = 0.400000000,T_r = 5.000000000,T_f = 0.050000000,T_g = 0.200000000,VELM = 0.200000000,G_MAX = 1.000000000,G_MIN = 0.000000000,T_w = 1.000000000,A_t = 1.100000000,D_turb = 0.500000000,q_NL= 0.100000000,h0 = 1.000000000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SEXS exciter(T_AT_B=0.05000,T_B=100.00000,K=200.00000,T_E=0.50000,E_MIN=0.00000,E_MAX=4.00000) annotation(Placement(transformation(extent = {{-16, -20}, {4, 0}})));
+			OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -1712,20 +1602,18 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN5400_2;
 model GEN5500_1
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 7.198000000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.000000000, D = 0.000000000, Xd = 1.236400000, Xq = 0.655670000, Xpd = 0.37415000, Xppd = 0.228250000, Xl = 0.161940000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.228250000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 7.198000000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.000000000, D = 0.000000000, Xd = 1.236400000, Xq = 0.655670000, Xpd = 0.37415000, Xppd = 0.228250000, Xl = 0.161940000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.228250000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.HYGOV governor(R = 0.060000000,r = 0.400000000,T_r = 5.000000000,T_f = 0.050000000,T_g = 0.200000000,VELM = 0.200000000,G_MAX = 1.000000000,G_MIN = 0.000000000,T_w = 1.000000000,A_t = 1.100000000,D_turb = 0.500000000,q_NL= 0.100000000,h0 = 1.000000000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SEXS exciter(T_AT_B=0.05000,T_B=100.00000,K=200.00000,T_E=0.50000,E_MIN=0.00000,E_MAX=4.00000) annotation(Placement(transformation(extent = {{-16, -20}, {4, 0}})));
+			OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -1741,20 +1629,18 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN5500_1;
 model GEN5500_2
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 7.198000000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.000000000, D = 0.000000000, Xd = 1.236400000, Xq = 0.655700000, Xpd = 0.37410000, Xppd = 0.228300000, Xl = 0.161900000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.228300000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 7.198000000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.000000000, D = 0.000000000, Xd = 1.236400000, Xq = 0.655700000, Xpd = 0.37410000, Xppd = 0.228300000, Xl = 0.161900000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.228300000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.HYGOV governor(R = 0.060000000,r = 0.400000000,T_r = 5.000000000,T_f = 0.050000000,T_g = 0.200000000,VELM = 0.200000000,G_MAX = 1.000000000,G_MIN = 0.000000000,T_w = 1.000000000,A_t = 1.100000000,D_turb = 0.500000000,q_NL= 0.100000000,h0 = 1.000000000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SEXS exciter(T_AT_B=0.05000,T_B=100.00000,K=200.00000,T_E=0.50000,E_MIN=0.00000,E_MAX=4.00000) annotation(Placement(transformation(extent = {{-16, -20}, {4, 0}})));
+			OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -1770,20 +1656,17 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN5500_2;
 model GEN5600_1
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 7.850000000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.500000000, D = 0.000000000, Xd = 1.000000000, Xq = 0.513250000, Xpd = 0.38000000, Xppd = 0.280000000, Xl = 0.210000000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.280000000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 7.850000000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.500000000, D = 0.000000000, Xd = 1.000000000, Xq = 0.513250000, Xpd = 0.38000000, Xppd = 0.280000000, Xl = 0.210000000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.280000000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.HYGOV governor(R = 0.060000000,r = 0.300000000,T_r = 5.000000000,T_f = 0.050000000,T_g = 0.200000000,VELM = 0.200000000,G_MAX = 1.000000000,G_MIN = 0.000000000,T_w = 1.000000000,A_t = 1.100000000,D_turb = 0.500000000,q_NL= 0.100000000,h0 = 1.000000000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SCRX exciter(T_AT_B = 0.25385,T_B = 13.00000,K = 61.00000,T_E = 0.05000,E_MIN = 0.00000,E_MAX = 4.00000,C_SWITCH = false,r_cr_fd = 0) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -1799,20 +1682,17 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN5600_1;
 model GEN5600_2
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 7.850000000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.500000000, D = 0.000000000, Xd = 1.000000000, Xq = 0.513250000, Xpd = 0.38000000, Xppd = 0.280000000, Xl = 0.210000000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.280000000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 7.850000000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.500000000, D = 0.000000000, Xd = 1.000000000, Xq = 0.513250000, Xpd = 0.38000000, Xppd = 0.280000000, Xl = 0.210000000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.280000000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.HYGOV governor(R = 0.060000000,r = 0.300000000,T_r = 5.000000000,T_f = 0.050000000,T_g = 0.200000000,VELM = 0.200000000,G_MAX = 1.000000000,G_MIN = 0.000000000,T_w = 1.000000000,A_t = 1.100000000,D_turb = 0.500000000,q_NL= 0.100000000,h0 = 1.000000000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SCRX exciter(T_AT_B = 0.25385,T_B = 13.00000,K = 61.00000,T_E = 0.05000,E_MIN = 0.00000,E_MAX = 4.00000,C_SWITCH = false,r_cr_fd = 0) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -1828,20 +1708,17 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN5600_2;
 model GEN5600_3
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 7.850000000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.500000000, D = 0.000000000, Xd = 1.000000000, Xq = 0.513250000, Xpd = 0.38000000, Xppd = 0.280000000, Xl = 0.210000000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.280000000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 7.850000000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.500000000, D = 0.000000000, Xd = 1.000000000, Xq = 0.513250000, Xpd = 0.38000000, Xppd = 0.280000000, Xl = 0.210000000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.280000000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.HYGOV governor(R = 0.060000000,r = 0.300000000,T_r = 5.000000000,T_f = 0.050000000,T_g = 0.200000000,VELM = 0.200000000,G_MAX = 1.000000000,G_MIN = 0.000000000,T_w = 1.000000000,A_t = 1.100000000,D_turb = 0.500000000,q_NL= 0.100000000,h0 = 1.000000000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SCRX exciter(T_AT_B = 0.25385,T_B = 13.00000,K = 61.00000,T_E = 0.05000,E_MIN = 0.00000,E_MAX = 4.00000,C_SWITCH = false,r_cr_fd = 0) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -1857,20 +1734,17 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN5600_3;
 model GEN5600_4
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 7.850000000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.500000000, D = 0.000000000, Xd = 1.000000000, Xq = 0.513250000, Xpd = 0.38000000, Xppd = 0.280000000, Xl = 0.210000000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.280000000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 7.850000000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.500000000, D = 0.000000000, Xd = 1.000000000, Xq = 0.513250000, Xpd = 0.38000000, Xppd = 0.280000000, Xl = 0.210000000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.280000000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.HYGOV governor(R = 0.060000000,r = 0.300000000,T_r = 5.000000000,T_f = 0.050000000,T_g = 0.200000000,VELM = 0.200000000,G_MAX = 1.000000000,G_MIN = 0.000000000,T_w = 1.000000000,A_t = 1.100000000,D_turb = 0.500000000,q_NL= 0.100000000,h0 = 1.000000000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SCRX exciter(T_AT_B = 0.25385,T_B = 13.00000,K = 61.00000,T_E = 0.05000,E_MIN = 0.00000,E_MAX = 4.00000,C_SWITCH = false,r_cr_fd = 0) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -1886,20 +1760,18 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN5600_4;
 model GEN6000_1
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 9.700000000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.500000000, D = 0.000000000, Xd = 1.280000000, Xq = 0.940000000, Xpd = 0.37000000, Xppd = 0.280000000, Xl = 0.200000000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.280000000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 9.700000000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.500000000, D = 0.000000000, Xd = 1.280000000, Xq = 0.940000000, Xpd = 0.37000000, Xppd = 0.280000000, Xl = 0.200000000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.280000000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.HYGOV governor(R = 0.060000000,r = 0.300000000,T_r = 5.000000000,T_f = 0.050000000,T_g = 0.200000000,VELM = 0.200000000,G_MAX = 1.000000000,G_MIN = 0.000000000,T_w = 1.000000000,A_t = 1.100000000,D_turb = 0.500000000,q_NL= 0.100000000,h0 = 1.000000000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SEXS exciter(T_AT_B=1.00000,T_B=0.10000,K=20.00000,T_E=0.10000,E_MIN=-4.00000,E_MAX=4.00000) annotation(Placement(transformation(extent = {{-16, -20}, {4, 0}})));
+			OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -1915,20 +1787,18 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN6000_1;
 model GEN6000_2
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 9.700000000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.500000000, D = 0.000000000, Xd = 1.280000000, Xq = 0.940000000, Xpd = 0.37000000, Xppd = 0.280000000, Xl = 0.200000000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.280000000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 9.700000000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.500000000, D = 0.000000000, Xd = 1.280000000, Xq = 0.940000000, Xpd = 0.37000000, Xppd = 0.280000000, Xl = 0.200000000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.280000000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.HYGOV governor(R = 0.060000000,r = 0.300000000,T_r = 5.000000000,T_f = 0.050000000,T_g = 0.200000000,VELM = 0.200000000,G_MAX = 1.000000000,G_MIN = 0.000000000,T_w = 1.000000000,A_t = 1.100000000,D_turb = 0.500000000,q_NL= 0.100000000,h0 = 1.000000000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SEXS exciter(T_AT_B=1.00000,T_B=0.10000,K=20.00000,T_E=0.10000,E_MIN=-4.00000,E_MAX=4.00000) annotation(Placement(transformation(extent = {{-16, -20}, {4, 0}})));
+			OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -1944,20 +1814,18 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN6000_2;
 model GEN6000_3
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 9.700000000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.500000000, D = 0.000000000, Xd = 1.280000000, Xq = 0.940000000, Xpd = 0.37000000, Xppd = 0.280000000, Xl = 0.200000000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.280000000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 9.700000000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.500000000, D = 0.000000000, Xd = 1.280000000, Xq = 0.940000000, Xpd = 0.37000000, Xppd = 0.280000000, Xl = 0.200000000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.280000000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.HYGOV governor(R = 0.060000000,r = 0.300000000,T_r = 5.000000000,T_f = 0.050000000,T_g = 0.200000000,VELM = 0.200000000,G_MAX = 1.000000000,G_MIN = 0.000000000,T_w = 1.000000000,A_t = 1.100000000,D_turb = 0.500000000,q_NL= 0.100000000,h0 = 1.000000000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SEXS exciter(T_AT_B=1.00000,T_B=0.10000,K=20.00000,T_E=0.10000,E_MIN=-4.00000,E_MAX=4.00000) annotation(Placement(transformation(extent = {{-16, -20}, {4, 0}})));
+			OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -1973,20 +1841,18 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN6000_3;
 model GEN6000_4
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 9.700000000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.500000000, D = 0.000000000, Xd = 1.280000000, Xq = 0.940000000, Xpd = 0.37000000, Xppd = 0.280000000, Xl = 0.200000000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.280000000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 9.700000000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.500000000, D = 0.000000000, Xd = 1.280000000, Xq = 0.940000000, Xpd = 0.37000000, Xppd = 0.280000000, Xl = 0.200000000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.280000000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.HYGOV governor(R = 0.060000000,r = 0.300000000,T_r = 5.000000000,T_f = 0.050000000,T_g = 0.200000000,VELM = 0.200000000,G_MAX = 1.000000000,G_MIN = 0.000000000,T_w = 1.000000000,A_t = 1.100000000,D_turb = 0.500000000,q_NL= 0.100000000,h0 = 1.000000000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SEXS exciter(T_AT_B=1.00000,T_B=0.10000,K=20.00000,T_E=0.10000,E_MIN=-4.00000,E_MAX=4.00000) annotation(Placement(transformation(extent = {{-16, -20}, {4, 0}})));
+			OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -2002,20 +1868,17 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN6000_4;
 model GEN6100_1
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 9.900000000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.000000000, D = 0.000000000, Xd = 1.200000000, Xq = 0.730000000, Xpd = 0.37000000, Xppd = 0.180000000, Xl = 0.150000000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.180000000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 9.900000000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.000000000, D = 0.000000000, Xd = 1.200000000, Xq = 0.730000000, Xpd = 0.37000000, Xppd = 0.180000000, Xl = 0.150000000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.180000000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.HYGOV governor(R = 0.060000000,r = 0.400000000,T_r = 5.000000000,T_f = 0.050000000,T_g = 0.200000000,VELM = 0.200000000,G_MAX = 1.000000000,G_MIN = 0.000000000,T_w = 1.000000000,A_t = 1.100000000,D_turb = 0.500000000,q_NL= 0.100000000,h0 = 1.000000000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SCRX exciter(T_AT_B = 0.25385,T_B = 13.00000,K = 61.00000,T_E = 0.05000,E_MIN = 0.00000,E_MAX = 4.00000,C_SWITCH = false,r_cr_fd = 0) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -2031,20 +1894,17 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN6100_1;
 model GEN6100_2
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 9.900000000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.000000000, D = 0.000000000, Xd = 1.200000000, Xq = 0.730000000, Xpd = 0.37000000, Xppd = 0.180000000, Xl = 0.150000000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.180000000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 9.900000000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.000000000, D = 0.000000000, Xd = 1.200000000, Xq = 0.730000000, Xpd = 0.37000000, Xppd = 0.180000000, Xl = 0.150000000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.180000000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.HYGOV governor(R = 0.060000000,r = 0.400000000,T_r = 5.000000000,T_f = 0.050000000,T_g = 0.200000000,VELM = 0.200000000,G_MAX = 1.000000000,G_MIN = 0.000000000,T_w = 1.000000000,A_t = 1.100000000,D_turb = 0.500000000,q_NL= 0.100000000,h0 = 1.000000000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SCRX exciter(T_AT_B = 0.25385,T_B = 13.00000,K = 61.00000,T_E = 0.05000,E_MIN = 0.00000,E_MAX = 4.00000,C_SWITCH = false,r_cr_fd = 0) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -2060,20 +1920,17 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN6100_2;
 model GEN6100_3
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 9.900000000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.000000000, D = 0.000000000, Xd = 1.200000000, Xq = 0.730000000, Xpd = 0.37000000, Xppd = 0.180000000, Xl = 0.150000000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.180000000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 9.900000000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.000000000, D = 0.000000000, Xd = 1.200000000, Xq = 0.730000000, Xpd = 0.37000000, Xppd = 0.180000000, Xl = 0.150000000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.180000000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.HYGOV governor(R = 0.060000000,r = 0.400000000,T_r = 5.000000000,T_f = 0.050000000,T_g = 0.200000000,VELM = 0.200000000,G_MAX = 1.000000000,G_MIN = 0.000000000,T_w = 1.000000000,A_t = 1.100000000,D_turb = 0.500000000,q_NL= 0.100000000,h0 = 1.000000000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SCRX exciter(T_AT_B = 0.25385,T_B = 13.00000,K = 61.00000,T_E = 0.05000,E_MIN = 0.00000,E_MAX = 4.00000,C_SWITCH = false,r_cr_fd = 0) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -2089,20 +1946,17 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN6100_3;
 model GEN6100_4
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 9.900000000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.000000000, D = 0.000000000, Xd = 1.200000000, Xq = 0.730000000, Xpd = 0.37000000, Xppd = 0.180000000, Xl = 0.150000000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.180000000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 9.900000000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.000000000, D = 0.000000000, Xd = 1.200000000, Xq = 0.730000000, Xpd = 0.37000000, Xppd = 0.180000000, Xl = 0.150000000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.180000000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.HYGOV governor(R = 0.060000000,r = 0.400000000,T_r = 5.000000000,T_f = 0.050000000,T_g = 0.200000000,VELM = 0.200000000,G_MAX = 1.000000000,G_MIN = 0.000000000,T_w = 1.000000000,A_t = 1.100000000,D_turb = 0.500000000,q_NL= 0.100000000,h0 = 1.000000000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SCRX exciter(T_AT_B = 0.25385,T_B = 13.00000,K = 61.00000,T_E = 0.05000,E_MIN = 0.00000,E_MAX = 4.00000,C_SWITCH = false,r_cr_fd = 0) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -2118,20 +1972,17 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN6100_4;
 model GEN6100_5
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 9.900000000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.000000000, D = 0.000000000, Xd = 1.200000000, Xq = 0.730000000, Xpd = 0.37000000, Xppd = 0.180000000, Xl = 0.150000000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.180000000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 9.900000000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.000000000, D = 0.000000000, Xd = 1.200000000, Xq = 0.730000000, Xpd = 0.37000000, Xppd = 0.180000000, Xl = 0.150000000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.180000000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.HYGOV governor(R = 0.060000000,r = 0.400000000,T_r = 5.000000000,T_f = 0.050000000,T_g = 0.200000000,VELM = 0.200000000,G_MAX = 1.000000000,G_MIN = 0.000000000,T_w = 1.000000000,A_t = 1.100000000,D_turb = 0.500000000,q_NL= 0.100000000,h0 = 1.000000000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SCRX exciter(T_AT_B = 0.25385,T_B = 13.00000,K = 61.00000,T_E = 0.05000,E_MIN = 0.00000,E_MAX = 4.00000,C_SWITCH = false,r_cr_fd = 0) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -2147,20 +1998,18 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN6100_5;
 model GEN6500_1
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 5.485500000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.558000000, D = 0.000000000, Xd = 1.067900000, Xq = 0.642000000, Xpd = 0.23865000, Xppd = 0.158020000, Xl = 0.135140000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.158020000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 5.485500000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.558000000, D = 0.000000000, Xd = 1.067900000, Xq = 0.642000000, Xpd = 0.23865000, Xppd = 0.158020000, Xl = 0.135140000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.158020000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.HYGOV governor(R = 0.060000000,r = 0.400000000,T_r = 5.000000000,T_f = 0.050000000,T_g = 0.200000000,VELM = 0.200000000,G_MAX = 1.000000000,G_MIN = 0.000000000,T_w = 1.000000000,A_t = 1.100000000,D_turb = 0.500000000,q_NL= 0.100000000,h0 = 1.000000000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SEXS exciter(T_AT_B=0.05000,T_B=100.00000,K=200.00000,T_E=0.50000,E_MIN=0.00000,E_MAX=4.00000) annotation(Placement(transformation(extent = {{-16, -20}, {4, 0}})));
+			OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -2176,20 +2025,18 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN6500_1;
 model GEN6500_2
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 5.485500000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.558000000, D = 0.000000000, Xd = 1.067900000, Xq = 0.642000000, Xpd = 0.23865000, Xppd = 0.158020000, Xl = 0.135140000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.158020000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 5.485500000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.558000000, D = 0.000000000, Xd = 1.067900000, Xq = 0.642000000, Xpd = 0.23865000, Xppd = 0.158020000, Xl = 0.135140000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.158020000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.HYGOV governor(R = 0.060000000,r = 0.400000000,T_r = 5.000000000,T_f = 0.050000000,T_g = 0.200000000,VELM = 0.200000000,G_MAX = 1.000000000,G_MIN = 0.000000000,T_w = 1.000000000,A_t = 1.100000000,D_turb = 0.500000000,q_NL= 0.100000000,h0 = 1.000000000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SEXS exciter(T_AT_B=0.05000,T_B=100.00000,K=200.00000,T_E=0.50000,E_MIN=0.00000,E_MAX=4.00000) annotation(Placement(transformation(extent = {{-16, -20}, {4, 0}})));
+			OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -2205,20 +2052,18 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN6500_2;
 model GEN6500_3
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 5.485500000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.558000000, D = 0.000000000, Xd = 1.067900000, Xq = 0.642000000, Xpd = 0.23865000, Xppd = 0.158020000, Xl = 0.135140000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.158020000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 5.485500000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.558000000, D = 0.000000000, Xd = 1.067900000, Xq = 0.642000000, Xpd = 0.23865000, Xppd = 0.158020000, Xl = 0.135140000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.158020000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.HYGOV governor(R = 0.060000000,r = 0.400000000,T_r = 5.000000000,T_f = 0.050000000,T_g = 0.200000000,VELM = 0.200000000,G_MAX = 1.000000000,G_MIN = 0.000000000,T_w = 1.000000000,A_t = 1.100000000,D_turb = 0.500000000,q_NL= 0.100000000,h0 = 1.000000000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SEXS exciter(T_AT_B=0.05000,T_B=100.00000,K=200.00000,T_E=0.50000,E_MIN=0.00000,E_MAX=4.00000) annotation(Placement(transformation(extent = {{-16, -20}, {4, 0}})));
+			OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -2234,20 +2079,18 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN6500_3;
 model GEN6500_4
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 5.485500000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.558000000, D = 0.000000000, Xd = 1.067900000, Xq = 0.642000000, Xpd = 0.23865000, Xppd = 0.158020000, Xl = 0.135140000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.158020000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 5.485500000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.558000000, D = 0.000000000, Xd = 1.067900000, Xq = 0.642000000, Xpd = 0.23865000, Xppd = 0.158020000, Xl = 0.135140000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.158020000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.HYGOV governor(R = 0.060000000,r = 0.400000000,T_r = 5.000000000,T_f = 0.050000000,T_g = 0.200000000,VELM = 0.200000000,G_MAX = 1.000000000,G_MIN = 0.000000000,T_w = 1.000000000,A_t = 1.100000000,D_turb = 0.500000000,q_NL= 0.100000000,h0 = 1.000000000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SEXS exciter(T_AT_B=0.05000,T_B=100.00000,K=200.00000,T_E=0.50000,E_MIN=0.00000,E_MAX=4.00000) annotation(Placement(transformation(extent = {{-16, -20}, {4, 0}})));
+			OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -2263,20 +2106,17 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN6500_4;
 model GEN6700_1
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 5.240000000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.592000000, D = 0.000000000, Xd = 1.104400000, Xq = 0.661860000, Xpd = 0.25484000, Xppd = 0.170620000, Xl = 0.147370000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.170620000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 5.240000000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.592000000, D = 0.000000000, Xd = 1.104400000, Xq = 0.661860000, Xpd = 0.25484000, Xppd = 0.170620000, Xl = 0.147370000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.170620000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.HYGOV governor(R = 0.060000000,r = 0.400000000,T_r = 5.000000000,T_f = 0.050000000,T_g = 0.200000000,VELM = 0.200000000,G_MAX = 1.000000000,G_MIN = 0.000000000,T_w = 1.000000000,A_t = 1.100000000,D_turb = 0.500000000,q_NL= 0.100000000,h0 = 1.000000000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SCRX exciter(T_AT_B = 0.25385,T_B = 13.00000,K = 61.00000,T_E = 0.05000,E_MIN = 0.00000,E_MAX = 4.00000,C_SWITCH = false,r_cr_fd = 0) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -2292,20 +2132,17 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN6700_1;
 model GEN6700_2
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 5.240000000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.592000000, D = 0.000000000, Xd = 1.104400000, Xq = 0.661860000, Xpd = 0.25484000, Xppd = 0.170620000, Xl = 0.147370000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.170620000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 5.240000000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.592000000, D = 0.000000000, Xd = 1.104400000, Xq = 0.661860000, Xpd = 0.25484000, Xppd = 0.170620000, Xl = 0.147370000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.170620000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.HYGOV governor(R = 0.060000000,r = 0.400000000,T_r = 5.000000000,T_f = 0.050000000,T_g = 0.200000000,VELM = 0.200000000,G_MAX = 1.000000000,G_MIN = 0.000000000,T_w = 1.000000000,A_t = 1.100000000,D_turb = 0.500000000,q_NL= 0.100000000,h0 = 1.000000000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SCRX exciter(T_AT_B = 0.25385,T_B = 13.00000,K = 61.00000,T_E = 0.05000,E_MIN = 0.00000,E_MAX = 4.00000,C_SWITCH = false,r_cr_fd = 0) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -2321,20 +2158,17 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN6700_2;
 model GEN6700_3
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 5.240000000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.592000000, D = 0.000000000, Xd = 1.104400000, Xq = 0.661900000, Xpd = 0.25480000, Xppd = 0.170600000, Xl = 0.147400000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.170600000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 5.240000000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.592000000, D = 0.000000000, Xd = 1.104400000, Xq = 0.661900000, Xpd = 0.25480000, Xppd = 0.170600000, Xl = 0.147400000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.170600000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.HYGOV governor(R = 0.060000000,r = 0.400000000,T_r = 5.000000000,T_f = 0.050000000,T_g = 0.200000000,VELM = 0.200000000,G_MAX = 1.000000000,G_MIN = 0.000000000,T_w = 1.000000000,A_t = 1.100000000,D_turb = 0.500000000,q_NL= 0.100000000,h0 = 1.000000000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SCRX exciter(T_AT_B = 0.25385,T_B = 13.00000,K = 61.00000,T_E = 0.05000,E_MIN = 0.00000,E_MAX = 4.00000,C_SWITCH = false,r_cr_fd = 0) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -2350,20 +2184,17 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN6700_3;
 model GEN6700_4
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 5.240000000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.592000000, D = 0.000000000, Xd = 1.104400000, Xq = 0.661900000, Xpd = 0.25480000, Xppd = 0.170600000, Xl = 0.147400000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.170600000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 5.240000000, Tppd0 = 0.050000000, Tppq0 = 0.150000000, H = 3.592000000, D = 0.000000000, Xd = 1.104400000, Xq = 0.661900000, Xpd = 0.25480000, Xppd = 0.170600000, Xl = 0.147400000, S10 = 0.100000000, S12 = 0.300000000, Xppq = 0.170600000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.HYGOV governor(R = 0.060000000,r = 0.400000000,T_r = 5.000000000,T_f = 0.050000000,T_g = 0.200000000,VELM = 0.200000000,G_MAX = 1.000000000,G_MIN = 0.000000000,T_w = 1.000000000,A_t = 1.100000000,D_turb = 0.500000000,q_NL= 0.100000000,h0 = 1.000000000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SCRX exciter(T_AT_B = 0.25390,T_B = 13.00000,K = 61.00000,T_E = 0.05000,E_MIN = 0.00000,E_MAX = 4.00000,C_SWITCH = false,r_cr_fd = 0) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -2379,20 +2210,18 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN6700_4;
 model GEN7000_1
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 10.000000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 5.500000000, D = 0.000000000, Xd = 2.220000000, Xq = 2.130000000, Xpd = 0.36000000, Xpq = 0.46800000, Xppd = 0.225000000, Xl = 0.168750000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.225000000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 10.000000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 5.500000000, D = 0.000000000, Xd = 2.220000000, Xq = 2.130000000, Xpd = 0.36000000, Xpq = 0.46800000, Xppd = 0.225000000, Xl = 0.168750000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.225000000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.IEESGO governor(T_1 = 0.01000,T_2 = 0.00000,T_3 = 0.15000,T_4 = 0.30000,T_5 = 8.00000,T_6 = 0.40000,K_1 = 0.00000,K_2 = 0.70000,K_3 = 0.43000,P_MAX = 1.00000,P_MIN = 0.00000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.ESAC2A exciter(T_R=0.0,T_B=0.00000,T_C=0.00000,K_A=400.00000,T_A=0.01000,K_B=20.00000,V_RMAX=63.70000,V_RMIN=-57.30000,V_AMAX=10.00000,V_AMIN=-10.00000,T_E=1.40000,K_H=1.00000,K_F=0.02300,T_F=1.00000,K_C=0.45500,K_D=0.32100,K_E=1.00000,E_1=4.65000,E_2=6.20000,S_EE_1=0.07500,S_EE_2=0.70400) annotation(Placement(transformation(extent = {{-16, -20}, {4, 0}})));
+			OpenIPSL.Electrical.Controls.PSSE.PSS.STAB2A stabilizer(K_2=1.00000,T_2=1.00000,K_3=0.00000,T_3=2.00000,K_4=0.55000,K_5=1.00000,T_5=0.01000,H_LIM=0.03000) annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+		Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -2408,20 +2237,18 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN7000_1;
 model GEN7000_2
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 10.000000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 5.500000000, D = 0.000000000, Xd = 2.220000000, Xq = 2.130000000, Xpd = 0.36000000, Xpq = 0.46800000, Xppd = 0.225000000, Xl = 0.168750000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.225000000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 10.000000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 5.500000000, D = 0.000000000, Xd = 2.220000000, Xq = 2.130000000, Xpd = 0.36000000, Xpq = 0.46800000, Xppd = 0.225000000, Xl = 0.168750000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.225000000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.IEESGO governor(T_1 = 0.01000,T_2 = 0.00000,T_3 = 0.15000,T_4 = 0.30000,T_5 = 8.00000,T_6 = 0.40000,K_1 = 0.00000,K_2 = 0.70000,K_3 = 0.43000,P_MAX = 1.00000,P_MIN = 0.00000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.ESAC2A exciter(T_R=0.0,T_B=0.00000,T_C=0.00000,K_A=400.00000,T_A=0.01000,K_B=20.00000,V_RMAX=63.70000,V_RMIN=-57.30000,V_AMAX=10.00000,V_AMIN=-10.00000,T_E=1.40000,K_H=1.00000,K_F=0.02300,T_F=1.00000,K_C=0.45500,K_D=0.32100,K_E=1.00000,E_1=4.65000,E_2=6.20000,S_EE_1=0.07500,S_EE_2=0.70400) annotation(Placement(transformation(extent = {{-16, -20}, {4, 0}})));
+			OpenIPSL.Electrical.Controls.PSSE.PSS.STAB2A stabilizer(K_2=1.00000,T_2=1.00000,K_3=0.00000,T_3=2.00000,K_4=0.55000,K_5=1.00000,T_5=0.01000,H_LIM=0.03000) annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+		Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -2437,20 +2264,18 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN7000_2;
 model GEN7000_3
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 10.000000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 5.500000000, D = 0.000000000, Xd = 2.220000000, Xq = 2.130000000, Xpd = 0.36000000, Xpq = 0.46800000, Xppd = 0.225000000, Xl = 0.168750000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.225000000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 10.000000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 5.500000000, D = 0.000000000, Xd = 2.220000000, Xq = 2.130000000, Xpd = 0.36000000, Xpq = 0.46800000, Xppd = 0.225000000, Xl = 0.168750000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.225000000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.IEESGO governor(T_1 = 0.01000,T_2 = 0.00000,T_3 = 0.15000,T_4 = 0.30000,T_5 = 8.00000,T_6 = 0.40000,K_1 = 0.00000,K_2 = 0.70000,K_3 = 0.43000,P_MAX = 1.00000,P_MIN = 0.00000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.ESAC2A exciter(T_R=0.0,T_B=0.00000,T_C=0.00000,K_A=400.00000,T_A=0.01000,K_B=20.00000,V_RMAX=63.70000,V_RMIN=-57.30000,V_AMAX=10.00000,V_AMIN=-10.00000,T_E=1.40000,K_H=1.00000,K_F=0.02300,T_F=1.00000,K_C=0.45500,K_D=0.32100,K_E=1.00000,E_1=4.65000,E_2=6.20000,S_EE_1=0.07500,S_EE_2=0.70400) annotation(Placement(transformation(extent = {{-16, -20}, {4, 0}})));
+			OpenIPSL.Electrical.Controls.PSSE.PSS.STAB2A stabilizer(K_2=1.00000,T_2=1.00000,K_3=0.00000,T_3=2.00000,K_4=0.55000,K_5=1.00000,T_5=0.01000,H_LIM=0.03000) annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+		Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -2466,20 +2291,18 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN7000_3;
 model GEN7000_4
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 10.000000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 5.500000000, D = 0.000000000, Xd = 2.220000000, Xq = 2.130000000, Xpd = 0.36000000, Xpq = 0.46800000, Xppd = 0.225000000, Xl = 0.168750000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.225000000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 10.000000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 5.500000000, D = 0.000000000, Xd = 2.220000000, Xq = 2.130000000, Xpd = 0.36000000, Xpq = 0.46800000, Xppd = 0.225000000, Xl = 0.168750000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.225000000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.IEESGO governor(T_1 = 0.01000,T_2 = 0.00000,T_3 = 0.15000,T_4 = 0.30000,T_5 = 8.00000,T_6 = 0.40000,K_1 = 0.00000,K_2 = 0.70000,K_3 = 0.43000,P_MAX = 1.00000,P_MIN = 0.00000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.ESAC2A exciter(T_R=0.0,T_B=0.00000,T_C=0.00000,K_A=400.00000,T_A=0.01000,K_B=20.00000,V_RMAX=63.70000,V_RMIN=-57.30000,V_AMAX=10.00000,V_AMIN=-10.00000,T_E=1.40000,K_H=1.00000,K_F=0.02300,T_F=1.00000,K_C=0.45500,K_D=0.32100,K_E=1.00000,E_1=4.65000,E_2=6.20000,S_EE_1=0.07500,S_EE_2=0.70400) annotation(Placement(transformation(extent = {{-16, -20}, {4, 0}})));
+			OpenIPSL.Electrical.Controls.PSSE.PSS.STAB2A stabilizer(K_2=1.00000,T_2=1.00000,K_3=0.00000,T_3=2.00000,K_4=0.55000,K_5=1.00000,T_5=0.01000,H_LIM=0.03000) annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+		Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -2495,20 +2318,18 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN7000_4;
 model GEN7000_5
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 10.000000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 5.500000000, D = 0.000000000, Xd = 2.220000000, Xq = 2.130000000, Xpd = 0.36000000, Xpq = 0.46800000, Xppd = 0.225000000, Xl = 0.168750000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.225000000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 10.000000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 5.500000000, D = 0.000000000, Xd = 2.220000000, Xq = 2.130000000, Xpd = 0.36000000, Xpq = 0.46800000, Xppd = 0.225000000, Xl = 0.168750000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.225000000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.IEESGO governor(T_1 = 0.01000,T_2 = 0.00000,T_3 = 0.15000,T_4 = 0.30000,T_5 = 8.00000,T_6 = 0.40000,K_1 = 0.00000,K_2 = 0.70000,K_3 = 0.43000,P_MAX = 1.00000,P_MIN = 0.00000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.ESAC2A exciter(T_R=0.0,T_B=0.00000,T_C=0.00000,K_A=400.00000,T_A=0.01000,K_B=20.00000,V_RMAX=63.70000,V_RMIN=-57.30000,V_AMAX=10.00000,V_AMIN=-10.00000,T_E=1.40000,K_H=1.00000,K_F=0.02300,T_F=1.00000,K_C=0.45500,K_D=0.32100,K_E=1.00000,E_1=4.65000,E_2=6.20000,S_EE_1=0.07500,S_EE_2=0.70400) annotation(Placement(transformation(extent = {{-16, -20}, {4, 0}})));
+			OpenIPSL.Electrical.Controls.PSSE.PSS.STAB2A stabilizer(K_2=1.00000,T_2=1.00000,K_3=0.00000,T_3=2.00000,K_4=0.55000,K_5=1.00000,T_5=0.01000,H_LIM=0.03000) annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+		Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -2524,20 +2345,18 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN7000_5;
 model GEN7000_6
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 10.000000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 5.500000000, D = 0.000000000, Xd = 2.220000000, Xq = 2.130000000, Xpd = 0.36000000, Xpq = 0.46800000, Xppd = 0.225000000, Xl = 0.168750000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.225000000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 10.000000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 5.500000000, D = 0.000000000, Xd = 2.220000000, Xq = 2.130000000, Xpd = 0.36000000, Xpq = 0.46800000, Xppd = 0.225000000, Xl = 0.168750000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.225000000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.IEESGO governor(T_1 = 0.01000,T_2 = 0.00000,T_3 = 0.15000,T_4 = 0.30000,T_5 = 8.00000,T_6 = 0.40000,K_1 = 0.00000,K_2 = 0.70000,K_3 = 0.43000,P_MAX = 1.00000,P_MIN = 0.00000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.ESAC2A exciter(T_R=0.0,T_B=0.00000,T_C=0.00000,K_A=400.00000,T_A=0.01000,K_B=20.00000,V_RMAX=63.70000,V_RMIN=-57.30000,V_AMAX=10.00000,V_AMIN=-10.00000,T_E=1.40000,K_H=1.00000,K_F=0.02300,T_F=1.00000,K_C=0.45500,K_D=0.32100,K_E=1.00000,E_1=4.65000,E_2=6.20000,S_EE_1=0.07500,S_EE_2=0.70400) annotation(Placement(transformation(extent = {{-16, -20}, {4, 0}})));
+			OpenIPSL.Electrical.Controls.PSSE.PSS.STAB2A stabilizer(K_2=1.00000,T_2=1.00000,K_3=0.00000,T_3=2.00000,K_4=0.55000,K_5=1.00000,T_5=0.01000,H_LIM=0.03000) annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+		Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -2553,20 +2372,18 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN7000_6;
 model GEN7000_7
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 10.000000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 5.500000000, D = 0.000000000, Xd = 2.220000000, Xq = 2.130000000, Xpd = 0.36000000, Xpq = 0.46800000, Xppd = 0.225000000, Xl = 0.168750000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.225000000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 10.000000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 5.500000000, D = 0.000000000, Xd = 2.220000000, Xq = 2.130000000, Xpd = 0.36000000, Xpq = 0.46800000, Xppd = 0.225000000, Xl = 0.168750000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.225000000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.IEESGO governor(T_1 = 0.01000,T_2 = 0.00000,T_3 = 0.15000,T_4 = 0.30000,T_5 = 8.00000,T_6 = 0.40000,K_1 = 0.00000,K_2 = 0.70000,K_3 = 0.43000,P_MAX = 1.00000,P_MIN = 0.00000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.ESAC2A exciter(T_R=0.0,T_B=0.00000,T_C=0.00000,K_A=400.00000,T_A=0.01000,K_B=20.00000,V_RMAX=63.70000,V_RMIN=-57.30000,V_AMAX=10.00000,V_AMIN=-10.00000,T_E=1.40000,K_H=1.00000,K_F=0.02300,T_F=1.00000,K_C=0.45500,K_D=0.32100,K_E=1.00000,E_1=4.65000,E_2=6.20000,S_EE_1=0.07500,S_EE_2=0.70400) annotation(Placement(transformation(extent = {{-16, -20}, {4, 0}})));
+			OpenIPSL.Electrical.Controls.PSSE.PSS.STAB2A stabilizer(K_2=1.00000,T_2=1.00000,K_3=0.00000,T_3=2.00000,K_4=0.55000,K_5=1.00000,T_5=0.01000,H_LIM=0.03000) annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+		Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -2582,20 +2399,18 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN7000_7;
 model GEN7000_8
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 10.000000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 5.500000000, D = 0.000000000, Xd = 2.220000000, Xq = 2.130000000, Xpd = 0.36000000, Xpq = 0.46800000, Xppd = 0.225000000, Xl = 0.168750000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.225000000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 10.000000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 5.500000000, D = 0.000000000, Xd = 2.220000000, Xq = 2.130000000, Xpd = 0.36000000, Xpq = 0.46800000, Xppd = 0.225000000, Xl = 0.168750000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.225000000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.IEESGO governor(T_1 = 0.01000,T_2 = 0.00000,T_3 = 0.15000,T_4 = 0.30000,T_5 = 8.00000,T_6 = 0.40000,K_1 = 0.00000,K_2 = 0.70000,K_3 = 0.43000,P_MAX = 1.00000,P_MIN = 0.00000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.ESAC2A exciter(T_R=0.0,T_B=0.00000,T_C=0.00000,K_A=400.00000,T_A=0.01000,K_B=20.00000,V_RMAX=63.70000,V_RMIN=-57.30000,V_AMAX=10.00000,V_AMIN=-10.00000,T_E=1.40000,K_H=1.00000,K_F=0.02300,T_F=1.00000,K_C=0.45500,K_D=0.32100,K_E=1.00000,E_1=4.65000,E_2=6.20000,S_EE_1=0.07500,S_EE_2=0.70400) annotation(Placement(transformation(extent = {{-16, -20}, {4, 0}})));
+			OpenIPSL.Electrical.Controls.PSSE.PSS.STAB2A stabilizer(K_2=1.00000,T_2=1.00000,K_3=0.00000,T_3=2.00000,K_4=0.55000,K_5=1.00000,T_5=0.01000,H_LIM=0.03000) annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+		Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -2611,20 +2426,18 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN7000_8;
 model GEN7000_9
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 10.000000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 5.500000000, D = 0.000000000, Xd = 2.220000000, Xq = 2.130000000, Xpd = 0.36000000, Xpq = 0.46800000, Xppd = 0.225000000, Xl = 0.168750000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.225000000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 10.000000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 5.500000000, D = 0.000000000, Xd = 2.220000000, Xq = 2.130000000, Xpd = 0.36000000, Xpq = 0.46800000, Xppd = 0.225000000, Xl = 0.168750000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.225000000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.IEESGO governor(T_1 = 0.01000,T_2 = 0.00000,T_3 = 0.15000,T_4 = 0.30000,T_5 = 8.00000,T_6 = 0.40000,K_1 = 0.00000,K_2 = 0.70000,K_3 = 0.43000,P_MAX = 1.00000,P_MIN = 0.00000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.ESAC2A exciter(T_R=0.0,T_B=0.00000,T_C=0.00000,K_A=400.00000,T_A=0.01000,K_B=20.00000,V_RMAX=63.70000,V_RMIN=-57.30000,V_AMAX=10.00000,V_AMIN=-10.00000,T_E=1.40000,K_H=1.00000,K_F=0.02300,T_F=1.00000,K_C=0.45500,K_D=0.32100,K_E=1.00000,E_1=4.65000,E_2=6.20000,S_EE_1=0.07500,S_EE_2=0.70400) annotation(Placement(transformation(extent = {{-16, -20}, {4, 0}})));
+			OpenIPSL.Electrical.Controls.PSSE.PSS.STAB2A stabilizer(K_2=1.00000,T_2=1.00000,K_3=0.00000,T_3=2.00000,K_4=0.55000,K_5=1.00000,T_5=0.01000,H_LIM=0.03000) annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+		Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -2640,20 +2453,17 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN7000_9;
 model GEN7100_1
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 5.000000000, Tppd0 = 0.060000000, Tppq0 = 0.100000000, H = 3.200000000, D = 0.000000000, Xd = 0.750000000, Xq = 0.500000000, Xpd = 0.25000000, Xppd = 0.153850000, Xl = 0.115380000, S10 = 0.102390000, S12 = 0.274200000, Xppq = 0.153850000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 5.000000000, Tppd0 = 0.060000000, Tppq0 = 0.100000000, H = 3.200000000, D = 0.000000000, Xd = 0.750000000, Xq = 0.500000000, Xpd = 0.25000000, Xppd = 0.153850000, Xl = 0.115380000, S10 = 0.102390000, S12 = 0.274200000, Xppq = 0.153850000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.HYGOV governor(R = 0.060000000,r = 0.400000000,T_r = 5.000000000,T_f = 0.050000000,T_g = 0.200000000,VELM = 0.100000000,G_MAX = 1.000000000,G_MIN = 0.000000000,T_w = 1.000000000,A_t = 1.010000000,D_turb = 0.500000000,q_NL= 0.100000000,h0 = 1.000000000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SCRX exciter(T_AT_B = 0.25385,T_B = 13.00000,K = 61.00000,T_E = 0.05000,E_MIN = 0.00000,E_MAX = 4.00000,C_SWITCH = false,r_cr_fd = 0) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -2669,20 +2479,17 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN7100_1;
 model GEN7100_2
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 5.000000000, Tppd0 = 0.060000000, Tppq0 = 0.100000000, H = 3.200000000, D = 0.000000000, Xd = 0.750000000, Xq = 0.500000000, Xpd = 0.25000000, Xppd = 0.153850000, Xl = 0.115380000, S10 = 0.102390000, S12 = 0.274200000, Xppq = 0.153850000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 5.000000000, Tppd0 = 0.060000000, Tppq0 = 0.100000000, H = 3.200000000, D = 0.000000000, Xd = 0.750000000, Xq = 0.500000000, Xpd = 0.25000000, Xppd = 0.153850000, Xl = 0.115380000, S10 = 0.102390000, S12 = 0.274200000, Xppq = 0.153850000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.HYGOV governor(R = 0.060000000,r = 0.400000000,T_r = 5.000000000,T_f = 0.050000000,T_g = 0.200000000,VELM = 0.100000000,G_MAX = 1.000000000,G_MIN = 0.000000000,T_w = 1.000000000,A_t = 1.010000000,D_turb = 0.500000000,q_NL= 0.100000000,h0 = 1.000000000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SCRX exciter(T_AT_B = 0.25385,T_B = 13.00000,K = 61.00000,T_E = 0.05000,E_MIN = 0.00000,E_MAX = 4.00000,C_SWITCH = false,r_cr_fd = 0) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -2698,20 +2505,17 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN7100_2;
 model GEN7100_3
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 5.000000000, Tppd0 = 0.060000000, Tppq0 = 0.100000000, H = 3.200000000, D = 0.000000000, Xd = 0.750000000, Xq = 0.500000000, Xpd = 0.25000000, Xppd = 0.153850000, Xl = 0.115380000, S10 = 0.102390000, S12 = 0.274200000, Xppq = 0.153850000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENSAL machine(Tpd0 = 5.000000000, Tppd0 = 0.060000000, Tppq0 = 0.100000000, H = 3.200000000, D = 0.000000000, Xd = 0.750000000, Xq = 0.500000000, Xpd = 0.25000000, Xppd = 0.153850000, Xl = 0.115380000, S10 = 0.102390000, S12 = 0.274200000, Xppq = 0.153850000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.HYGOV governor(R = 0.060000000,r = 0.400000000,T_r = 5.000000000,T_f = 0.050000000,T_g = 0.200000000,VELM = 0.100000000,G_MAX = 1.000000000,G_MIN = 0.000000000,T_w = 1.000000000,A_t = 1.010000000,D_turb = 0.500000000,q_NL= 0.100000000,h0 = 1.000000000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SCRX exciter(T_AT_B = 0.25385,T_B = 13.00000,K = 61.00000,T_E = 0.05000,E_MIN = 0.00000,E_MAX = 4.00000,C_SWITCH = false,r_cr_fd = 0) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -2727,20 +2531,17 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN7100_3;
 model GEN8500_1
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 10.000000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 7.000000000, D = 0.000000000, Xd = 2.420000000, Xq = 2.000000000, Xpd = 0.23000000, Xpq = 0.41080000, Xppd = 0.170620000, Xl = 0.148120000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.170620000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 10.000000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 7.000000000, D = 0.000000000, Xd = 2.420000000, Xq = 2.000000000, Xpd = 0.23000000, Xpq = 0.41080000, Xppd = 0.170620000, Xl = 0.148120000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.170620000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.IEESGO governor(T_1 = 0.01000,T_2 = 0.00000,T_3 = 0.15000,T_4 = 0.30000,T_5 = 8.00000,T_6 = 0.40000,K_1 = 0.00000,K_2 = 0.70000,K_3 = 0.43000,P_MAX = 1.00000,P_MIN = 0.00000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SCRX exciter(T_AT_B = 0.00000,T_B = 0.04000,K = 10.00000,T_E = 0.04000,E_MIN = 0.00000,E_MAX = 5.00000,C_SWITCH = false,r_cr_fd = 0) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -2756,20 +2557,17 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN8500_1;
 model GEN8500_2
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 10.000000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 7.000000000, D = 0.000000000, Xd = 2.420000000, Xq = 2.000000000, Xpd = 0.23000000, Xpq = 0.41080000, Xppd = 0.170620000, Xl = 0.148120000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.170620000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 10.000000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 7.000000000, D = 0.000000000, Xd = 2.420000000, Xq = 2.000000000, Xpd = 0.23000000, Xpq = 0.41080000, Xppd = 0.170620000, Xl = 0.148120000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.170620000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.IEESGO governor(T_1 = 0.01000,T_2 = 0.00000,T_3 = 0.15000,T_4 = 0.30000,T_5 = 8.00000,T_6 = 0.40000,K_1 = 0.00000,K_2 = 0.70000,K_3 = 0.43000,P_MAX = 1.00000,P_MIN = 0.00000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SCRX exciter(T_AT_B = 0.00000,T_B = 0.04000,K = 10.00000,T_E = 0.04000,E_MIN = 0.00000,E_MAX = 5.00000,C_SWITCH = false,r_cr_fd = 0) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -2785,20 +2583,17 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN8500_2;
 model GEN8500_3
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 10.000000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 7.000000000, D = 0.000000000, Xd = 2.420000000, Xq = 2.000000000, Xpd = 0.23000000, Xpq = 0.41080000, Xppd = 0.170620000, Xl = 0.148120000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.170620000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 10.000000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 7.000000000, D = 0.000000000, Xd = 2.420000000, Xq = 2.000000000, Xpd = 0.23000000, Xpq = 0.41080000, Xppd = 0.170620000, Xl = 0.148120000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.170620000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.IEESGO governor(T_1 = 0.01000,T_2 = 0.00000,T_3 = 0.15000,T_4 = 0.30000,T_5 = 8.00000,T_6 = 0.40000,K_1 = 0.00000,K_2 = 0.70000,K_3 = 0.43000,P_MAX = 1.00000,P_MIN = 0.00000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SCRX exciter(T_AT_B = 0.00000,T_B = 0.04000,K = 10.00000,T_E = 0.04000,E_MIN = 0.00000,E_MAX = 5.00000,C_SWITCH = false,r_cr_fd = 0) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -2814,20 +2609,17 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN8500_3;
 model GEN8500_4
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 10.000000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 7.000000000, D = 0.000000000, Xd = 2.420000000, Xq = 2.000000000, Xpd = 0.23000000, Xpq = 0.41080000, Xppd = 0.170620000, Xl = 0.148120000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.170620000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 10.000000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 7.000000000, D = 0.000000000, Xd = 2.420000000, Xq = 2.000000000, Xpd = 0.23000000, Xpq = 0.41080000, Xppd = 0.170620000, Xl = 0.148120000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.170620000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.IEESGO governor(T_1 = 0.01000,T_2 = 0.00000,T_3 = 0.15000,T_4 = 0.30000,T_5 = 8.00000,T_6 = 0.40000,K_1 = 0.00000,K_2 = 0.70000,K_3 = 0.43000,P_MAX = 1.00000,P_MIN = 0.00000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SCRX exciter(T_AT_B = 0.00000,T_B = 0.04000,K = 10.00000,T_E = 0.04000,E_MIN = 0.00000,E_MAX = 5.00000,C_SWITCH = false,r_cr_fd = 0) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -2843,20 +2635,17 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN8500_4;
 model GEN8500_5
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 10.000000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 7.000000000, D = 0.000000000, Xd = 2.420000000, Xq = 2.000000000, Xpd = 0.23000000, Xpq = 0.41080000, Xppd = 0.170620000, Xl = 0.148120000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.170620000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 10.000000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 7.000000000, D = 0.000000000, Xd = 2.420000000, Xq = 2.000000000, Xpd = 0.23000000, Xpq = 0.41080000, Xppd = 0.170620000, Xl = 0.148120000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.170620000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.IEESGO governor(T_1 = 0.01000,T_2 = 0.00000,T_3 = 0.15000,T_4 = 0.30000,T_5 = 8.00000,T_6 = 0.40000,K_1 = 0.00000,K_2 = 0.70000,K_3 = 0.43000,P_MAX = 1.00000,P_MIN = 0.00000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SCRX exciter(T_AT_B = 0.00000,T_B = 0.04000,K = 10.00000,T_E = 0.04000,E_MIN = 0.00000,E_MAX = 5.00000,C_SWITCH = false,r_cr_fd = 0) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -2872,20 +2661,17 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN8500_5;
 model GEN8500_6
 extends OpenIPSL.Electrical.Essentials.pfComponent;
 OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, -10}, {120, 10}})));
 // Writing machine;
   
-OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 10.000000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 7.000000000, D = 0.000000000, Xd = 2.420000000, Xq = 2.000000000, Xpd = 0.23000000, Xpq = 0.41080000, Xppd = 0.170620000, Xl = 0.148120000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.170620000, R_a = 0, M_b = , V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
+OpenIPSL.Electrical.Machines.PSSE.GENROU machine(Tpd0 = 10.000000000, Tppd0 = 0.050000000, Tpq0 = 1.000000000, Tppq0 = 0.050000000, H = 7.000000000, D = 0.000000000, Xd = 2.420000000, Xq = 2.000000000, Xpd = 0.23000000, Xpq = 0.41080000, Xppd = 0.170620000, Xl = 0.148120000, S10 = 0.108900000, S12 = 0.377950000, Xppq = 0.170620000, R_a = 0, M_b = 1.0E14, V_b = V_b, P_0 = P_0, Q_0 = Q_0, v_0 = v_0, angle_0 = angle_0) annotation(Placement(transformation(extent = {{20, -10}, {40, 10}})));
 OpenIPSL.Electrical.Controls.PSSE.TG.IEESGO governor(T_1 = 0.01000,T_2 = 0.00000,T_3 = 0.15000,T_4 = 0.30000,T_5 = 8.00000,T_6 = 0.40000,K_1 = 0.00000,K_2 = 0.70000,K_3 = 0.43000,P_MAX = 1.00000,P_MIN = 0.00000) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));
-OpenIPSL.Electrical.Controls.PSSE.ES.  
-// No exciter
-  // No stabilizer
-OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-  Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
+OpenIPSL.Electrical.Controls.PSSE.ES.SCRX exciter(T_AT_B = 0.00000,T_B = 0.04000,K = 10.00000,T_E = 0.04000,E_MIN = 0.00000,E_MAX = 5.00000,C_SWITCH = false,r_cr_fd = 0) annotation(Placement(transformation(extent = {{-30, 20}, {-10, 40}})));OpenIPSL.Electrical.Controls.PSSE.PSS.DisabledPSS stabilizer annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
+Modelica.Blocks.Sources.Constant zero(k = 0) annotation(Placement(transformation(extent = {{-10, -10}, {10, 10}}, origin = {-10, -52.042}, rotation = -270), visible = true));
 
 equation
       connect(machine.p, p) annotation(Line(origin = {75, 0}, points = {{40, 0}, {110, 0}}, color = {0, 0, 255}));
@@ -2901,7 +2687,7 @@ equation
       connect(governor.PMECH, machine.PMECH) annotation(Line(visible = true, points = {{-9, 30}, {10, 30}, {10, 5}, {18, 5}}, color = {0, 0, 127}));
       connect(machine.SPEED, governor.SPEED) annotation(Line(visible = true, points = {{41, 7}, {46, 7}, {46, 50}, {-34.805, 50}, {-34.805, 35.396}, {-28, 35.396}, {-28, 36}}, color = {0, 0, 127}));
       connect(machine.PMECH0, governor.PMECH0) annotation(Line(visible = true, points = {{41, 5}, {50, 5}, {50, 60}, {-40, 60}, {-40, 24}, {-28, 24}}, color = {0, 0, 127}));
-
+      
 end GEN8500_6;
 end Generators;
 

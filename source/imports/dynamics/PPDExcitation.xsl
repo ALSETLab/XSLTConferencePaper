@@ -14,39 +14,9 @@
 
 	<xsl:output method="text" indent="no"/>
 	
-	<xsl:key match="cim:ProprietaryParameterDynamics/cim:ProprietaryParameterDynamics.PowerSystemStabilizerUserDefined" name="PSSsys-Index" use="substring(@rdf:resource,2)"/>
+
 	<xsl:key match="cim:ProprietaryParameterDynamics/cim:ProprietaryParameterDynamics.ExcitationSystemUserDefined" name="ExcSys-Index" use="substring(@rdf:resource,2)"/>
 	
-	<xsl:template match="cim:ProprietaryParameterDynamics/cim:ProprietaryParameterDynamics.PowerSystemStabilizerUserDefined">
-		<xsl:if test="../cim:ProprietaryParameterDynamics.parameterNumber='0'">
-			<xsl:text>K_2</xsl:text>
-		</xsl:if>
-		<xsl:if test="../cim:ProprietaryParameterDynamics.parameterNumber='1'">
-			<xsl:text>,T_2</xsl:text>
-		</xsl:if>
-		<xsl:if test="../cim:ProprietaryParameterDynamics.parameterNumber='2'">
-			<xsl:text>,K_3</xsl:text>
-		</xsl:if>
-		<xsl:if test="../cim:ProprietaryParameterDynamics.parameterNumber='3'">
-			<xsl:text>,T_3</xsl:text>
-		</xsl:if>
-		<xsl:if test="../cim:ProprietaryParameterDynamics.parameterNumber='4'">
-			<xsl:text>,K_4</xsl:text>
-		</xsl:if>
-		<xsl:if test="../cim:ProprietaryParameterDynamics.parameterNumber='5'">
-			<xsl:text>,K_5</xsl:text>
-		</xsl:if>
-		<xsl:if test="../cim:ProprietaryParameterDynamics.parameterNumber='6'">
-			<xsl:text>,T_5</xsl:text>
-		</xsl:if>
-		<xsl:if test="../cim:ProprietaryParameterDynamics.parameterNumber='6'">
-			<xsl:text>,H_LIM</xsl:text>
-		</xsl:if>
-		<xsl:text> = </xsl:text>
-		<xsl:value-of select="format-number(../cim:ProprietaryParameterDynamics.floatParameterValue,'0.00000#')"/>
-		<xsl:text>) annotation(Placement(transformation(extent = {{-70, -10}, {-50, 10}})));
-		</xsl:text>
-	</xsl:template>
 	<xsl:template match="cim:ProprietaryParameterDynamics/cim:ProprietaryParameterDynamics.ExcitationSystemUserDefined">
 		<xsl:if test="../cim:ProprietaryParameterDynamics.parameterNumber='0'">
 			<xsl:text>T_R</xsl:text>

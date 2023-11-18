@@ -18,9 +18,8 @@
 	<xsl:key match="cim:PowerSystemStabilizerUserDefined/cim:PowerSystemStabilizerDynamics.ExcitationSystemDynamics" name="PSSUser-Index" use="substring(@rdf:resource,2)"/>
 	
 	<xsl:template match="cim:PowerSystemStabilizerUserDefined/cim:PowerSystemStabilizerDynamics.ExcitationSystemDynamics">
-		<xsl:text>
-	OpenIPSL.Electrical.Controls.PSSE.PSS.STAB2A pss(</xsl:text>
-		<xsl:apply-templates select="key('PSSsys-Index',@rdf:ID)"/>
+		<xsl:value-of select="../cim:IdentifiedObject.name"/><xsl:text> stabilizer(</xsl:text>
+		<xsl:apply-templates select="key('PSSsys-Index',../@rdf:ID)"/>
 	</xsl:template>
 
 </xsl:stylesheet>

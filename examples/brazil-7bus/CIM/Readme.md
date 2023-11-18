@@ -1,0 +1,1 @@
+The &lt;ConnectivityNode&gt; is essentially the bus. To work properly in OpenIPSL it requires a unique name which was not provided in the original file. This file has been changed to make all seven nodes unique. Previously, IVAIPORA had two nodes. Now, one is IVAIPORA1 and the other is IVAIPORA2.

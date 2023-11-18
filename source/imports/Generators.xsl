@@ -37,9 +37,10 @@ OpenIPSL.Interfaces.PwPin p annotation(Placement(transformation(extent = {{100, 
 			</xsl:when>
 			<xsl:otherwise>
 				<xsl:text>GENERATING UNIT THAT IS NOT IN SYSTEM!</xsl:text>
+<xsl:value-of select="$code"/>
 			</xsl:otherwise>
 		</xsl:choose>
-		<xsl:text>
+<xsl:text>
 end </xsl:text>
 		<xsl:copy-of select="$GenName"/>
 		<xsl:text>;</xsl:text>

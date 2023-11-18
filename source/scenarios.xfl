@@ -7,10 +7,10 @@
 			<param key="param_reactance" value="0.1" type="1"/>
 			<param key="sourcepath" value="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\bus-14\ieee14_EQ.xml" type="0"/>
 			<param key="version" value="2.0" type="0"/>
-			<param key="param_frequency" value="60.0" type="1"/>
+			<param key="param_frequency" value="50.0" type="1"/>
 			<param key="targetname" value="$1.txt" type="0"/>
 			<param key="param_bus" value="BUS5" type="1"/>
-			<param key="param_filename" value="../examples/bus-14/ieee14" type="1"/>
+			<param key="param_filename" value="../examples/icelandic-sys/CIM/Iceland_modified_PF_solved" type="1"/>
 			<param key="param_time2" value="1.1" type="1"/>
 			<param key="param_base" value="100.0" type="1"/>
 			<param key="targetpath" value="C:\Users\glen\IdeaProjects\XSLTConferencePaper\output\ieee14.mo" type="0"/>
@@ -45,7 +45,7 @@
 			<param key="version" value="2.0" type="0"/>
 			<param key="param_frequency" value="60" type="1"/>
 			<param key="targetname" value="$1.txt" type="0"/>
-			<param key="param_bus" value="FAULT_efb7" type="1"/>
+			<param key="param_bus" value="FAULT" type="1"/>
 			<param key="param_filename" value="../examples/smib/Exciters/IEEET1/CIM/smib_ieeet1" type="1"/>
 			<param key="param_time2" value="1.1" type="1"/>
 			<param key="param_base" value="100.0" type="1"/>
@@ -57,34 +57,17 @@
 	<task name="brazil-7bus" type="XSLT">
 		<params>
 			<param key="sourcefilter" value="(.*).xml" type="0"/>
-			<param key="stylesheet" value="C:\Users\glen\OneDrive\Desktop\Editix\CIMtoMO4.xsl" type="0"/>
+			<param key="stylesheet" value="C:\Users\glen\IdeaProjects\XSLTConferencePaper\source\CIMtoMO4.xsl" type="0"/>
 			<param key="param_reactance" value="0.1" type="1"/>
 			<param key="sourcepath" value="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\brazil-7bus\CIM\Brazilian_7_bus_Equiv_Model_EQ.xml" type="0"/>
 			<param key="version" value="2.0" type="0"/>
 			<param key="param_frequency" value="50" type="1"/>
 			<param key="targetname" value="$1.txt" type="0"/>
-			<param key="param_bus" value="FOZ_AREIA_54e5" type="1"/>
+			<param key="param_bus" value="FOZ_AREIA" type="1"/>
 			<param key="param_filename" value="../examples/brazil-7bus/CIM/Brazilian_7_bus_Equiv_Model" type="1"/>
 			<param key="param_time2" value="1.1" type="1"/>
-			<param key="targetpath" value="C:\Users\glen\IdeaProjects\XSLTConferencePaper\output\brazil-7bus.mo" type="0"/>
-			<param key="param_time" value="1" type="1"/>
-			<param key="param_resistance" value="0" type="1"/>
-		</params>
-	</task>
-	<task name="CSVGN1" type="XSLT">
-		<params>
-			<param key="sourcefilter" value="(.*).xml" type="0"/>
-			<param key="stylesheet" value="C:\Users\glen\IdeaProjects\XSLTConferencePaper\source\CIMtoMO4.xsl" type="0"/>
-			<param key="param_reactance" value="0.1" type="1"/>
-			<param key="sourcepath" value="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\smib\Machines\CSVGN1\CIM\smib_csvgn1_EQ.xml" type="0"/>
-			<param key="version" value="2.0" type="0"/>
-			<param key="param_frequency" value="60" type="1"/>
-			<param key="targetname" value="$1.txt" type="0"/>
-			<param key="param_bus" value="FAULT_ee83" type="1"/>
-			<param key="param_filename" value="../examples/smib/Machines/CSVGN1/CIM/smib_csvgn1" type="1"/>
-			<param key="param_time2" value="1.1" type="1"/>
 			<param key="param_base" value="100.0" type="1"/>
-			<param key="targetpath" value="C:\Users\glen\IdeaProjects\XSLTConferencePaper\output\csvgn1.mo" type="0"/>
+			<param key="targetpath" value="C:\Users\glen\IdeaProjects\XSLTConferencePaper\output\brazil-7bus.mo" type="0"/>
 			<param key="param_time" value="1" type="1"/>
 			<param key="param_resistance" value="0" type="1"/>
 		</params>
@@ -105,24 +88,6 @@
 			<param key="targetpath" value="C:\Users\glen\IdeaProjects\XSLTConferencePaper\output\bus-23.mo" type="0"/>
 			<param key="param_time" value="1.0" type="1"/>
 			<param key="param_resistance" value="0.0" type="1"/>
-		</params>
-	</task>
-	<task name="icelandic-sys" type="XSLT">
-		<params>
-			<param key="sourcefilter" value="(.*).xml" type="0"/>
-			<param key="stylesheet" value="C:\Users\glen\IdeaProjects\XSLTConferencePaper\source\CIMtoMO4.xsl" type="0"/>
-			<param key="param_reactance" value="0.1" type="1"/>
-			<param key="sourcepath" value="C:\Users\glen\IdeaProjects\XSLTConferencePaper\examples\icelandic-sys\CIM\Iceland_modified_PF_solved_EQ.xml" type="0"/>
-			<param key="version" value="2.0" type="0"/>
-			<param key="param_frequency" value="50" type="1"/>
-			<param key="targetname" value="$1.txt" type="0"/>
-			<param key="param_bus" value="BUS5" type="1"/>
-			<param key="param_filename" value="../examples/icelandic-sys/CIM/Iceland_modified_PF_solved" type="1"/>
-			<param key="param_time2" value="1.1" type="1"/>
-			<param key="param_base" value="1000.0" type="1"/>
-			<param key="targetpath" value="C:\Users\glen\OneDrive\Desktop\Editix\icelandic-sys.mo" type="0"/>
-			<param key="param_time" value="1" type="1"/>
-			<param key="param_resistance" value="0" type="1"/>
 		</params>
 	</task>
 	<task name="nordic-44" type="XSLT">
