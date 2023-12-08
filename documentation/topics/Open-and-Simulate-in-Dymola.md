@@ -25,6 +25,7 @@ Before simulating a Modelica model, it is necessary to determine if the model is
    ```bash
     File -> Open -> Load...
    ```
+   
    ![Dymola Load](../images/dymola/01_loadopenipsl.png)
 
    Browse to the location where you have saved OpenIPSL. Selecte the <code>package.mo</code>, from <code> ./YourFolderWithOpenIPSL/OpenIPSL/package.mo </code> file and click on <code>Open</code>.
@@ -39,6 +40,7 @@ Before simulating a Modelica model, it is necessary to determine if the model is
    ```
 
 4. Locate the <code>ieee14_package</code> under the 'Projects Browser' of Dymola. Tip it over and double-click 'ieee14'.
+
    ![Projects Browser](../images/dymola/03_check.png)
 
 5. Click on the 'Graphics' tab of Dymola, then click the 'Check' button, which should show the message below:
@@ -49,12 +51,15 @@ Before simulating a Modelica model, it is necessary to determine if the model is
 Having passed the check, you can now attempt to simulate the model.
 
 1. Navigate to the 'Projects Browser' of Dymola, right click on the <code>ieee14</code> model and select 'Simulation Model'
+
    ![Simulation Model](../images/dymola/05_simulationmodel.png)
 
 2. Click on the 'Simulation' tab of Dymola, and click on the 'Simulate' icon.
+
    ![Simulation Model](../images/dymola/06_simulate.png)
 
 3. After the simulation is completed, select a few simulation outputs as shown below. Note that the fault applied results in an unstable system!
+
    ![Simulation Result](../images/dymola/07_simoutput.png)
 
 Have fun playing around with the model!
