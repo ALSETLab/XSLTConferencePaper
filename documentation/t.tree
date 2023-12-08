@@ -10,6 +10,7 @@
         <toc-element topic="Overview.md"/>
         <toc-element topic="How-to-perform-Basic-Translation.topic"/>
         <toc-element topic="Open-Output-in-Wolfram-System-Modeler.md"/>
+        <toc-element topic="Open-and-Simulate-in-Dymola.md"/>
         <toc-element topic="PreconfiguredImport.topic"/>
     </toc-element>
 </instance-profile>
