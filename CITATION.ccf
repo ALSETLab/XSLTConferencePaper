@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- name: Glen K. Halley and Luigi Vanfretti
+title: "Interactive Model Transformations from the Common Information Model (CIM) to Modelica"
+version: 1.0.0
+url: "https://github.com/ALSETLab/XSLTConferencePaper"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Halley"
+    given-names: "Glen K."
+  - family-names: "Vanfretti"
+    given-names: "Luigi"
+  - family-names: "de Castro"
+    given-names: "Marcelo"
+  doi: ""
+  journal: "2024 9th International Conference on Smart and Sustainable Technologies 2024 (SpliTech)"
+  start:  1
+  end:  5
+  title: "Interactive Model Transformations from the Common Information Model (CIM) to Modelica,"
+  issn: "" 
+  volume: ""
+  year: 2024
+  url: "https://www.researchgate.net/publication/381039589_Interactive_Model_Transformations_from_the_Common_Information_Model_CIM_to_Modelica"

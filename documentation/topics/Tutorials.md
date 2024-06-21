@@ -5,7 +5,7 @@ Interactive CGMES XML translation to OpenIPSL using XSLT running in EditiX.
 For background information and an overview of the goals of this prototype tool, please refer to the article:
 > G. K. Halley, L. Vanfretti and M. de Castro, “Interactive Model Transformations from the Common Information Model (CIM) to Modelica,” 2024 9th International Conference on Smart and Sustainable Technologies 2024 (SpliTech), June 25-28, 2024, Split-Bol, Croatia.
 
-A pre-print is available on ResearchGate, [here]().
+A pre-print is available on ResearchGate, [here](https://www.researchgate.net/publication/381039589_Interactive_Model_Transformations_from_the_Common_Information_Model_CIM_to_Modelica).
 
 ## Requirements
 Editix is an interactive development environment for XML/XSLT:
