@@ -15,7 +15,7 @@ preferred-citation:
   - family-names: "de Castro"
     given-names: "Marcelo"
   doi: ""
-  journal: "2024 9th International Conference on Smart and Sustainable Technologies 2024 (SpliTech)"
+  conference: "2024 9th International Conference on Smart and Sustainable Technologies 2024 (SpliTech)"
   start:  1
   end:  5
   title: "Interactive Model Transformations from the Common Information Model (CIM) to Modelica,"
